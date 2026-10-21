@@ -44,8 +44,6 @@ sections:
         page: registration
       - break
       - label: "Conference Hotel Booking:"
-      - title: The Westin Boston Seaport
-        url: https://book.passkey.com/go/VLDBConference
 
 carousel:
   - image: guangzhou-1
