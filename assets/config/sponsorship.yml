@@ -1,0 +1,199 @@
+opportunities:
+  contacts:
+    - name: Anand Deshpande
+      affiliation: Persistent
+    - name: Sharad Mehrotra
+      affiliation: UC Irvine
+    - name: Ibrahim Sabek
+      affiliation: USC
+  tiers:
+    - name: Diamond
+      price: 45000
+      color: diamond
+      benefits:
+        - Acknowledgement in press releases
+        - Company logo on banners at registration area
+        - Company logo on conference poster
+        - Recognition in opening and closing sessions
+        - 10 complimentary conference plus workshop registrations
+        - Full-page advertisement in conference brochure
+        - Linked company logo on website
+        - Acknowledgement at conference banquet
+        - Executive place in Exhibition Area
+        - Pamphlet distribution in conference bag
+        - Sponsor talk in conference program
+        - Opportunity to submit industrial workshop proposals
+    - name: Platinum
+      price: 30000
+      color: platinum
+      benefits:
+        - Acknowledgement in press releases
+        - Company logo on banners at registration area
+        - Company logo on conference poster
+        - Recognition in opening and closing sessions
+        - 6 complimentary conference plus workshop registrations
+        - Full-page advertisement in conference brochure
+        - Linked company logo on website
+        - Acknowledgement at conference banquet
+        - Executive place in Exhibition Area
+        - Pamphlet distribution in conference bag
+        - Sponsor talk in conference program
+    - name: Gold
+      price: 15000
+      color: gold
+      benefits:
+        - Company logo on banners at registration area
+        - Company logo on conference poster
+        - 3 complimentary conference plus workshop registrations
+        - Full-page advertisement in conference brochure
+        - Linked company logo on website
+        - Acknowledgement at conference banquet
+        - A place in Exhibition Area
+        - Sponsor talk in conference program
+    - name: Silver
+      price: 10000
+      color: silver
+      benefits:
+        - Company logo on banners at registration area
+        - Company logo on conference poster
+        - 2 complimentary conference plus workshop registrations
+        - Half-page advertisement in conference brochure
+        - Linked company logo on website
+        - Acknowledgement at conference banquet
+        - A place in Exhibition Area
+    - name: Bronze
+      price: 5000
+      color: bronze
+      benefits:
+        - Company logo on banners at registration area
+        - Company logo on conference poster
+        - 1 complimentary conference plus workshop registration
+        - Half-page advertisement in conference brochure
+        - Linked company logo on website
+        - Acknowledgement at conference banquet
+    - name: Exhibitor/Publisher
+      price: 2000
+      color: exhibitor
+      benefits:
+        - Company logo on banners at registration area
+        - Company logo on conference poster
+        - Half-page advertisement in conference brochure
+        - Linked company logo on website
+        - A place in Exhibition Area
+
+sponsors:
+  levels:
+    - name: Diamond
+      size: diamond
+      companies:
+        - name: Amazon
+          logo: Diamond/Amazon_Logo_Master_RGB_Squid_Ink+Smile_Orange_MAST (3).svg
+          url: https://www.amazon.com/
+    - name: Platinum
+      size: platinum
+      companies:
+        - name: Couchbase
+          logo: Platinum/Couchbase_R-B.png
+          url: https://www.couchbase.com/
+        - name: Google
+          logo: Platinum/GoogleLogo_RGB_Color.png
+          url: https://www.google.com/
+        - name: InterSystems
+          logo: Platinum/INTS_CreativeDataTechnology_Logo_RGB.jpg
+          url: https://www.intersystems.com/
+        - name: Jane Street
+          logo: Platinum/Jane Street.png
+          url: https://www.janestreet.com/
+        - name: Microsoft
+          logo: Platinum/microsoft.png
+          url: https://www.microsoft.com/
+        - name: Oracle
+          logo: Platinum/Oracle_rgb_c74634.png
+          url: https://www.oracle.com/
+        - name: Salesforce
+          logo: Platinum/salesforce-logo.png
+          url: https://www.salesforce.com/
+        - name: Snowflake
+          logo: Platinum/snowflake-logo-color-rgb@2x.png
+          url: https://www.snowflake.com/
+    - name: Gold
+      size: gold
+      companies:
+        - name: Alibaba Cloud
+          logo: Gold/Alibaba_Cloud_wide.png
+          url: https://www.alibabacloud.com/
+        - name: ByteDance
+          logo: Gold/2026-bytedance.svg
+          url: https://www.bytedance.com/
+        - name: Databricks
+          logo: Gold/Databrics.svg
+          url: https://www.databricks.com/
+        - name: DuckDB-Labs
+          logo: Gold/DuckDB-Labs_inline-lightmode.svg
+          url: https://duckdblabs.com/
+        - name: eBay
+          logo: Gold/Heritage+WHT_ebay_logo_cmyk.jpg
+          url: https://www.ebay.com/
+        - name: GraphAI
+          logo: Gold/GraphAI_Logo_Horizontal.jpg
+          url: https://graphai.io/en/
+        - name: IBM
+          logo: Gold/IBM_logo_pos_RGB.jpg
+          url: https://www.ibm.com/
+        - name: Megagon Labs
+          logo: Gold/MEGAGON LABS.png
+          url: https://megagon.ai/
+        - name: Meta
+          logo: Gold/meta_gold.png
+          url: https://about.meta.com/
+        - name: MongoDB
+          logo: Gold/MongoDB_Fores-Green.svg
+          url: https://www.mongodb.com/
+        - name: NVIDA
+          logo: Gold/nvidia-logo-vert-rgb-blk-no-reg-for-screen.png
+          url: https://www.nvidia.com/en-us/
+        - name: OceanBase
+          logo: Gold/oceanbase_new.png
+          url: https://en.oceanbase.com/
+        - name: Persistent
+          logo: Gold/Persistent_Logo_Horizontal.png
+          url: https://www.persistent.com/
+        - name: SAP
+          logo: Gold/SAP_R_grad_sign.png
+          url: https://www.sap.com/
+        - name: Tencent
+          logo: Gold/tencent-logo.png
+          url: https://www.tencent.com/en-us/
+        - name: Transwarp
+          logo: Gold/transwarp_eng.png
+          url: https://www.transwarp.cn/en/
+    - name: Silver
+      size: silver
+      companies:
+        - name: Spiral
+          logo: Silver/Spiral.svg
+          url: https://spiraldb.com/
+    - name: Bronze
+      size: bronze
+      companies:
+        - name: Cockroach Labs
+          logo: Bronze/CockroachLabs_Full-Logo-Horizontal_Reduced-Color-Light-BG.png
+          url: https://www.cockroachlabs.com/
+        - name: VillageSQL
+          logo: Bronze/VillageSQL_PrimaryLogo_Horiz_Light.svg
+          url: https://villagesql.com/
+    - name: Exhibitor/Publisher
+      size: exhibitor
+      companies:
+        - name: PuppyGraph
+          logo: Exhibitor-Publisher/PuppyGraph_Vertical_Purple__1__9.png
+          url: https://www.puppygraph.com/
+        - name: Springer Nature Group
+          logo: Exhibitor-Publisher/SNG_stack_blue.jpg
+          url: https://www.springernature.com/
+        - name: TPC
+          logo: Exhibitor-Publisher/TPC-logo.svg
+          url: https://www.tpc.org/
+        - name: Weaviate
+          logo: Exhibitor-Publisher/weaviate.svg
+          url: https://weaviate.io/

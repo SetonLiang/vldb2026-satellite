@@ -1,0 +1,897 @@
+research:
+  content: |
+    # VLDB 2026 Satellite Event: Call for Contributions - Research Track
+
+    ## Overview
+
+    The Proceedings of the VLDB (PVLDB), established in 2008, is a scholarly journal for short and timely research papers pursuing a strict quality assurance process.
+    PVLDB is distinguished by a monthly submission process with rapid reviews.
+    PVLDB issues are published regularly throughout the year.
+    A paper will appear in PVLDB soon after acceptance, and possibly in advance of the VLDB Conference.
+    All papers accepted for Volume 19 by June 15, 2026 will form the Research Track of the VLDB 2026 Conference, together with any rollover papers from Volume 18.
+    Papers accepted to Volume 19 after June 15, 2026 will be rolled over to the VLDB 2027 Conference.
+    At least one author of each accepted paper must attend the VLDB 2026 Conference.
+    PVLDB is the only submission channel for research papers to appear in the VLDB 2026 Conference.
+    Please see the [Submission Guidelines](https://www.vldb.org/pvldb/volumes/19/submission) for paper submission instructions.
+    The submission process for other VLDB 2026 tracks, such as Demonstrations or Tutorials, is different, and is described in their respective calls for papers.
+
+    For details, please visit the PVLDB website: [www.vldb.org/pvldb/volumes/19/contributions](https://www.vldb.org/pvldb/volumes/19/contributions).
+
+panels:
+  content: |
+    # VLDB 2026 Satellite Event: Call for Contributions - Panels
+
+    We solicit proposals for panels at the 2026 VLDB Conference in Boston, MA, USA (August 31st - September 4th, 2026).
+    Panel proposals are expected to address new, exciting, and controversial issues of broad interest to the database community.
+    The proposed panel should be provocative, informative, and entertaining.
+
+    Panel proposals must include:
+
+    - Description of the panel topic (no more than 1.5 pages)
+        - Why is this topic of interest to the community?
+        - Do you see the panel engaging the database community and changing their positions or schools of thought?
+        - What are possible different and diverse perspectives that might spark a discussion?
+        - What are the likely positions of the panelists on the topic?
+          Do they bring in ideas from different communities?
+        - What questions or prompts are given to the panelists to prepare their opening statements?
+        - What questions will the moderator use to get the discussion going?
+    - Name, affiliation, brief bio, and contact information for the proposed panel moderator (no page limit).
+    - Names, affiliations, brief bios, and rationale for inclusion in the panel of potential panelists in addition to the panel moderator.
+      If the panelists have already made a commitment to participate in person, then up to 6 panelists can be listed.
+      Otherwise, the list should contain up to 6 preferred panelists with potential alternates.
+
+    An inclusive and diverse mix of panelists is encouraged.
+    Representation from both industry and academia and panelists from different research communities are also encouraged.
+    The proposals should be submitted to the panel chairs via email: Steven Euijong Whang ([swhang@kaist.ac.kr](mailto:swhang@kaist.ac.kr)) and Bettina Kemme ([bettina.kemme@mcgill.ca](mailto:bettina.kemme@mcgill.ca)).
+    Please also feel free to contact them if you have any questions when preparing the proposal.
+
+    ## Important Dates
+
+    All deadlines below are 5pm PT.
+
+    - Submission deadline: **May 15, 2026**
+    - Notification: **Jun 8, 2026**
+    - Tentative camera-ready deadline: **June 30, 2026**
+
+tutorials:
+  content: |
+    # VLDB 2026 Satellite Event: Call for Contributions - Tutorials
+
+    VLDB 2026 invites submissions for tutorial proposals on all topics of potential interest to the conference attendees.
+    Tutorial proposals should cover state-of-the-art research, development, and applications in specific data management related areas, and stimulate and facilitate future work.
+    Tutorials on interdisciplinary directions, bridging scientific research and applied communities, novel and fast-growing directions, and significant applications are highly encouraged.
+    We encourage tutorials in areas that may be different from the usual VLDB mainstream, but still very much related to VLDB mission and objectives of managing big data.
+    We also encourage tutorials that cover topics on applying machine learning to solve data management problems and using data management systems for machine learning workloads.
+    Tutorials should be targeted for a broad audience, and they must focus neither excessively, nor exclusively, on the authors' own work.
+
+    ## Important Dates
+
+    All deadlines below are 5 PM Pacific Time.
+
+    - Submission deadline: **April 15, 2026**
+    - Notification: **May 30, 2026**
+    - Camera-ready: **July 1, 2026**
+    - Slides availability: **August 20, 2026**
+
+    ## Submission Guidelines
+
+    Tutorial submissions must be submitted electronically, in pdf format, at the conference submission site: [CMT](https://cmt3.research.microsoft.com/PVLDBv19_2026).
+    Submissions should be formatted using the [PVLDB style templates](https://www.vldb.org/pvldb/volumes/19/formatting/), with a maximum length of 4 pages, excluding references.
+
+    Proposals should include:
+
+    - Title of the tutorial
+    - Names, affiliations and email addresses of the presenters
+    - Overview of tutorial, with justification of its relevance and timeliness
+    - Target audience and assumed background
+    - Related recent tutorials and how the proposed tutorial is different compared to those
+    - Scope and structure: enough detail to provide a sense of both the scope of material to be covered and the depth to which it will be covered
+    - The planned format, survey or foundational, and details of special components, if any (e.g. hands-on session or expert panel)
+    - Intended length of the tutorial (one session of 1.5 hours, or two sessions with a total of 3 hours on the same day). If the tutorial can be of either length, please identify which sections are included for each option.
+    - References: include at least 10 primary and relevant bibliographic references on the core material of the tutorial.
+    - Brief professional biographies of presenters, with a note on their background in the area of the tutorial.
+
+    ## Accepted Tutorials
+
+    TBC
+
+    ## Tutorial Chairs
+
+    - Oliver A. Kennedy, University at Buffalo
+    - Wenjie Zhang, University of New South Wales
+
+    ## Tutorial Committee
+
+    - Anna Queralt, Universitat Politecnica de Catalunya
+    - Aoying Zhou, East China Normal University
+    - Chuan Xiao, Nagoya University
+    - Deepak Majeti, IBM
+    - Denis Hirn, Universität Tübingen
+    - Eamonn J. Keogh, UC Riverside
+    - Gerardo Vitagliano, MIT CSAIL
+    - Gokhan Kul, University of Massachusetts Dartmouth
+    - Jelle Hellings, McMaster University
+    - Jian Pei, Duke University
+    - Jingzhi Fang, HKUST
+    - Pedro Pedreira, Meta Platforms Inc.
+    - Qinghua Liu, The Ohio State University
+    - Ramon Antonio Rodriges Zalipynis, HSE University
+    - Xiaofang Zhou, The Hong Kong University of Science and Technology
+    - Yang Cao, University of Edinburgh
+
+industrial:
+  content: |
+    # VLDB 2026 Satellite Event: Call for Contributions - Industrial Track
+
+    The Industrial Track of VLDB 2026 will cover all aspects of innovative, commercial, and industrial-strength (including open-source) data management systems and solutions.
+    We also welcome submissions describing novel applications of data management systems and experiences in doing so for challenging industry problems.
+    We require that at least one of the authors has a non-academic affiliation.
+
+    ## Submission Guidelines
+
+    The submissions to this track may be up to 12 pages long (excluding references).
+    The papers should be prepared using the VLDB 2026 paper formatting guidelines as specified at [Formatting](https://www.vldb.org/pvldb/volumes/19/formatting).
+    Submissions to the Industrial track are required to include all author names and affiliations.
+    After a paper is accepted, the set of authors cannot be changed.
+
+    Submissions must be made electronically, in PDF format, to the [conference submission site](https://cmt3.research.microsoft.com/VLDBInd2026).
+
+    ## Revision Phase
+
+    Unlike the [Research Track](./call-for-research-track), the revision phase in the Industrial Track will be akin to what is traditionally viewed as shepherding, with requests for limited changes only, and all changes being completed in a 2-week interval between the initial notification and the final decision.
+
+    ## Conflicts of Interest
+
+    To minimize biases in the evaluation process, we use CMT's conflict management system, through which authors need to flag any conflicts with members of the Industrial Track Program Committee.
+    Regarding conflicts, the VLDB Industrial Track follows the same rules as the [VLDB 2026 Research tracks](https://www.vldb.org/pvldb/volumes/19/submission).
+    They are:
+
+    Each author is responsible for entering their own domain and individual PC conflicts on CMT.
+    All authors of a paper (listed in the pdf) must register themselves in CMT and declare their individual domain and PC conflicts at the time of submission.
+    It is the full responsibility of all authors of a paper to identify and declare all conflicts of interest with members of the PC prior to the submission deadline.
+    Submissions with undeclared conflicts or spurious conflicts will be desk-rejected.
+
+    You can mark your domain and individual PC conflicts by clicking on your name (upper right-hand side on CMT) and selecting "Personal Conflicts".
+    An author's declared conflicts will be automatically applied to all of their submissions.
+
+    X and Y have a conflict of interest (CoI) if any of the following apply:
+
+    - X and Y have worked in the same university or company in the past 2 years, or will be doing so in the next 6 months on account of an accepted job offer.
+      Different campuses within the same university system do not count as the same university for this purpose (e.g., UC Berkeley does not have a conflict with UC Santa Barbara).
+    - X has been a co-author of a paper with Y in the last 3 years, or of 4 (or more) papers in the last 10 years.
+      (Note that we consider the publication year and not the submission year or the month of publication (i.e., we do not distinguish at month-level granularity). For example, in 2025, the last 3 years start from January 2022 of the paper's publication date.)
+    - X has been a collaborator of Y within the past 2 years, as evidenced in a joint publication (subsumed by the stricter rule on co-authorship above), joint research project, or co-organizing events (e.g., co-chairs of conferences), or is collaborating now (including co-authorship on papers that have not resulted in final publication yet).
+    - X is the PhD thesis advisor of Y or vice versa, irrespective of how long ago this was.
+    - X is a relative or close personal friend of Y.
+
+    ## Important Dates (deadlines are end-of-day in Anywhere on Earth (AoE) time zone)
+
+    - Submission deadline: Monday, Mar 2, 2026
+    - Author notification: Monday, Apr 27, 2026
+    - Revision due (for papers subject to revision): Monday, May 11, 2026
+    - Final decisions (for papers subject to revision): Monday, May 25, 2026
+    - Camera-ready manuscript due: Thursday, June 25, 2026
+    
+  pc_chairs:
+    - name: Arnd Christian König
+      affiliation: Microsoft Research, USA
+    - name: Efthymia Tsamoura
+      affiliation: Huawei Labs, UK
+    - name: Hannes Voigt
+      affiliation: Neo4j, Germany
+  pc_members:
+    - name: A. Jesse Jiryu Davis
+      affiliation: MongoDB
+    - name: Alekh Jindal
+      affiliation: Tursio
+    - name: Alexander Böhm
+      affiliation: SAP SE
+    - name: Allison Holloway
+      affiliation: Oracle
+    - name: Anderson Chaves Carniel
+      affiliation: Huawei Technologies R&D (UK) Ltd
+    - name: Anisoara Nica
+      affiliation: SAP SE, Waterloo, Canada
+    - name: Bailu Ding
+      affiliation: Microsoft Research
+    - name: Bolin Ding
+      affiliation: Data Analytics and Intelligence Lab, Alibaba Group
+    - name: Boris Motik
+      affiliation: University of Oxford
+    - name: Byungchul Tak
+      affiliation: Kyungpook National University
+    - name: Calisto Zuzarte
+      affiliation: IBM
+    - name: Campbell B Fraser
+      affiliation: Google
+    - name: Chalapathi Koneni
+      affiliation: Amazon
+    - name: Clemens Lutz
+      affiliation: NVIDIA
+    - name: Cong Yan
+      affiliation: Snowflake
+    - name: Danica Porobic
+      affiliation: Oracle
+    - name: Dirk Habich
+      affiliation: TU Dresden
+    - name: Fabian Hueske
+      affiliation: Confluent Inc.
+    - name: Hanuma Kodavalla
+      affiliation: Microsoft
+    - name: Hesam Shahrokhi
+      affiliation: RelationalAI
+    - name: Jia Li
+      affiliation: Edinburgh Research Center, Central Software Institute, Huawei
+    - name: Jie Song
+      affiliation: ByteDance
+    - name: Jiexing Li
+      affiliation: Databricks
+    - name: Jim Webber
+      affiliation: Neo4j
+    - name: Joyal Shah
+      affiliation: Otter.ai
+    - name: Justin Levandoski
+      affiliation: Google
+    - name: Kai Wang
+      affiliation: Shanghai Jiao Tong University
+    - name: Lev Novik
+      affiliation: Databricks
+    - name: Marcus Paradies
+      affiliation: LMU Munich
+    - name: Maria Krommyda
+      affiliation: Huawei ERC
+    - name: Matteo Interlandi
+      affiliation: Microsoft
+    - name: Matthaios Olma
+      affiliation: MongoDB
+    - name: Meichun Hsu
+      affiliation: Oracle America
+    - name: Milos Nikolic
+      affiliation: University of Edinburgh
+    - name: Mohammed Al-Kateb
+      affiliation: Amazon Web Services
+    - name: Nicolas Bruno
+      affiliation: Microsoft
+    - name: Norman May
+      affiliation: SAP SE
+    - name: Paris Carbone
+      affiliation: KTH Royal Institute of Technology
+    - name: Pavel Klinov
+      affiliation: Stardog Union
+    - name: Petra Selmer
+      affiliation: Bloomberg
+    - name: Prashant Saxena
+      affiliation: Snowflake Inc
+    - name: Raghav Kaushik
+      affiliation: Microsoft
+    - name: Rahul Potharaju
+      affiliation: Databricks
+    - name: Rebecca Taft
+      affiliation: Cockroach Labs
+    - name: Riccardo Tommasini
+      affiliation: INSA Lyon - LIRIS
+    - name: Rong-Hua Li
+      affiliation: Beijing Institute of Technology
+    - name: Sergey Melnik
+      affiliation: Amazon
+    - name: Silu Huang
+      affiliation: Bytedance
+    - name: Stefan Plantikow
+      affiliation: Microsoft
+    - name: Sudipto Das
+      affiliation: Amazon Web Services
+    - name: Sumeet Dash
+      affiliation: Microsoft
+    - name: Supun C Nakandala
+      affiliation: Databricks Inc
+    - name: Tarique Ashraf Siddiqui
+      affiliation: Google
+    - name: Theodoros Rekatsinas
+      affiliation: Apple
+    - name: Tim Gubner
+      affiliation: Huawei
+    - name: Tobias Lindaaker
+      affiliation: Relational AI
+    - name: Todd Lipcon
+      affiliation: Google
+    - name: Uta Störl
+      affiliation: University of Hagen
+    - name: Vladi Vexler
+      affiliation: Huawei
+    - name: Wei Ma
+      affiliation: University of Glasgow
+    - name: Yeounoh Chung
+      affiliation: Google
+    - name: Yiwen Zhu
+      affiliation: Microsoft
+    - name: Yongchao Liu
+      affiliation: Ant Group
+    - name: Zoi Kaoudi
+      affiliation: IT University of Copenhagen
+
+demonstrations:
+  content: |
+    # VLDB 2026 Satellite Event: Call for Contributions - Demonstrations
+
+    VLDB 2026 invites submissions for software demonstration proposals on any topic of interest, broadly defined, to the data management community.
+    Software demonstrations are accompanied by short papers, which will appear in the PVLDB proceedings upon acceptance.
+    Demonstrations presented at the conference will be eligible to receive the VLDB 2026 Best Demo Award.
+
+    ## Important Dates
+
+    The submission deadline will not be extended.
+
+    - Proposal submission deadline: **23:59 AoE - March 29, 2026**
+    - Notification of acceptance: **23:59 AoE - May 31, 2026**
+    - Camera-ready deadline: **17:00 PT - July 10, 2026**
+
+    ## Demo Proposals
+
+    The proposal must describe the demonstrated system, and state the novelty and significance of the contribution to data management research, technologies, and/or its applications.
+    The proposal should pay special attention to describing the exact demonstration scenarios for the given system.
+    This should include how the audience will experience the demo, the architecture of the proposed system, what kind of functionality is supported, user scenarios, interface and interaction options, etc.
+    Proposals with a high degree of audience interaction that can engage the audience will be preferred.
+    Proposals must be submitted in camera-ready format and limited to 4 pages, inclusive of ALL material.
+    Formatting guidelines and document templates are available at [http://vldb.org/pvldb/volumes/19/formatting/](http://vldb.org/pvldb/volumes/19/formatting/).
+    Submissions are single-anonymous and must contain author names and affiliations.
+    Proposals will be reviewed by at least 3 reviewers, and the review process will be managed by an Associate Editor.
+
+    ## Video Submissions
+
+    We encourage the submission of a demonstration video (of up to 5 minutes, 50MB max. file size) together with your demonstration proposal via CMT.
+    Both the demonstration proposal and the video will then be accessible to the reviewers.
+    Your video should summarize your demonstration and also audio-visually highlight its most important aspects, such as the user interface, options for user interactions, the system setup, etc.
+    The video should be submitted in MPEG/AVI/MP4 format and be playable by the common media players.
+    Please note that you will need to first finish your demo proposal submission and then edit it to add the video as a supplementary file.
+
+    ## Conflicts and Authorship
+
+    To minimize biases in the evaluation process, we use CMT's conflict management system, through which authors should flag conflicts with members of the Editorial Board.
+
+    **Conflict Declaration on CMT:** Each author is responsible for entering their own domain and individual PC conflicts on CMT.
+    All authors of a paper (listed in the pdf) must register themselves in CMT and declare their individual domain and PC conflicts at the time of submission.
+    It is the full responsibility of all authors of a paper to identify and declare all CoIs with members of the Editorial Board (Reviewers, Associate Editors, and Demo Chairs) prior to the submission deadline.
+    Conflicts of interest will also be checked using an automated CoI detection tool.
+    Submissions with undeclared conflicts or spurious conflicts will be desk-rejected.
+
+    After a paper is accepted, the set of authors cannot be changed.
+
+    You can mark your domain and individual PC conflicts by clicking on your name (upper right-hand side on CMT) and selecting "Personal Conflicts".
+    An author's declared conflicts will be automatically applied to all of their submissions.
+
+    X and Y have a conflict of interest (CoI) if any of the following applies:
+
+    - X and Y have worked in the same university or company in the past 2 years, or will be doing so in the next 6 months on account of an accepted job offer.
+      Different campuses within the same university system do not count as the same university for this purpose (e.g., UC Berkeley does not have a conflict with UC Santa Barbara).
+    - X has been a co-author of a paper with Y in the last 3 years, or of 4 (or more) papers in the last 10 years.
+      (Note that we consider the publication year and not the submission year or the month of publication (i.e., we do not distinguish at month-level granularity). For example, in 2025, the last 3 years start from January 2022 of the paper's publication date.)
+    - X has been a collaborator within the past 2 years, as evidenced in a joint publication (subsumed by the stricter rule on co-authorship above), joint research project, or co-organizing events (e.g., co-chairs of conferences), or are collaborating now (including co-authorship on papers not resulted in final publication yet).
+    - X is the PhD thesis advisor of Y or vice versa, irrespective of how long ago this was.
+    - X is a relative or close personal friend of Y.
+
+    ## Demo Submission
+
+    Demonstration proposals must be submitted electronically, in PDF format, using CMT.
+    When creating a new paper submission, you will be given the option to choose a track.
+    Choose the "Demo" track for your demo proposal.
+    Once you have submitted your paper, you can add your video submission file in a second step.
+    You will find the VLDB 2026 CMT submission site at:
+
+    [https://cmt3.research.microsoft.com/PVLDBv19_2026/](https://cmt3.research.microsoft.com/PVLDBv19_2026/)
+
+  pc_chairs:
+    - name: Stefania Dumbrava
+      affiliation: ENSIIE & INRIA Paris, France
+    - name: John Paparrizos
+      affiliation: The Ohio State University, USA & Aristotle University of Thessaloniki, Greece
+
+  associate_editors:    
+  - name: Björn Þ Jónsson
+    affiliation: Reykjavik University
+  - name: Byron Choi
+    affiliation: Hong Kong Baptist University, Hong Kong, China
+  - name: Curtis Dyreson
+    affiliation: Utah State University
+  - name: Danica Porobic
+    affiliation: Oracle
+  - name: H. V. Jagadish
+    affiliation: University of Michigan
+  - name: Haridimos Kondylakis
+    affiliation: FORTH-ICS & Computer Science Department, University of Crete
+  - name: Jan Hidders
+    affiliation: Birkbeck, University of London
+  - name: K. Selçuk Candan
+    affiliation: Arizona State University
+  - name: Mohamed Mokbel
+    affiliation: University of Minnesota - Twin Cities
+  - name: Nikos Mamoulis
+    affiliation: University of Ioannina
+  - name: Pierre Senellart
+    affiliation: ENS, PSL University
+  - name: Sebastian Link
+    affiliation: University of Auckland
+  - name: Sebastian Schelter
+    affiliation: BIFOLD & TU Berlin
+  - name: Steffen Zeuch
+    affiliation: TU Berlin
+  - name: Tianzheng Wang
+    affiliation: Simon Fraser University
+  - name: Vagelis Hristidis
+    affiliation: UC Riverside
+  - name: Vassilis J. Tsotras
+    affiliation: UC Riverside
+  - name: Walid G Aref
+    affiliation: Purdue
+  - name: Wolfgang Gatterbauer
+    affiliation: Northeastern University
+
+  pc_members:
+  - name: Ahmed Eldawy
+    affiliation: University of California, Riverside
+  - name: Anastasios Gounaris
+    affiliation: Aristotle University of Thessaloniki
+  - name: Andra Ionescu
+    affiliation: KTH Royal Institute of Technology
+  - name: Andrea Mauri
+    affiliation: Université Claude Bernard Lyon 1
+  - name: Andres Calderon-Romero
+    affiliation: Pontificia Universidad Javeriana
+  - name: Aneesh Raman
+    affiliation: Salesforce
+  - name: Anna Mazhar
+    affiliation: Cornell University
+  - name: Antoine Gauquier
+    affiliation: DI ENS, ENS, CNRS, PSL University & Inria
+  - name: Apostolos Giannoulidis
+    affiliation: ETIS, UMR 8051, CY Cergy Paris Université, ENSEA, CNRS
+  - name: Arash Termehchy
+    affiliation: Oregon State University
+  - name: Avigdor Gal
+    affiliation: Technion -- Israel Institute of Technology
+  - name: Bo Tang
+    affiliation: Southern University of Science and Technology
+  - name: Bo Zhao
+    affiliation: Aalto University
+  - name: Carlo Sartiani
+    affiliation: Universita della Basilica
+  - name: Changbo Qu
+    affiliation: Simon Fraser University
+  - name: Chao Zhang
+    affiliation: University of Waterloo
+  - name: Chuan Xiao
+    affiliation: Nagoya University
+  - name: Chunwei Liu
+    affiliation: MIT CSAIL
+  - name: Dalsu Choi
+    affiliation: SAP
+  - name: Danrui Qi
+    affiliation: Simon Fraser University
+  - name: Daren Chao
+    affiliation: University of Toronto
+  - name: David Justen
+    affiliation: Technische Universität Berlin
+  - name: Diandre Miguel B Sabale
+    affiliation: Northeastern University
+  - name: Dimitris Tsitsigkos
+    affiliation: Archimedes, Athena Research Center
+  - name: El Kindi Rezig
+    affiliation: University of Utah
+  - name: Enhao Zhang
+    affiliation: University of Washington
+  - name: Enzo Veltri
+    affiliation: Università della Basilicata
+  - name: Fabian Panse
+    affiliation: University of Augsburg
+  - name: Fan Yang
+    affiliation: The Ohio State University
+  - name: Fangzhu Shen
+    affiliation: Duke University
+  - name: Francesco Pugnaloni
+    affiliation: Hasso Plattner Institute
+  - name: Franco Solleza
+    affiliation: Brown University
+  - name: Fuheng Zhao
+    affiliation: Snowflake
+  - name: Gang Liao
+    affiliation: Meta
+  - name: Garima Gaur
+    affiliation: Inria Saclay, Ecole Polytechnique
+  - name: Geoffrey X. Yu
+    affiliation: Massachusetts Institute of Technology
+  - name: George Papastefanatos
+    affiliation: ATHENA Research Center
+  - name: Georgia Troullinou
+    affiliation: CNRS
+  - name: Georgios Siachamis
+    affiliation: Inria
+  - name: Guozhong Li
+    affiliation: King Abdullah University of Science & Technology
+  - name: Haitao Yuan
+    affiliation: Nanyang Technological University
+  - name: Hangdong Zhao
+    affiliation: Microsoft
+  - name: Haonan Wang
+    affiliation: Columbia
+  - name: Haralampos Gavriilidis
+    affiliation: BIFOLD & Technische Universität Berlin
+  - name: Hiroaki Shiokawa
+    affiliation: University of Tsukuba
+  - name: Hui Li
+    affiliation: Xidian University
+  - name: Ibrahim Sabek
+    affiliation: University of Southern California
+  - name: Ilaria Battiston
+    affiliation: CWI
+  - name: Irena Holubova
+    affiliation: Charles University
+  - name: Jens d'Hondt
+    affiliation: Barcelona supercomputing center
+  - name: Jia Zou
+    affiliation: Arizona State University
+  - name: Jiangneng Li
+    affiliation: Nanyang Technological University
+  - name: Jiaxiang Liu
+    affiliation: Columbia University
+  - name: Jiaxin Jiang
+    affiliation: National University of Singapore
+  - name: Jin Wang
+    affiliation: Arizona State University
+  - name: Jingyi Yang
+    affiliation: Nanyang Technological University
+  - name: Junghoon Kim
+    affiliation: UNIST
+  - name: Junyoung Kim
+    affiliation: Columbia University
+  - name: Kaiqiang Yu
+    affiliation: Nanjing University
+  - name: Kanchan Chowdhury
+    affiliation: Marquette University
+  - name: Kishy Kumar
+    affiliation: Oracle
+  - name: Kostas Stefanidis
+    affiliation: Tampere University
+  - name: Kyoungmin Kim
+    affiliation: EPFL
+  - name: Larissa Capobianco Shimomura
+    affiliation: Hasselt University
+  - name: Lawrence Lim
+    affiliation: University of California, Santa Barbara
+  - name: Lihong He
+    affiliation: IBM Research
+  - name: Lisa Ehrlinger
+    affiliation: Hasso Plattner Institute, University of Potsdam
+  - name: Lisi Chen
+    affiliation: UESTC
+  - name: Loredana Caruccio
+    affiliation: University of Salerno
+  - name: Manisha Luthra
+    affiliation: TU Darmstadt
+  - name: Manos Chatzakis
+    affiliation: Université Paris Cité
+  - name: Maria Luisa Sapino
+    affiliation: U. Torino, Italy
+  - name: Martin Boissier
+    affiliation: Hasso Plattner Institute, University of Potsdam
+  - name: Mayuresh Kunjir
+    affiliation: Amazon AWS
+  - name: Mehnaz Tabassum Mahin
+    affiliation: Amazon Web Services
+  - name: Michael Jungmair
+    affiliation: Technical University of Munich
+  - name: Mijin An
+    affiliation: SAP
+  - name: Mouhamadou Lamine Ba
+    affiliation: UCAD / ESP
+  - name: Nandish Jayaram
+    affiliation: Intuit
+  - name: Neha Makhija
+    affiliation: University of Massachusetts, Amherst
+  - name: Niccolo Meneghetti
+    affiliation: University of Michigan - Dearborn
+  - name: Nikolaos Koutroumanis
+    affiliation: Archimedes, Athena RC
+  - name: Nikolaos Tziavelis
+    affiliation: UC Santa Cruz
+  - name: Nikolay Yakovets
+    affiliation: TU Eindhoven
+  - name: Nikos Bikakis
+    affiliation: Hellenic Mediterranean University & ATHENA Research Center
+  - name: Nils Strassenburg
+    affiliation: Hasso Plattner Institute, University of Potsdam
+  - name: Oscar Romero
+    affiliation: Universitat Politècnica de Catalunya
+  - name: Panagiotis Liakos
+    affiliation: Athens University of Economics and Business
+  - name: Paul Boniol
+    affiliation: Inria, Ecole normale supérieure
+  - name: Petra Selmer
+    affiliation: Bloomberg
+  - name: Philipp Skavantzos
+    affiliation: The University of Auckland
+  - name: Qiange Wang
+    affiliation: Northeastern University
+  - name: Qinghua Liu
+    affiliation: The Ohio State University
+  - name: Qitong Wang
+    affiliation: Harvard University
+  - name: Ramon Lawrence
+    affiliation: University of British Columbia
+  - name: Renato Marroquín
+    affiliation: Oracle Labs
+  - name: Riccardo Tommasini
+    affiliation: INSA Lyon - LIRIS
+  - name: Rihan Hai
+    affiliation: TU Delft
+  - name: Riki Otaki
+    affiliation: University of Chicago
+  - name: Roberto Stanzione
+    affiliation: University of Salerno
+  - name: Roee Shraga
+    affiliation: WPI
+  - name: Sajjadur Rahman
+    affiliation: Adobe
+  - name: Samira Akili
+    affiliation: TU Berlin
+  - name: Sarah Kleest-Meißner
+    affiliation: Hasselt University
+  - name: Sedir Mohammed
+    affiliation: Hasso Plattner Institute, University of Potsdam
+  - name: Shiva Jahangiri
+    affiliation: Santa Clara University
+  - name: Sophia Sideri
+    affiliation: Université Paris Cité & University of Crete
+  - name: Stefan Grafberger
+    affiliation: BIFOLD & TU Berlin
+  - name: Stefania Dumbrava
+    affiliation: ENSIIE, INRIA, IRIF, Télécom-SudParis
+  - name: Stefano Cirillo
+    affiliation: University of Salerno
+  - name: Steffen Zeuch
+    affiliation: TU Berlin
+  - name: Subhadeep Sarkar
+    affiliation: Brandeis University
+  - name: Tarikul Islam Papon
+    affiliation: University of Massachusetts Boston
+  - name: Ted Shaowang
+    affiliation: University of Chicago
+  - name: Thanasis Georgiadis
+    affiliation: TU Berlin
+  - name: Toshiyuki Amagasa
+    affiliation: University of Tsukuba
+  - name: Uta Störl
+    affiliation: University of Hagen
+  - name: Verena Kantere
+    affiliation: University of Ottawa
+  - name: Vikram Goyal
+    affiliation: IIIT Delhi, India
+  - name: Vivek Shah
+    affiliation: Samsung
+  - name: Wentao Wu
+    affiliation: Microsoft Research
+  - name: Xiangpeng Hao
+    affiliation: University of Wisconsin Madison
+  - name: Xiao Luo
+    affiliation: Ohio State University
+  - name: Xin Zhang
+    affiliation: Amazon AWS
+  - name: Xinjing Zhou
+    affiliation: MIT
+  - name: Xuanhe Zhou
+    affiliation: Shanghai Jiao Tong University
+  - name: Yannis Foufoulas
+    affiliation: Athena Research Center
+  - name: Yanwei Yu
+    affiliation: Ocean University of China
+  - name: Yaron Kanza
+    affiliation: AT&T Labs-Research
+  - name: Yichao Yuan
+    affiliation: University of Illinois Urbana Champaign
+  - name: Yihao Hu
+    affiliation: Duke University
+  - name: Yingxia Shao
+    affiliation: BUPT
+  - name: Yiru Chen
+    affiliation: Adobe
+  - name: Yongjoo Park
+    affiliation: University of Illinois at Urbana-Champaign
+  - name: Yuval Moskovitch
+    affiliation: Ben Gurion University
+  - name: Yuxi Wang
+    affiliation: Hangzhou Dianzi University
+  - name: Zafeiria Moumoulidou
+    affiliation: University of Massachusetts Amherst
+  - name: Zeyu Wang
+    affiliation: Fudan University
+  - name: Zhengjie Miao
+    affiliation: Simon Fraser University
+  - name: Zhichao Cao
+    affiliation: Arizona State University
+  - name: Zhidan Liu
+    affiliation: Hong Kong University of Science and Technology (Guangzhou)
+  - name: Zhiqiang Zhong
+    affiliation: Aarhus University
+  - name: Zhuoyue Zhao
+    affiliation: University at Buffalo
+  - name: Ziyi Yan
+    affiliation: Simon Fraser University
+
+workshops:
+  content: |
+    # VLDB 2026 Satellite Event: Call for Contributions - Workshops
+
+    ### Information
+
+    VLDB 2026 invites submissions for workshop proposals on all topics covered by the conference.
+    Workshop proposals that advance the field of data management in new directions are especially encouraged.
+    VLDB workshops may be half-day or full-day events.
+
+    All VLDB 2026 workshops will be "serviced", meaning that logistics such as registration, catering, room allocation, and audio-visual/streaming arrangements will be handled by the VLDB conference organizers.
+    The workshop organizers are responsible for defining the technical program and workshop format.
+
+    ### Important Dates
+
+    All deadlines below are 5pm PT.
+
+    - Submission Deadline: **January 16th, 2026**
+    - Notification: **January 30th, 2026**
+
+    ### Submission Guidelines
+
+    Workshop proposals should be submitted via CMT and will be reviewed by the VLDB 2026 workshops co-chairs, Meihui Zhang and Tilmann Rabl.
+    Workshop organizers with special requirements should contact the workshop co-chairs as soon as possible; such requests will be considered on a case-by-case basis.
+
+    Submission site: [CMT](https://cmt3.research.microsoft.com/PVLDBv19_2026/)
+
+    Proposals must be in pdf, not exceeding **4** pages, and including the following (in the order given):
+
+    - workshop title
+    - chairs and organizers: for each providing name, affiliation, email, and short bio (including previous experience in organizing workshops or conferences), with one of them indicated as the primary contact
+    - a description of the workshop's topic and its goals
+    - a statement motivating the topic and approach of the workshop
+    - a statement on how the workshop complements or relates to other events
+    - desired workshop format, including preferred date and duration
+    - a description of the submission review process, including key dates and coverage of how conflicts of interest are handled
+    - plans for publicity
+    - potential (or accepted) program committee members
+    - potential (or accepted) speakers or keynotes
+    - historical information about the most recent previous editions of the workshop (if this is not its first edition), including:
+        - date, venue, and affiliated event
+        - number of submitted and accepted papers
+        - number of participants
+
+    VLDB will provide a means of hosting and disseminating papers from workshops.
+    If you do not want to use this, please also include a plan for the proceedings.
+
+    ### Additional Information
+
+    Accepted workshops will be scheduled based on the preferred date and duration, the workshop topics, and the number of available slots.
+    We expect that VLDB 2026 will be able to accommodate up to four parallel workshops on each of the two workshop days.
+
+    The organizers of accepted workshops are required to announce the workshop and call for papers, solicit submissions, conduct the review process, compose a workshop program, and prepare submissions for publication.
+    Workshop programs must comply with a shared catering schedule, and workshop programs must be published 15 days prior to the early registration deadline.
+
+    Proposal evaluation criteria include relevance to VLDB, scientific quality, quality of proposed organization, evidence of interest (e.g., previous submission and attendance counts), and overlap with other proposals.
+
+    Note that VLDB 2026 is an in-person event.
+    Workshop chairs should be physically present at VLDB 2026.
+    The workshops will be held on the first and last days of the conference, so August 31st and September 4th, 2026.
+
+    ### Workshop Program Chairs
+
+    - Meihui Zhang, Beijing Institute of Technology ([meihui_zhang@bit.edu.cn](mailto:meihui_zhang@bit.edu.cn))
+    - Tilmann Rabl, Hasso Plattner Institute ([tilmann.rabl@hpi.de](mailto:tilmann.rabl@hpi.de))
+
+phd_workshop:
+  content: |
+    # VLDB 2026 Satellite Event: Call for Contributions - PhD Workshop
+
+    The VLDB PhD Workshop offers an opportunity for graduate students to present and discuss their research work in the context of a premier international conference. The workshop provides a forum that facilitates interactions among PhD students and stimulates feedback from more experienced researchers.
+
+    VLDB 2026 welcomes submissions from PhD students who have not yet received their PhD degree. If you are in the early stages of your studies, the submission should clearly describe the problem you are working on, explain why it is important, detail why the existing solutions are not sufficient, and outline the new solutions you are pursuing. If you are further along or close to completion, the submission should be more concrete, describing your contribution so far, and what you hope to accomplish next.
+
+    ## Important Dates
+
+    All deadlines below are 5pm PT.
+
+    - Submission deadline: **June 1, 2026**
+    - Notification of acceptance: **July 1, 2026**
+    - Camera-ready version: <s>July 22, 2026</s> **July 19, 2026**
+    - Workshop Date: **August 31, 2026**
+
+    ## Workshop Agenda
+
+    <div class="tutorial-table-wrapper">
+      <table class="tutorial-table workshop-agenda-table">
+        <thead>
+          <tr>
+            <th scope="col">Time</th>
+            <th scope="col">Event</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>8:30 AM - 8:45 AM</td>
+            <td>Welcome</td>
+          </tr>
+          <tr>
+            <td>8:45 AM - 9:55 AM</td>
+            <td>Keynote by Ibrahim Sabek (USC) - "The Next Adventure in Data Systems Research: AI, Quantum Computing, and Lessons for the PhD Journey"</td>
+          </tr>
+          <tr>
+            <td>9:55 AM - 10:15 AM</td>
+            <td>Student Presentations</td>
+          </tr>
+          <tr>
+            <td>10:15AM - 10:45 AM</td>
+            <td>Coffee Break</td>
+          </tr>
+          <tr>
+            <td>10:45 AM - 12:15PM</td>
+            <td>Student Presentations</td>
+          </tr>
+          <tr>
+            <td>12:15 PM - 1:45PM</td>
+            <td>Lunch</td>
+          </tr>
+          <tr>
+            <td>1:45PM - 3:15PM</td>
+            <td>Student Presentations</td>
+          </tr>
+          <tr>
+            <td>3:15PM - 3:45PM</td>
+            <td>Coffee Break</td>
+          </tr>
+          <tr>
+            <td>3:45PM - 5:00PM</td>
+            <td>
+              Panel Discussion: Navigating the GenAI Era: Preparing PhD Students for Research and Future Careers
+              <div class="workshop-panelists">(Nesime Tatbul, Surajit Chaudhuri, Arun Kumar)</div>
+            </td>
+          </tr>
+          <tr>
+            <td>5:00PM - 5:15PM</td>
+            <td>Closing Remarks &amp; Best Paper Award</td>
+          </tr>
+          <tr>
+            <td>5:15PM - 6:15PM</td>
+            <td>Poster Session</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    ## Submission Guidelines
+
+    Submissions must be single-author and any supervisors must be explicitly identified with "supervised by" on the paper, below the author's name.
+
+    Papers are limited to a length of 4 pages (including all material) and must be formatted based on this template: [VLDB workshop style template](https://github.com/haixun/haixun.github.io/blob/master/vldb/vldb-workshop-style-master.zip).
+
+    PhD workshop submissions must be submitted electronically, in PDF format, on [CMT](https://cmt3.research.microsoft.com/VLDBPhDworkshop2026).
+
+    All accepted papers will be published on the VLDB webpage. They will neither be considered archival nor part of the VLDB proceedings. Therefore, it is acceptable if portions of the submission have been published or submitted for publication.
+
+    ## Review Process
+
+    The review and decision of acceptance will balance many factors; these include the quality of your proposal and where you are within your doctoral education program. The program committee will give strongest consideration to candidates who have a clearly developed idea, who are formally considered by their institution to be working on their dissertation, and who still have time to be influenced by participation in the PhD Workshop.
+
+    This year, we do not have a formal PC ahead of submissions and instead we will form the PC based on the submissions we receive. Identifying PC members after seeing the submissions will improve our ability to find the right expertise for the submitted papers. We will publish the formed PC in the workshop webpage after receiving the submissions.
+
+    To maximize participation, every accepted paper will be presented as a poster during the workshop. In addition, a subset of the contributions will also be given an oral presentation.
+
+    ## PhD Workshop Chairs
+
+    - Mohamed Eltabakh, Qatar Computing Research Institute
+    - Nikos Tziavelis, UC Santa Cruz
+
+    ## PhD Workshop PC Members
+
+    - Amine Mhedhbi (Polytechnique Montréal)
+    - Mohammad Shahmeer Ahmad (Qatar Computing Research Institute)
+    - Nikolaos Tziavelis (UC Santa Cruz)
+    - Alhassan Alshareedah (University of California, Riverside)
+    - Mohamed Eltabakh (Qatar Computing Research Institute)
+    - Xiaoshuai Li (Worcester Polytechnic Institute)
+    - Ahmed Abdelmaguid (University of California, Riverside)
+    - Hani Al-Sayeh (QCRI, HBKU)
+    - Abolfazl Asudeh (University of Illinois Chicago)
+    - Yuya Sasaki (The University of Osaka)

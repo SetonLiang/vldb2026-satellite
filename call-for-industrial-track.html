@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115776710-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-115776710-1');
+        </script>
+        <script language="javascript">
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="https://vldb.org/2026/call-for-industrial-track" />
+        <style>
+            body{visibility:hidden}
+        </style>
+        
+        <link rel="icon" type="image/png" href="/vldb2026-satellite/assets/img/favicon.webp">
+        <title>VLDB 2026 Satellite Event | Call for Contributions - Industrial Track</title>
+        <meta name="description" content="The VLDB 2026 conference, will take place in Boston, MA, United States, from Aug 31st to Sep 4th, 2026, and will feature research talks, tutorials, demonstrations, and workshops. It will cover issues in data management, database and information systems research. VLDB is a premier annual international forum for data management and database researchers, vendors, practitioners, application developers, and users.">
+    </head>
+    
+    <body>
+        <header>
+            <div class="small-menu"><a class="hamburger"></a></div>
+            <div class="small-header">
+                <figure class="logo">
+                    <a href="/vldb2026-satellite">
+                        <img style="max-width: 150px; min-width: 100px;" src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China"></a>
+                </figure>
+            </div>
+            <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+                <figure class="logo">
+                    <img src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China">
+                    <img src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China">
+                </figure>
+                
+                    <div>
+                        
+                            General Information
+                            <div class="menu">
+                                
+                                    
+                                        <a href="." itemprop="url">
+                                            <span itemprop="name">Conference Overview</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="officers.html" itemprop="url">
+                                            <span itemprop="name">Conference Officers</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="pvldb-review-board.html" itemprop="url">
+                                            <span itemprop="name">PVLDB Review Board</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="shadow-pc.html" itemprop="url">
+                                            <span itemprop="name">Shadow PC</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+                    <div class="conference-program-menu">
+                        
+                            Conference Program
+                            <div class="menu">
+                                
+                                    
+                                        <a href="program.html" itemprop="url">
+                                            <span itemprop="name">Full Program</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="keynotes.html" itemprop="url">
+                                            <span itemprop="name">Keynotes</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="panels.html" itemprop="url">
+                                            <span itemprop="name">Panels</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+                    <div class="no-sub">
+                        
+                            <a href="important-dates.html" itemprop="url">
+                                <span itemprop="name">Dates &amp; Guidelines</span>
+                            </a>
+                        
+                    </div>
+                
+                    <div class="no-sub">
+                        
+                            <a href="sponsor-list.html" itemprop="url">
+                                <span itemprop="name">Sponsorship</span>
+                            </a>
+                        
+                    </div>
+                
+                    <div>
+                        
+                            Participant Information
+                            <div class="menu">
+                                
+                                    
+                                        <a href="conference-venue.html" itemprop="url">
+                                            <span itemprop="name">Conference Venue</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="registration.html" itemprop="url">
+                                            <span itemprop="name">Registration</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <hr/>
+                                    
+                                
+                                    
+                                        <a class="menu-label" role="presentation" aria-disabled="true">
+                                            <span>Conference Hotel Booking:</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="https://book.passkey.com/go/VLDBConference" itemprop="url" target="_blank" rel="noopener noreferrer">
+                                            <span itemprop="name">The Westin Boston Seaport</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+            </nav>
+            <section
+                class="carousel small"
+                data-images='[
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-1.webp","t":"Guangzhou"}
+                        ,
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-2.webp","t":"Guangzhou"}
+                        ,
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-3.webp","t":"Guangzhou"}
+                        
+                    
+                ]'
+            >
+                <span>52<sup>nd</sup> International Conference on Very Large Data Bases Satellite Event</span>
+                <span>Guangzhou, China - December 1-2, 2026</span>
+            </section>
+        </header>
+
+        <main class="body">
+            <div style="text-align: justify" class="markdown "> <h1>VLDB 2026 Satellite Event: Call for Contributions - Industrial Track</h1>
+<p>The Industrial Track of VLDB 2026 will cover all aspects of innovative, commercial, and industrial-strength (including open-source) data management systems and solutions.
+We also welcome submissions describing novel applications of data management systems and experiences in doing so for challenging industry problems.
+We require that at least one of the authors has a non-academic affiliation.</p>
+<h2>Submission Guidelines</h2>
+<p>The submissions to this track may be up to 12 pages long (excluding references).
+The papers should be prepared using the VLDB 2026 paper formatting guidelines as specified at <a href="https://www.vldb.org/pvldb/volumes/19/formatting">Formatting</a>.
+Submissions to the Industrial track are required to include all author names and affiliations.
+After a paper is accepted, the set of authors cannot be changed.</p>
+<p>Submissions must be made electronically, in PDF format, to the <a href="https://cmt3.research.microsoft.com/VLDBInd2026">conference submission site</a>.</p>
+<h2>Revision Phase</h2>
+<p>Unlike the <a href="./call-for-research-track">Research Track</a>, the revision phase in the Industrial Track will be akin to what is traditionally viewed as shepherding, with requests for limited changes only, and all changes being completed in a 2-week interval between the initial notification and the final decision.</p>
+<h2>Conflicts of Interest</h2>
+<p>To minimize biases in the evaluation process, we use CMT&#39;s conflict management system, through which authors need to flag any conflicts with members of the Industrial Track Program Committee.
+Regarding conflicts, the VLDB Industrial Track follows the same rules as the <a href="https://www.vldb.org/pvldb/volumes/19/submission">VLDB 2026 Research tracks</a>.
+They are:</p>
+<p>Each author is responsible for entering their own domain and individual PC conflicts on CMT.
+All authors of a paper (listed in the pdf) must register themselves in CMT and declare their individual domain and PC conflicts at the time of submission.
+It is the full responsibility of all authors of a paper to identify and declare all conflicts of interest with members of the PC prior to the submission deadline.
+Submissions with undeclared conflicts or spurious conflicts will be desk-rejected.</p>
+<p>You can mark your domain and individual PC conflicts by clicking on your name (upper right-hand side on CMT) and selecting &#34;Personal Conflicts&#34;.
+An author&#39;s declared conflicts will be automatically applied to all of their submissions.</p>
+<p>X and Y have a conflict of interest (CoI) if any of the following apply:</p>
+<ul>
+<li>X and Y have worked in the same university or company in the past 2 years, or will be doing so in the next 6 months on account of an accepted job offer.
+  Different campuses within the same university system do not count as the same university for this purpose (e.g., UC Berkeley does not have a conflict with UC Santa Barbara).</li>
+<li>X has been a co-author of a paper with Y in the last 3 years, or of 4 (or more) papers in the last 10 years.
+  (Note that we consider the publication year and not the submission year or the month of publication (i.e., we do not distinguish at month-level granularity). For example, in 2025, the last 3 years start from January 2022 of the paper&#39;s publication date.)</li>
+<li>X has been a collaborator of Y within the past 2 years, as evidenced in a joint publication (subsumed by the stricter rule on co-authorship above), joint research project, or co-organizing events (e.g., co-chairs of conferences), or is collaborating now (including co-authorship on papers that have not resulted in final publication yet).</li>
+<li>X is the PhD thesis advisor of Y or vice versa, irrespective of how long ago this was.</li>
+<li>X is a relative or close personal friend of Y.</li>
+</ul>
+<h2>Important Dates (deadlines are end-of-day in Anywhere on Earth (AoE) time zone)</h2>
+<ul>
+<li>Submission deadline: Monday, Mar 2, 2026</li>
+<li>Author notification: Monday, Apr 27, 2026</li>
+<li>Revision due (for papers subject to revision): Monday, May 11, 2026</li>
+<li>Final decisions (for papers subject to revision): Monday, May 25, 2026</li>
+<li>Camera-ready manuscript due: Thursday, June 25, 2026</li>
+</ul> </div>
+
+    
+        <section class="officers">
+
+            <div class="officers-grid officers-grid--single officers-grid--lg officers-grid--compact">
+                
+                    <div class="officer-block">
+                        <h4>Industrial Track PC Chairs</h4>
+                        
+                            <div>
+                                <strong>Arnd Christian König</strong>,
+                                Microsoft Research, USA
+                            </div>
+                        
+                            <div>
+                                <strong>Efthymia Tsamoura</strong>,
+                                Huawei Labs, UK
+                            </div>
+                        
+                            <div>
+                                <strong>Hannes Voigt</strong>,
+                                Neo4j, Germany
+                            </div>
+                        
+                    </div>
+                
+
+                
+                    <div class="officer-block">
+                        <h4>Industrial Track PC Members</h4>
+                        
+                            <div>
+                                <strong>A. Jesse Jiryu Davis</strong>,
+                                MongoDB
+                            </div>
+                        
+                            <div>
+                                <strong>Alekh Jindal</strong>,
+                                Tursio
+                            </div>
+                        
+                            <div>
+                                <strong>Alexander Böhm</strong>,
+                                SAP SE
+                            </div>
+                        
+                            <div>
+                                <strong>Allison Holloway</strong>,
+                                Oracle
+                            </div>
+                        
+                            <div>
+                                <strong>Anderson Chaves Carniel</strong>,
+                                Huawei Technologies R&amp;D (UK) Ltd
+                            </div>
+                        
+                            <div>
+                                <strong>Anisoara Nica</strong>,
+                                SAP SE, Waterloo, Canada
+                            </div>
+                        
+                            <div>
+                                <strong>Bailu Ding</strong>,
+                                Microsoft Research
+                            </div>
+                        
+                            <div>
+                                <strong>Bolin Ding</strong>,
+                                Data Analytics and Intelligence Lab, Alibaba Group
+                            </div>
+                        
+                            <div>
+                                <strong>Boris Motik</strong>,
+                                University of Oxford
+                            </div>
+                        
+                            <div>
+                                <strong>Byungchul Tak</strong>,
+                                Kyungpook National University
+                            </div>
+                        
+                            <div>
+                                <strong>Calisto Zuzarte</strong>,
+                                IBM
+                            </div>
+                        
+                            <div>
+                                <strong>Campbell B Fraser</strong>,
+                                Google
+                            </div>
+                        
+                            <div>
+                                <strong>Chalapathi Koneni</strong>,
+                                Amazon
+                            </div>
+                        
+                            <div>
+                                <strong>Clemens Lutz</strong>,
+                                NVIDIA
+                            </div>
+                        
+                            <div>
+                                <strong>Cong Yan</strong>,
+                                Snowflake
+                            </div>
+                        
+                            <div>
+                                <strong>Danica Porobic</strong>,
+                                Oracle
+                            </div>
+                        
+                            <div>
+                                <strong>Dirk Habich</strong>,
+                                TU Dresden
+                            </div>
+                        
+                            <div>
+                                <strong>Fabian Hueske</strong>,
+                                Confluent Inc.
+                            </div>
+                        
+                            <div>
+                                <strong>Hanuma Kodavalla</strong>,
+                                Microsoft
+                            </div>
+                        
+                            <div>
+                                <strong>Hesam Shahrokhi</strong>,
+                                RelationalAI
+                            </div>
+                        
+                            <div>
+                                <strong>Jia Li</strong>,
+                                Edinburgh Research Center, Central Software Institute, Huawei
+                            </div>
+                        
+                            <div>
+                                <strong>Jie Song</strong>,
+                                ByteDance
+                            </div>
+                        
+                            <div>
+                                <strong>Jiexing Li</strong>,
+                                Databricks
+                            </div>
+                        
+                            <div>
+                                <strong>Jim Webber</strong>,
+                                Neo4j
+                            </div>
+                        
+                            <div>
+                                <strong>Joyal Shah</strong>,
+                                Otter.ai
+                            </div>
+                        
+                            <div>
+                                <strong>Justin Levandoski</strong>,
+                                Google
+                            </div>
+                        
+                            <div>
+                                <strong>Kai Wang</strong>,
+                                Shanghai Jiao Tong University
+                            </div>
+                        
+                            <div>
+                                <strong>Lev Novik</strong>,
+                                Databricks
+                            </div>
+                        
+                            <div>
+                                <strong>Marcus Paradies</strong>,
+                                LMU Munich
+                            </div>
+                        
+                            <div>
+                                <strong>Maria Krommyda</strong>,
+                                Huawei ERC
+                            </div>
+                        
+                            <div>
+                                <strong>Matteo Interlandi</strong>,
+                                Microsoft
+                            </div>
+                        
+                            <div>
+                                <strong>Matthaios Olma</strong>,
+                                MongoDB
+                            </div>
+                        
+                            <div>
+                                <strong>Meichun Hsu</strong>,
+                                Oracle America
+                            </div>
+                        
+                            <div>
+                                <strong>Milos Nikolic</strong>,
+                                University of Edinburgh
+                            </div>
+                        
+                            <div>
+                                <strong>Mohammed Al-Kateb</strong>,
+                                Amazon Web Services
+                            </div>
+                        
+                            <div>
+                                <strong>Nicolas Bruno</strong>,
+                                Microsoft
+                            </div>
+                        
+                            <div>
+                                <strong>Norman May</strong>,
+                                SAP SE
+                            </div>
+                        
+                            <div>
+                                <strong>Paris Carbone</strong>,
+                                KTH Royal Institute of Technology
+                            </div>
+                        
+                            <div>
+                                <strong>Pavel Klinov</strong>,
+                                Stardog Union
+                            </div>
+                        
+                            <div>
+                                <strong>Petra Selmer</strong>,
+                                Bloomberg
+                            </div>
+                        
+                            <div>
+                                <strong>Prashant Saxena</strong>,
+                                Snowflake Inc
+                            </div>
+                        
+                            <div>
+                                <strong>Raghav Kaushik</strong>,
+                                Microsoft
+                            </div>
+                        
+                            <div>
+                                <strong>Rahul Potharaju</strong>,
+                                Databricks
+                            </div>
+                        
+                            <div>
+                                <strong>Rebecca Taft</strong>,
+                                Cockroach Labs
+                            </div>
+                        
+                            <div>
+                                <strong>Riccardo Tommasini</strong>,
+                                INSA Lyon - LIRIS
+                            </div>
+                        
+                            <div>
+                                <strong>Rong-Hua Li</strong>,
+                                Beijing Institute of Technology
+                            </div>
+                        
+                            <div>
+                                <strong>Sergey Melnik</strong>,
+                                Amazon
+                            </div>
+                        
+                            <div>
+                                <strong>Silu Huang</strong>,
+                                Bytedance
+                            </div>
+                        
+                            <div>
+                                <strong>Stefan Plantikow</strong>,
+                                Microsoft
+                            </div>
+                        
+                            <div>
+                                <strong>Sudipto Das</strong>,
+                                Amazon Web Services
+                            </div>
+                        
+                            <div>
+                                <strong>Sumeet Dash</strong>,
+                                Microsoft
+                            </div>
+                        
+                            <div>
+                                <strong>Supun C Nakandala</strong>,
+                                Databricks Inc
+                            </div>
+                        
+                            <div>
+                                <strong>Tarique Ashraf Siddiqui</strong>,
+                                Google
+                            </div>
+                        
+                            <div>
+                                <strong>Theodoros Rekatsinas</strong>,
+                                Apple
+                            </div>
+                        
+                            <div>
+                                <strong>Tim Gubner</strong>,
+                                Huawei
+                            </div>
+                        
+                            <div>
+                                <strong>Tobias Lindaaker</strong>,
+                                Relational AI
+                            </div>
+                        
+                            <div>
+                                <strong>Todd Lipcon</strong>,
+                                Google
+                            </div>
+                        
+                            <div>
+                                <strong>Uta Störl</strong>,
+                                University of Hagen
+                            </div>
+                        
+                            <div>
+                                <strong>Vladi Vexler</strong>,
+                                Huawei
+                            </div>
+                        
+                            <div>
+                                <strong>Wei Ma</strong>,
+                                University of Glasgow
+                            </div>
+                        
+                            <div>
+                                <strong>Yeounoh Chung</strong>,
+                                Google
+                            </div>
+                        
+                            <div>
+                                <strong>Yiwen Zhu</strong>,
+                                Microsoft
+                            </div>
+                        
+                            <div>
+                                <strong>Yongchao Liu</strong>,
+                                Ant Group
+                            </div>
+                        
+                            <div>
+                                <strong>Zoi Kaoudi</strong>,
+                                IT University of Copenhagen
+                            </div>
+                        
+                    </div>
+                
+            </div>
+        </section>
+    
+
+            <div class="spinner"></div>
+        </main>
+
+        <footer>
+            <div>52<sup>nd</sup> International Conference on Very Large Data Bases Satellite Event<br />Guangzhou, China &mdash; December 1-2, 2026</div>
+            <a class="github no-ext-icon" href="https://github.com/dbogatov/vldb-2026" title="Collaborate on GitHub">
+                <svg height="32" version="1.1" viewBox="0 0 16 16" width="32">
+                    <path fill="#fff" fill-rule="evenodd" d="
+                        M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+                        0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+                        1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+                        0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18
+                        1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16
+                        1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54
+                        1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16
+                        8c0-4.42-3.58-8-8-8z">
+                    </path>
+                </svg>
+            </a>
+        </footer>
+
+        <link rel="stylesheet" href="/vldb2026-satellite/assets/merged.css?v=local-dev">
+        <script async src="/vldb2026-satellite/assets/merged.js"></script>
+
+        <script async src="https://platform.twitter.com/widgets.js"></script>
+        <script>
+            (function() {
+                var last = 0,
+                    docBody = document.body,
+                    header = document.querySelector('body>header'),
+                    nav = header && header.querySelector('nav'),
+                    requestAnimationFrame = window.requestAnimationFrame || function(callback, element) {
+                        var now = Date.now(),
+                            next = Math.max(0, 16 - (now - last)),
+                            id = window.setTimeout(function() {
+                                callback(now + next);
+                            }, next);
+                        last = now + next;
+                        return id;
+                    },
+                    cancelAnimationFrame = window.cancelAnimationFrame || function(id) {
+                        clearTimeout(id);
+                    },
+                    update = function () {
+                        if (!nav) return;
+
+                        var isStatic = docBody.classList.contains('static');
+                        if (header.getBoundingClientRect().bottom > 70) {
+                            if (isStatic) docBody.classList.remove('static');
+                        } else if (!isStatic) docBody.classList.add('static');
+                    },
+                    lid;
+
+                window.addEventListener('scroll', function(e) {
+                    if (lid) cancelAnimationFrame(lid);
+                    lid = requestAnimationFrame(update);
+                });
+
+                update();
+            }());
+        </script>
+    </body>
+</html>

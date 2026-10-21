@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115776710-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-115776710-1');
+        </script>
+        <script language="javascript">
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="https://vldb.org/2026/call-for-panels" />
+        <style>
+            body{visibility:hidden}
+        </style>
+        
+        <link rel="icon" type="image/png" href="/vldb2026-satellite/assets/img/favicon.webp">
+        <title>VLDB 2026 Satellite Event | Call for Contributions - Panels</title>
+        <meta name="description" content="The VLDB 2026 conference, will take place in Boston, MA, United States, from Aug 31st to Sep 4th, 2026, and will feature research talks, tutorials, demonstrations, and workshops. It will cover issues in data management, database and information systems research. VLDB is a premier annual international forum for data management and database researchers, vendors, practitioners, application developers, and users.">
+    </head>
+    
+    <body>
+        <header>
+            <div class="small-menu"><a class="hamburger"></a></div>
+            <div class="small-header">
+                <figure class="logo">
+                    <a href="/vldb2026-satellite">
+                        <img style="max-width: 150px; min-width: 100px;" src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China"></a>
+                </figure>
+            </div>
+            <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+                <figure class="logo">
+                    <img src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China">
+                    <img src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China">
+                </figure>
+                
+                    <div>
+                        
+                            General Information
+                            <div class="menu">
+                                
+                                    
+                                        <a href="." itemprop="url">
+                                            <span itemprop="name">Conference Overview</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="officers.html" itemprop="url">
+                                            <span itemprop="name">Conference Officers</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="pvldb-review-board.html" itemprop="url">
+                                            <span itemprop="name">PVLDB Review Board</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="shadow-pc.html" itemprop="url">
+                                            <span itemprop="name">Shadow PC</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+                    <div class="conference-program-menu">
+                        
+                            Conference Program
+                            <div class="menu">
+                                
+                                    
+                                        <a href="program.html" itemprop="url">
+                                            <span itemprop="name">Full Program</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="keynotes.html" itemprop="url">
+                                            <span itemprop="name">Keynotes</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="panels.html" itemprop="url">
+                                            <span itemprop="name">Panels</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+                    <div class="no-sub">
+                        
+                            <a href="important-dates.html" itemprop="url">
+                                <span itemprop="name">Dates &amp; Guidelines</span>
+                            </a>
+                        
+                    </div>
+                
+                    <div class="no-sub">
+                        
+                            <a href="sponsor-list.html" itemprop="url">
+                                <span itemprop="name">Sponsorship</span>
+                            </a>
+                        
+                    </div>
+                
+                    <div>
+                        
+                            Participant Information
+                            <div class="menu">
+                                
+                                    
+                                        <a href="conference-venue.html" itemprop="url">
+                                            <span itemprop="name">Conference Venue</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="registration.html" itemprop="url">
+                                            <span itemprop="name">Registration</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <hr/>
+                                    
+                                
+                                    
+                                        <a class="menu-label" role="presentation" aria-disabled="true">
+                                            <span>Conference Hotel Booking:</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="https://book.passkey.com/go/VLDBConference" itemprop="url" target="_blank" rel="noopener noreferrer">
+                                            <span itemprop="name">The Westin Boston Seaport</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+            </nav>
+            <section
+                class="carousel small"
+                data-images='[
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-1.webp","t":"Guangzhou"}
+                        ,
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-2.webp","t":"Guangzhou"}
+                        ,
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-3.webp","t":"Guangzhou"}
+                        
+                    
+                ]'
+            >
+                <span>52<sup>nd</sup> International Conference on Very Large Data Bases Satellite Event</span>
+                <span>Guangzhou, China - December 1-2, 2026</span>
+            </section>
+        </header>
+
+        <main class="body">
+            <div style="text-align: justify" class="markdown "> <h1>VLDB 2026 Satellite Event: Call for Contributions - Panels</h1>
+<p>We solicit proposals for panels at the 2026 VLDB Conference in Boston, MA, USA (August 31st - September 4th, 2026).
+Panel proposals are expected to address new, exciting, and controversial issues of broad interest to the database community.
+The proposed panel should be provocative, informative, and entertaining.</p>
+<p>Panel proposals must include:</p>
+<ul>
+<li>Description of the panel topic (no more than 1.5 pages)<ul>
+<li>Why is this topic of interest to the community?</li>
+<li>Do you see the panel engaging the database community and changing their positions or schools of thought?</li>
+<li>What are possible different and diverse perspectives that might spark a discussion?</li>
+<li>What are the likely positions of the panelists on the topic?
+  Do they bring in ideas from different communities?</li>
+<li>What questions or prompts are given to the panelists to prepare their opening statements?</li>
+<li>What questions will the moderator use to get the discussion going?</li>
+</ul>
+</li>
+<li>Name, affiliation, brief bio, and contact information for the proposed panel moderator (no page limit).</li>
+<li>Names, affiliations, brief bios, and rationale for inclusion in the panel of potential panelists in addition to the panel moderator.
+  If the panelists have already made a commitment to participate in person, then up to 6 panelists can be listed.
+  Otherwise, the list should contain up to 6 preferred panelists with potential alternates.</li>
+</ul>
+<p>An inclusive and diverse mix of panelists is encouraged.
+Representation from both industry and academia and panelists from different research communities are also encouraged.
+The proposals should be submitted to the panel chairs via email: Steven Euijong Whang (<a href="mailto:swhang@kaist.ac.kr">swhang@kaist.ac.kr</a>) and Bettina Kemme (<a href="mailto:bettina.kemme@mcgill.ca">bettina.kemme@mcgill.ca</a>).
+Please also feel free to contact them if you have any questions when preparing the proposal.</p>
+<h2>Important Dates</h2>
+<p>All deadlines below are 5pm PT.</p>
+<ul>
+<li>Submission deadline: <strong>May 15, 2026</strong></li>
+<li>Notification: <strong>Jun 8, 2026</strong></li>
+<li>Tentative camera-ready deadline: <strong>June 30, 2026</strong></li>
+</ul> </div>
+
+            <div class="spinner"></div>
+        </main>
+
+        <footer>
+            <div>52<sup>nd</sup> International Conference on Very Large Data Bases Satellite Event<br />Guangzhou, China &mdash; December 1-2, 2026</div>
+            <a class="github no-ext-icon" href="https://github.com/dbogatov/vldb-2026" title="Collaborate on GitHub">
+                <svg height="32" version="1.1" viewBox="0 0 16 16" width="32">
+                    <path fill="#fff" fill-rule="evenodd" d="
+                        M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+                        0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+                        1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+                        0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18
+                        1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16
+                        1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54
+                        1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16
+                        8c0-4.42-3.58-8-8-8z">
+                    </path>
+                </svg>
+            </a>
+        </footer>
+
+        <link rel="stylesheet" href="/vldb2026-satellite/assets/merged.css?v=local-dev">
+        <script async src="/vldb2026-satellite/assets/merged.js"></script>
+
+        <script async src="https://platform.twitter.com/widgets.js"></script>
+        <script>
+            (function() {
+                var last = 0,
+                    docBody = document.body,
+                    header = document.querySelector('body>header'),
+                    nav = header && header.querySelector('nav'),
+                    requestAnimationFrame = window.requestAnimationFrame || function(callback, element) {
+                        var now = Date.now(),
+                            next = Math.max(0, 16 - (now - last)),
+                            id = window.setTimeout(function() {
+                                callback(now + next);
+                            }, next);
+                        last = now + next;
+                        return id;
+                    },
+                    cancelAnimationFrame = window.cancelAnimationFrame || function(id) {
+                        clearTimeout(id);
+                    },
+                    update = function () {
+                        if (!nav) return;
+
+                        var isStatic = docBody.classList.contains('static');
+                        if (header.getBoundingClientRect().bottom > 70) {
+                            if (isStatic) docBody.classList.remove('static');
+                        } else if (!isStatic) docBody.classList.add('static');
+                    },
+                    lid;
+
+                window.addEventListener('scroll', function(e) {
+                    if (lid) cancelAnimationFrame(lid);
+                    lid = requestAnimationFrame(update);
+                });
+
+                update();
+            }());
+        </script>
+    </body>
+</html>

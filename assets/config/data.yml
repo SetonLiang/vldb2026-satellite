@@ -1,0 +1,66 @@
+name: VLDB 2026 Satellite Event
+full: International Conference on Very Large Data Bases Satellite Event
+location: Guangzhou, China
+dates: December 1-2, 2026
+number: 52
+github: dbogatov/vldb-2026
+
+description: |
+  The VLDB 2026 conference, will take place in Boston, MA, United States, from Aug 31st to Sep 4th, 2026, and will feature research talks, tutorials, demonstrations, and workshops.
+  It will cover issues in data management, database and information systems research.
+  VLDB is a premier annual international forum for data management and database researchers, vendors, practitioners, application developers, and users.
+
+sections:
+  - title: General Information
+    sub_sections:
+      - title: Conference Overview
+        page: .
+      - title: Conference Officers
+        page: officers
+      - title: PVLDB Review Board
+        page: pvldb-review-board
+      - title: Shadow PC
+        page: shadow-pc
+  - title: Conference Program
+    menu_class: conference-program-menu
+    sub_sections:
+      - title: Full Program
+        page: program
+      - title: Keynotes
+        page: keynotes
+      - title: Panels
+        page: panels
+  - title: Dates & Guidelines
+    menu_class: no-sub
+    page: important-dates
+  - title: Sponsorship
+    menu_class: no-sub
+    page: sponsor-list
+  - title: Participant Information
+    sub_sections:
+      - title: Conference Venue
+        page: conference-venue
+      - title: Registration
+        page: registration
+      - break
+      - label: "Conference Hotel Booking:"
+      - title: The Westin Boston Seaport
+        url: https://book.passkey.com/go/VLDBConference
+
+carousel:
+  - image: guangzhou-1
+    title: Guangzhou
+  - image: guangzhou-2
+    title: Guangzhou
+  - image: guangzhou-3
+    title: Guangzhou
+
+keywords:
+  - TBD
+
+google_analytics_id: UA-115776710-1
+
+domain: vldb.org/2026
+
+# google search console CDN verification HTML
+google_search_console_verification: f2fa35621456d5

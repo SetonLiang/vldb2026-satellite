@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115776710-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-115776710-1');
+        </script>
+        <script language="javascript">
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="https://vldb.org/2026/sponsor-list" />
+        <style>
+            body{visibility:hidden}
+        </style>
+        
+<style>
+   .sponsor-logo-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.25rem 1.75rem;
+      align-items: center;
+      justify-content: flex-start;
+      margin: 1.25rem 0 3rem;
+   }
+
+   .sponsor-logo-tile {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      border: 1px solid #e2e2e2;
+      border-radius: 4px;
+      background: #fff;
+   }
+
+   .sponsor-logo-grid--diamond .sponsor-logo-tile {
+      width: calc((100% - 3.5rem) / 3);
+      height: 150px;
+   }
+
+   .sponsor-logo-grid--platinum .sponsor-logo-tile {
+      width: calc((100% - 5.25rem) / 4);
+      height: 125px;
+   }
+
+   .sponsor-logo-grid--gold .sponsor-logo-tile,
+   .sponsor-logo-grid--silver .sponsor-logo-tile,
+   .sponsor-logo-grid--bronze .sponsor-logo-tile,
+   .sponsor-logo-grid--exhibitor .sponsor-logo-tile {
+      width: calc((100% - 7rem) / 5);
+   }
+
+   .sponsor-logo-grid--gold .sponsor-logo-tile {
+      height: 110px;
+   }
+
+   .sponsor-logo-grid--silver .sponsor-logo-tile,
+   .sponsor-logo-grid--bronze .sponsor-logo-tile,
+   .sponsor-logo-grid--exhibitor .sponsor-logo-tile {
+      height: 95px;
+   }
+
+   .sponsor-logo-tile img {
+      display: block;
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+   }
+
+   .sponsor-logo-grid--diamond img {
+      max-height: 110px;
+   }
+
+   .sponsor-logo-grid--platinum img {
+      max-height: 86px;
+   }
+
+   .sponsor-logo-grid--gold img {
+      max-height: 72px;
+   }
+
+   .sponsor-logo-grid--silver img,
+   .sponsor-logo-grid--bronze img,
+   .sponsor-logo-grid--exhibitor img {
+      max-height: 62px;
+   }
+
+   @media (max-width: 500px) {
+      .sponsor-logo-grid--diamond .sponsor-logo-tile,
+      .sponsor-logo-grid--platinum .sponsor-logo-tile,
+      .sponsor-logo-grid--gold .sponsor-logo-tile,
+      .sponsor-logo-grid--silver .sponsor-logo-tile,
+      .sponsor-logo-grid--bronze .sponsor-logo-tile,
+      .sponsor-logo-grid--exhibitor .sponsor-logo-tile {
+         width: 100%;
+      }
+   }
+</style>
+
+        <link rel="icon" type="image/png" href="/vldb2026-satellite/assets/img/favicon.webp">
+        <title>VLDB 2026 Satellite Event | Our Sponsors</title>
+        <meta name="description" content="The VLDB 2026 conference, will take place in Boston, MA, United States, from Aug 31st to Sep 4th, 2026, and will feature research talks, tutorials, demonstrations, and workshops. It will cover issues in data management, database and information systems research. VLDB is a premier annual international forum for data management and database researchers, vendors, practitioners, application developers, and users.">
+    </head>
+    
+    <body>
+        <header>
+            <div class="small-menu"><a class="hamburger"></a></div>
+            <div class="small-header">
+                <figure class="logo">
+                    <a href="/vldb2026-satellite">
+                        <img style="max-width: 150px; min-width: 100px;" src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China"></a>
+                </figure>
+            </div>
+            <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+                <figure class="logo">
+                    <img src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China">
+                    <img src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China">
+                </figure>
+                
+                    <div>
+                        
+                            General Information
+                            <div class="menu">
+                                
+                                    
+                                        <a href="." itemprop="url">
+                                            <span itemprop="name">Conference Overview</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="officers.html" itemprop="url">
+                                            <span itemprop="name">Conference Officers</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="pvldb-review-board.html" itemprop="url">
+                                            <span itemprop="name">PVLDB Review Board</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="shadow-pc.html" itemprop="url">
+                                            <span itemprop="name">Shadow PC</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+                    <div class="conference-program-menu">
+                        
+                            Conference Program
+                            <div class="menu">
+                                
+                                    
+                                        <a href="program.html" itemprop="url">
+                                            <span itemprop="name">Full Program</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="keynotes.html" itemprop="url">
+                                            <span itemprop="name">Keynotes</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="panels.html" itemprop="url">
+                                            <span itemprop="name">Panels</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+                    <div class="no-sub">
+                        
+                            <a href="important-dates.html" itemprop="url">
+                                <span itemprop="name">Dates &amp; Guidelines</span>
+                            </a>
+                        
+                    </div>
+                
+                    <div class="no-sub">
+                        
+                            <a href="sponsor-list.html" itemprop="url">
+                                <span itemprop="name">Sponsorship</span>
+                            </a>
+                        
+                    </div>
+                
+                    <div>
+                        
+                            Participant Information
+                            <div class="menu">
+                                
+                                    
+                                        <a href="conference-venue.html" itemprop="url">
+                                            <span itemprop="name">Conference Venue</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="registration.html" itemprop="url">
+                                            <span itemprop="name">Registration</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <hr/>
+                                    
+                                
+                                    
+                                        <a class="menu-label" role="presentation" aria-disabled="true">
+                                            <span>Conference Hotel Booking:</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="https://book.passkey.com/go/VLDBConference" itemprop="url" target="_blank" rel="noopener noreferrer">
+                                            <span itemprop="name">The Westin Boston Seaport</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+            </nav>
+            <section
+                class="carousel small"
+                data-images='[
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-1.webp","t":"Guangzhou"}
+                        ,
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-2.webp","t":"Guangzhou"}
+                        ,
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-3.webp","t":"Guangzhou"}
+                        
+                    
+                ]'
+            >
+                <span>52<sup>nd</sup> International Conference on Very Large Data Bases Satellite Event</span>
+                <span>Guangzhou, China - December 1-2, 2026</span>
+            </section>
+        </header>
+
+        <main class="body">
+            
+   <section class="sponsor-list">
+      <h1>VLDB 2026 Satellite Event: Our Sponsors</h1>
+
+      
+         <h4>Diamond Sponsors</h4>
+         <div class="sponsor-logo-grid sponsor-logo-grid--diamond">
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.amazon.com/"
+                  aria-label="Amazon"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Diamond/Amazon_Logo_Master_RGB_Squid_Ink+Smile_Orange_MAST (3).svg"
+                     alt="Amazon logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+         </div>
+      
+         <h4>Platinum Sponsors</h4>
+         <div class="sponsor-logo-grid sponsor-logo-grid--platinum">
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.couchbase.com/"
+                  aria-label="Couchbase"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Platinum/Couchbase_R-B.png"
+                     alt="Couchbase logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.google.com/"
+                  aria-label="Google"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Platinum/GoogleLogo_RGB_Color.png"
+                     alt="Google logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.intersystems.com/"
+                  aria-label="InterSystems"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Platinum/INTS_CreativeDataTechnology_Logo_RGB.jpg"
+                     alt="InterSystems logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.janestreet.com/"
+                  aria-label="Jane Street"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Platinum/Jane Street.png"
+                     alt="Jane Street logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.microsoft.com/"
+                  aria-label="Microsoft"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Platinum/microsoft.png"
+                     alt="Microsoft logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.oracle.com/"
+                  aria-label="Oracle"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Platinum/Oracle_rgb_c74634.png"
+                     alt="Oracle logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.salesforce.com/"
+                  aria-label="Salesforce"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Platinum/salesforce-logo.png"
+                     alt="Salesforce logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.snowflake.com/"
+                  aria-label="Snowflake"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Platinum/snowflake-logo-color-rgb@2x.png"
+                     alt="Snowflake logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+         </div>
+      
+         <h4>Gold Sponsors</h4>
+         <div class="sponsor-logo-grid sponsor-logo-grid--gold">
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.alibabacloud.com/"
+                  aria-label="Alibaba Cloud"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Gold/Alibaba_Cloud_wide.png"
+                     alt="Alibaba Cloud logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.bytedance.com/"
+                  aria-label="ByteDance"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Gold/2026-bytedance.svg"
+                     alt="ByteDance logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.databricks.com/"
+                  aria-label="Databricks"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Gold/Databrics.svg"
+                     alt="Databricks logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://duckdblabs.com/"
+                  aria-label="DuckDB-Labs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Gold/DuckDB-Labs_inline-lightmode.svg"
+                     alt="DuckDB-Labs logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.ebay.com/"
+                  aria-label="eBay"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Gold/Heritage+WHT_ebay_logo_cmyk.jpg"
+                     alt="eBay logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://graphai.io/en/"
+                  aria-label="GraphAI"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Gold/GraphAI_Logo_Horizontal.jpg"
+                     alt="GraphAI logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.ibm.com/"
+                  aria-label="IBM"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Gold/IBM_logo_pos_RGB.jpg"
+                     alt="IBM logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://megagon.ai/"
+                  aria-label="Megagon Labs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Gold/MEGAGON LABS.png"
+                     alt="Megagon Labs logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://about.meta.com/"
+                  aria-label="Meta"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Gold/meta_gold.png"
+                     alt="Meta logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.mongodb.com/"
+                  aria-label="MongoDB"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Gold/MongoDB_Fores-Green.svg"
+                     alt="MongoDB logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.nvidia.com/en-us/"
+                  aria-label="NVIDA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Gold/nvidia-logo-vert-rgb-blk-no-reg-for-screen.png"
+                     alt="NVIDA logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://en.oceanbase.com/"
+                  aria-label="OceanBase"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Gold/oceanbase_new.png"
+                     alt="OceanBase logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.persistent.com/"
+                  aria-label="Persistent"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Gold/Persistent_Logo_Horizontal.png"
+                     alt="Persistent logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.sap.com/"
+                  aria-label="SAP"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Gold/SAP_R_grad_sign.png"
+                     alt="SAP logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.tencent.com/en-us/"
+                  aria-label="Tencent"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Gold/tencent-logo.png"
+                     alt="Tencent logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.transwarp.cn/en/"
+                  aria-label="Transwarp"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Gold/transwarp_eng.png"
+                     alt="Transwarp logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+         </div>
+      
+         <h4>Silver Sponsors</h4>
+         <div class="sponsor-logo-grid sponsor-logo-grid--silver">
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://spiraldb.com/"
+                  aria-label="Spiral"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Silver/Spiral.svg"
+                     alt="Spiral logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+         </div>
+      
+         <h4>Bronze Sponsors</h4>
+         <div class="sponsor-logo-grid sponsor-logo-grid--bronze">
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.cockroachlabs.com/"
+                  aria-label="Cockroach Labs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Bronze/CockroachLabs_Full-Logo-Horizontal_Reduced-Color-Light-BG.png"
+                     alt="Cockroach Labs logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://villagesql.com/"
+                  aria-label="VillageSQL"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Bronze/VillageSQL_PrimaryLogo_Horiz_Light.svg"
+                     alt="VillageSQL logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+         </div>
+      
+         <h4>Exhibitor/Publisher Sponsors</h4>
+         <div class="sponsor-logo-grid sponsor-logo-grid--exhibitor">
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.puppygraph.com/"
+                  aria-label="PuppyGraph"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Exhibitor-Publisher/PuppyGraph_Vertical_Purple__1__9.png"
+                     alt="PuppyGraph logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.springernature.com/"
+                  aria-label="Springer Nature Group"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Exhibitor-Publisher/SNG_stack_blue.jpg"
+                     alt="Springer Nature Group logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://www.tpc.org/"
+                  aria-label="TPC"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Exhibitor-Publisher/TPC-logo.svg"
+                     alt="TPC logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+               <a
+                  class="sponsor-logo-tile no-ext-icon"
+                  href="https://weaviate.io/"
+                  aria-label="Weaviate"
+                  target="_blank"
+                  rel="noopener noreferrer"
+               >
+                  <img
+                     src="/vldb2026-satellite/assets/img/logo_sponsors/Exhibitor-Publisher/weaviate.svg"
+                     alt="Weaviate logo"
+                     loading="lazy"
+                  />
+               </a>
+            
+         </div>
+      
+   </section>
+
+            <div class="spinner"></div>
+        </main>
+
+        <footer>
+            <div>52<sup>nd</sup> International Conference on Very Large Data Bases Satellite Event<br />Guangzhou, China &mdash; December 1-2, 2026</div>
+            <a class="github no-ext-icon" href="https://github.com/dbogatov/vldb-2026" title="Collaborate on GitHub">
+                <svg height="32" version="1.1" viewBox="0 0 16 16" width="32">
+                    <path fill="#fff" fill-rule="evenodd" d="
+                        M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+                        0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+                        1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+                        0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18
+                        1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16
+                        1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54
+                        1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16
+                        8c0-4.42-3.58-8-8-8z">
+                    </path>
+                </svg>
+            </a>
+        </footer>
+
+        <link rel="stylesheet" href="/vldb2026-satellite/assets/merged.css?v=local-dev">
+        <script async src="/vldb2026-satellite/assets/merged.js"></script>
+
+        <script async src="https://platform.twitter.com/widgets.js"></script>
+        <script>
+            (function() {
+                var last = 0,
+                    docBody = document.body,
+                    header = document.querySelector('body>header'),
+                    nav = header && header.querySelector('nav'),
+                    requestAnimationFrame = window.requestAnimationFrame || function(callback, element) {
+                        var now = Date.now(),
+                            next = Math.max(0, 16 - (now - last)),
+                            id = window.setTimeout(function() {
+                                callback(now + next);
+                            }, next);
+                        last = now + next;
+                        return id;
+                    },
+                    cancelAnimationFrame = window.cancelAnimationFrame || function(id) {
+                        clearTimeout(id);
+                    },
+                    update = function () {
+                        if (!nav) return;
+
+                        var isStatic = docBody.classList.contains('static');
+                        if (header.getBoundingClientRect().bottom > 70) {
+                            if (isStatic) docBody.classList.remove('static');
+                        } else if (!isStatic) docBody.classList.add('static');
+                    },
+                    lid;
+
+                window.addEventListener('scroll', function(e) {
+                    if (lid) cancelAnimationFrame(lid);
+                    lid = requestAnimationFrame(update);
+                });
+
+                update();
+            }());
+        </script>
+    </body>
+</html>

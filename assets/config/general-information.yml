@@ -1,0 +1,1705 @@
+index:
+  content: |
+    # VLDB 2026 Satellite Event: Overview
+
+    The Very Large Data Bases (VLDB) is a premier annual international forum for data management, scalable data science, and database researchers, vendors, practitioners, application developers, and users.
+    The forthcoming VLDB 2026 conference is poised to deliver a comprehensive program, featuring an array of research talks, keynote and invited talks, panels, tutorials, demonstrations, industrial tracks, and workshops.
+    It will cover a spectrum of research topics related to all aspects of data management, where systems issues play a significant role, such as data management system technology and information management infrastructures, including their very large scale of experimentation, novel architectures, and demanding applications as well as their underpinning theory.
+
+    Key areas of interest for PVLDB include, but are not limited to, data mining and analytics, data privacy and security, database engines, database performance and manageability, distributed database systems, graph and network data, information integration and data quality, languages, machine learning, ai, and databases, novel database architectures, provenance and workflows, specialized and domain-specific data management, text and semi-structured data, and user interfaces.
+    These thematic pillars represent the foundational elements underpinning the technological landscape of the emerging applications of the 21st century.
+
+    The VLDB 2026 conference will take place from Aug 31st to 4th September, 2026 in Boston, MA, USA.
+
+  twitter: VLDBconf
+
+registration:
+  title: "VLDB 2026 Satellite Event: Registration"
+  intro:
+    - Each research or industrial paper must have an author registration, even if the paper is presented by a student. The author registration refers to a Professional "Conference-Only" or "Workshop+Conference" registration. If an author has more than one paper, they will only need to pay for one author registration, which may cover multiple papers.
+    - Each workshop paper must also have an author registration, even if the paper is presented by a student. The author registration refers to a Professional "Two-Day Workshop" or "Workshop+Conference" registration. If an author has more than one workshop paper, they will only need to pay for one author registration, which may cover multiple workshop papers.
+  registration_url: https://vldb2026.fix.events/
+  contact_email: info@fix.events
+  fees:
+    currency_note: All fees are listed in USD.
+    deadline_note: Due to delayed author notifications in some tracks of VLDB 2026, we decided to extend the early-bird registration deadline accordingly to July 24, 2026.
+    notes:
+      - Professional conference tickets include lunch, coffee and tea breaks, and access to the banquet.
+      - Participants attending conference workshops will also receive lunch and coffee and tea breaks.
+      - Discounted student conference tickets include lunch, coffee and tea breaks, and access to the banquet.
+      - Student participants attending conference workshops will also receive lunch and coffee and tea breaks.
+    periods:
+      - title: Early Bird
+        deadline: by <s>July 12</s> July 24
+        professional_label: Professional
+        student_label: Student
+        rows:
+          - label: Conference + Workshops
+            date_range: Aug 31 - Sep 4
+            professional: $1200
+            student: $600
+          - label: Conference Only
+            date_range: Sep 1 - Sep 3
+            professional: $1050
+            student: $500
+          - label: 2-Day Workshops
+            date_range: Aug 31 and Sep 4
+            professional: $300
+            student: $150
+      - title: Regular
+        deadline: by August 29
+        professional_label: Professional
+        student_label: Student
+        rows:
+          - label: Conference + Workshops
+            date_range: Aug 31 - Sep 4
+            professional: $1450
+            student: $750
+          - label: Conference Only
+            date_range: Sep 1 - Sep 3
+            professional: $1300
+            student: $650
+          - label: 2-Day Workshops
+            date_range: Aug 31 and Sep 4
+            professional: $400
+            student: $200
+    additional_tickets:
+      title: Additional Ticket
+      rows:
+        - label: Extra Banquet Ticket
+          date_range: Sep 2
+          deadline: Register by July 27
+          price: $150
+  sections:
+    - title: Registration Process
+      paragraphs:
+        - The registration desk's location will be updated soon.
+        - Attendees are encouraged to collect their conference badge as early as possible to ensure smooth access to the Conference Welcome Address and the start of the event.
+        - If your registration fee has not been paid prior to arrival, you will be asked to complete the payment at the registration desk. All pending balances must be settled when registering at the conference. To avoid delays, please plan to arrive early.
+    - title: Return and Refund Policy
+      paragraphs:
+        - "Conference registrations may be cancelled under the following conditions: full refunds are available up to 60 days before the conference. Cancellations made up to 30 days before the conference are eligible for a 50% refund. No refunds will be issued for cancellations made within 30 days of the conference. Refunds will be processed after the event using the original payment method."
+    - title: Privacy Policy
+      paragraphs:
+        - Personal data collected during registration will be used solely for the purposes of event organization, registration processing, communication, and access control for VLDB 2026. Data will be handled securely and in accordance with applicable data protection laws and will not be shared with third parties except where required for event delivery or legal obligations.
+    - title: Legal Notice
+      paragraphs:
+        - Attendance at VLDB 2026 is limited to participants 16 years of age or older. Participants under 16 must be accompanied by a registered adult. Attendees are responsible for their own travel, health, and accident insurance. VLDB 2026 and event organizers accept no liability for personal injury, loss, or damage to property. By attending, you consent to photography and videography for promotional purposes. In cases of force majeure, the organizers reserve the right to modify or cancel the event without liability.
+    - title: Insurance, Release and Waiver of Liability
+      paragraphs:
+        - Participants are strongly advised to obtain appropriate travel, health, and accident insurance prior to departing from their country of residence.
+        - VLDB2026, as the event organizer, shall not be held liable for any personal injury, loss, or damage to personal property belonging to conference participants or their accompanying persons during the course of the event.
+        - All registrants are responsible for informing themselves of and complying with applicable local laws and regulations during their participation in the conference.
+    - title: Force Majeure
+      paragraphs:
+        - VLDB2026, and the event venue shall not be held responsible for the partial or total non-performance of their obligations under the contract in circumstances beyond their reasonable control. Such circumstances include, but are not limited to, accidents, natural disasters (whether threatened or actual), war, interruption or curtailment of transportation services, threats or acts of terrorism, governmental travel advisories related to security concerns, labor disputes including strikes or lockouts, civil unrest, the issuance of a Travel Warning by the World Health Organization, or any other event that makes it impossible for the venue or hotel to accommodate conference participants, or that results in the cancellation of the event by VLDB2026.
+        - In the occurrence of any such event, the Organizers may, at their sole discretion, refund all or part of the delegate registration fee and/or service charges paid by a Delegate or Exhibitor. However, the Organizers shall not be obligated to reimburse the full amount of such fees or charges. Furthermore, the Organizers shall bear no liability toward any Delegate or Exhibitor for claims, damages, losses (including consequential losses), costs, or expenses that may arise as a result of such circumstances.
+    - title: Photography and Videography Disclosure
+      paragraphs:
+        - By registering for and attending the Conference, participants grant permission to VLDB2026 to capture and use their image or likeness in photographs, video recordings, or other media. These materials may be used in publications, promotional content, presentations, and digital platforms, including websites, without compensation or additional consideration.
+        - VLDB2026 reserves the right to edit, reproduce, publish, distribute, or display such materials for the purpose of promoting VLDB2026 activities or for any other lawful purpose. Participants waive any right to review or approve the final version of these materials, whether in print or electronic format, in which their likeness may appear. All such photographs and recordings shall become the property of VLDB2026.
+    - title: Letters of Invitation
+      paragraphs:
+        - Invitation letters for visa purposes may be issued upon request to delegates who have completed and paid their conference registration.
+        - Requests can be submitted through the registration portal, where applicants will be asked to provide the required passport information. Please allow 2-3 business days after payment for the processing of invitation letter requests.
+        - Please note that the issuance of a visa invitation letter does not imply any financial responsibility or other obligation on the part of VLDB2026.
+
+day_pass:
+  title: "VLDB 2026 Satellite Event: Day Pass"
+  intro:
+    - One-day passes for VLDB 2026 are now available. If you are unable to attend the full conference, a day pass lets you join the main conference on the date you select.
+  conference_dates: August 31 - September 4, 2026
+  main_conference_dates: September 1 - 3, 2026
+  location: The Westin Boston Seaport District, Boston, MA, USA
+  registration_url: https://vldb2026.fix.events/products/one-day-tickets
+  currency_note: All fees are listed in USD.
+  tickets:
+    - date: Tuesday, September 1, 2026
+      price: $550
+    - date: Wednesday, September 2, 2026
+      price: $550
+    - date: Thursday, September 3, 2026
+      price: $550
+  includes:
+    - Access to all main conference sessions and keynotes taking place on the selected date
+    - Lunch on the selected date
+    - Morning and afternoon coffee and tea breaks on the selected date
+  banquet_note: The conference banquet is not included with a one-day ticket unless specifically stated in the selected ticket description.
+
+travel_support:
+  content: |
+    # VLDB 2026 Satellite Event: Travel Support
+
+    We are very happy to announce travel support opportunities for students and faculty to attend the 52nd International Conference on Very Large Data Bases (VLDB 2026), to take place in Boston, MA, USA, between Aug 31st and Sep 4th, 2026 ([https://vldb.org/2026](https://vldb.org/2026)).
+
+    The long-term goal of the program is to encourage talented young scientists to pursue a career in database research. The VLDB organization committee is waiving registration fees for all recipients of the fellowships. In previous years, the National Science Foundation (NSF) provided additional fellowships for students enrolled in a US university. If such fellowships get offered again this year, it will be announced here.
+
+    The grants aim to support travel and lodging expenses for in-person attendees. Applicants should include a budget in their application. It is expected that grants will be up to US$1,750. Expenses will be reimbursed after the conference. Recipients of the travel support are responsible for their travel arrangements, including health insurance, if necessary.
+
+    ## Eligibility and Selection Criteria
+
+    Applicants must be full-time students in good standing (graduate or undergraduate), or postdoctoral fellows/researchers, or faculty members who are either affiliated with universities that do not already have considerable presence at VLDB conferences, or have a paper at the conference (or associated events).
+
+    Applicants must explicitly state that they do not have any other funding to attend. Preference will be given to applicants who demonstrate keen interest in database research and are from regions that are under-represented in the database community; presenting a paper accepted at the main conference or the affiliated workshops is welcome but not mandatory.
+
+    ## Application Process
+    Applicants should fill in the application form at the following URL: [https://forms.gle/1D2jPyToG3NQKcfJ7](https://forms.gle/1D2jPyToG3NQKcfJ7) by June 20th. In the form, they should also include a letter of support by a nominator (faculty advisor for student applicants, or senior faculty member or department head for faculty applicants). Nominators will be contacted by email on their institutional address and asked to confirm their nomination.
+
+    Any questions related to the grants and the application process should be directed to [spend.vldb@gmail.com](mailto:spend.vldb@gmail.com).
+
+    US student applications will be automatically assessed also for the NSF-funded travel grant.
+
+    Selected candidates will be notified by June 30th. Applicants are advised not to register before the notification date, since the travel support includes free registration; note that the early registration deadline is <s>July 12</s> July 24, 2026.
+
+    ## SPEND Committee VLDB Endowment
+    - Carsten Binnig (TU Darmstadt)
+    - Alexandra Meliou (University of Massachusetts - Amherst)
+    - Yannis Velegrakis (Utrecht University)
+
+    ## NSF Fellowship Committee
+    - Sainyam Galhotra (Cornell University)
+
+venue:
+  title: "VLDB 2026 Satellite Event: Conference Venue"
+  venue_name: The Westin Boston Seaport District - Boston, USA
+  intro:
+    - The 52nd International Conference on Very Large Data Bases (VLDB 2026) will take place in Boston, Massachusetts, at The Westin Boston Seaport District, located in the heart of the city's vibrant Seaport neighborhood.
+    - The Westin Boston Seaport District provides a modern and comfortable setting for the conference, offering spacious guest rooms and flexible meeting spaces designed for large international events. Staying at the conference hotel allows attendees to enjoy convenient access to all sessions and activities throughout the week.
+  sections:
+    - title: Accommodation
+      paragraphs:
+        - A special VLDB room block with preferred conference rates will be available at The Westin Boston Seaport District. Attendees are strongly encouraged to stay at the conference venue for the most convenient experience.
+        - "As part of the conference agreement, the hotel's daily destination fee (normally $30) will be waived for VLDB attendees."
+        - The hotel is also home to several excellent spaces and amenities, making it easy to meet colleagues, relax after sessions, or continue discussions throughout the conference.
+      links:
+        - label: Book your stay here
+          url: https://book.passkey.com/go/VLDBConference
+        - label: Virtual Tour
+          url: https://visitingmedia.com/tt8/?ttid=the-westin-boston-seaport#/360?group=0&tour=0
+    - title: The Seaport District
+      paragraphs:
+        - The Westin is located in Boston's Seaport District, one of the city's most dynamic waterfront neighborhoods. The area is known for its restaurants, innovation hubs, and scenic harbor views.
+        - Many attractions are within walking distance of the hotel, including the Boston HarborWalk, the Institute of Contemporary Art, and the Boston Tea Party Ships & Museum. Visitors can also explore historic Boston through the nearby Freedom Trail or take the Old Town Trolley Tour, which stops right outside the hotel.
+      map_embed_url: https://www.openstreetmap.org/export/embed.html?bbox=-71.05389%2C42.34086%2C-71.03389%2C42.35086&layer=mapnik&marker=42.34586%2C-71.04389
+      links:
+        - label: Map of Seaport District
+          url: https://maps.app.goo.gl/8EJLd5h5T9egbLgz7
+    - title: Transportation
+      paragraphs:
+        - The hotel is located about 10 minutes (2 miles) from Boston Logan International Airport (BOS), which offers direct flights to many domestic and international destinations. Taxi or uber trips between the airport and the hotel typically cost $15-$25.
+        - Boston is also easily accessible from other major cities in the Northeast, including New York City (about 2.5 hours by train or car).
+      subsections:
+        - title: Parking at the venue
+          blocks:
+            - text: "For conference attendees traveling by car, we have secured a 20% discount at the Venue Parking:"
+            - url: https://www.pilgrimparking.com/boston-parking-garages/westin-boston-seaport-district-hotel
+            - text: The standard cost is $55, so with 20% discount the cost would be $44 per day.
+            - text: Parking tickets will be available at the conference registration desk.
+
+shadow_pc:
+  content: |
+    # VLDB 2026 Satellite Event: Shadow PC
+
+    We are introducing a Shadow PC to VLDB, which will follow the reviewing cycles of VLDB 2026 (Vol 19) submissions. 
+
+    ## What is Shadow PC?
+
+    VLDB is organizing a shadow program committee for the VLDB 2026 conference.
+    Shadow PC reviews will have no effect on the decisions of the VLDB PC, but Shadow PC members will be able to see and review the submitted VLDB papers if the authors of those papers opt in to be part of the Shadow PC paper pool at submission time.
+    Shadow PC is educational.
+    The goal is to give reviewing experience on real submissions to a top data management conference to the new members of the data management community.
+
+    The regular VLDB PC reviews / comments will remain invisible to the Shadow PC.
+    The reviews written by the Shadow PC will only be visible to the shadow PC members and eventually to the authors.
+
+    The VLDB conflict-of-interest rules will apply to shadow PC as well, and Shadow PC members will be required to comply with ethical code of conduct.
+
+    ## Why join a shadow PC?
+
+    The VLDB Shadow PC is a great opportunity for everyone who are new to the data management community (from junior researchers to senior ones who may have started working across communities) to gain experience with the review and program committee process.
+
+    Besides the recognition of being selected to Shadow PC, serving in VLDB Shadow PC is worthwhile for a number of reasons:
+
+    - Getting to know how an academic PC operates in the data management community;
+    - Seeing how other reviewers judge the same papers that you review;
+    - Getting to see both strong and weak papers at the submission stage;
+    - Discovering what it takes to publish a paper in a top data management venue such as VLDB;
+    - Having a chance to read top-notch papers in your area of expertise before they are published;
+    - Getting to know other researchers who are also selected to the Shadow PC.
+
+    ## How does the shadow PC work?
+
+    Shadow PC members must commit themselves to writing their own detailed and rigorous reviews for papers assigned to them by the allotted deadlines.
+    This timely review commitment is essential to the good functioning of the Shadow PC.
+    Candidates who might be unable to fulfil their reviewing duties should refrain from applying. 
+
+    To keep the load feasible, the Shadow PC will review one paper submitted to VLDB every other month starting from June.
+    The paper pools and review timelines will mimic the VLDB 2026 review cycles and timelines, and we will be using CMT as the reviewing platform like VLDB.
+
+    The Shadow PC will receive feedback on their reviews by the Shadow PC chairs and have a chance to learn from the reviews of other Shadow PC members.
+
+    Here is the more detailed timeline:
+
+    - March 1, 2025: Call for Shadow PC deadline
+    - March 13, 2025: Finalize Shadow PC
+    - May 2025: Online intro meeting with PC
+    - June 2025: 1st round review --- paper pool April-May submissions 
+    - July 2025: Online feedback meeting after first round
+    - August 2025: 2nd round review --- paper pool June-July submissions
+    - September 2025: An in-person session during VLDB 2025 on Shadow PC - feedback & lessons-learned so far
+    - October 2025: 3rd round review --- paper pool August-September submissions
+    - December 2025: 4th round review --- paper pool October-November submissions
+    - February 2026: 5th round review --- paper pool December-January submissions
+    - April 2026: 6th / final round review --- paper pool February-March submissions
+    - May 2026: Final feedback meeting, online
+    - August/September 2026: In-person session at VLDB 2026 with Shadow PC 2026 and Shadow PC 2027
+
+    (Tentative) Timeline for reviewing months:
+
+    - Paper assignments by the 1st of the month
+    - Reviews due by 28th of the month 
+    - Online discussions to reach the final decision (accept/revision/reject) for the paper till the 13th of the following month
+
+    ## How to become a shadow PC member? 
+
+    For this instance of VLDB Shadow PC, our target audience are the people who are involved in the data management community through their research and wish to get some reviewing experience in this community but haven't had a data management conference reviewing experience yet.
+    Therefore, we are looking for candidates that (1) have already published at a data management venue or an affiliated workshop and (2) haven't yet served in the program committee of any data management venue.
+
+    You will need to submit your application at [forms.office.com/e/XYihKj4UKq](https://forms.office.com/e/XYihKj4UKq) by March 1st, 2025 (AoE).
+    The required information for the application can be found on the form. 
+
+    ## Contact
+
+    For any further information, please contact the shadow PC chairs: vldb2026_shadowpc_chairs@o365team.itu.dk. 
+
+    - Pınar Tözün (IT University of Copenhagen, Denmark)
+    - Tianzheng Wang (Simon Fraser University, Canada)
+    - Zsolt István (TU Darmstadt, Germany)
+
+  officers:
+    - name: Adeel Aslam
+      affiliation: University of Southampton England
+    - name: Bharath Vissapragada
+      affiliation: Redpanda Data Inc
+    - name: Charlotte Felius
+      affiliation: CWI
+    - name: Christos Tsapelas
+      affiliation: National and Kapodistrian University of Athens
+    - name: Chuangtao Ma
+      affiliation: Aalborg University
+    - name: Dalsu Choi
+      affiliation: SAP
+    - name: Daniel Lindner
+      affiliation: Hasso Plattner Institute
+    - name: Daniel ten Wolde
+      affiliation: CWI
+    - name: Danrui Qi
+      affiliation: Simon Fraser University
+    - name: David Justen
+      affiliation: BIFOLD & TU Berlin
+    - name: Dippy Aggarwal
+      affiliation: Microsoft
+    - name: Fangzhu Shen
+      affiliation: Duke University
+    - name: Francesco Pugnaloni
+      affiliation: Hasso Plattner Institute
+    - name: Franziska Neuhof
+      affiliation: L3S Research Center & Leibniz University Hannover
+    - name: Gang Liao
+      affiliation: Meta
+    - name: Gaurav Saxena
+      affiliation: Amazon
+    - name: Gourab Mitra
+      affiliation: Datometry
+    - name: Guanli Liu
+      affiliation: The University of Melbourne
+    - name: Guopeng Li
+      affiliation: University of Science and Technology of China
+    - name: Haoxiang Zhang
+      affiliation: Uber
+    - name: Ilaria Battiston
+      affiliation: CWI
+    - name: Ilias Azizi
+      affiliation: UM6P
+    - name: Jees Augustine
+      affiliation: Microsoft
+    - name: Jiacheng Wu
+      affiliation: University of Washington
+    - name: Jianwei Wang
+      affiliation: University of New South Wales
+    - name: Jiayao Zhang
+      affiliation: Zhejiang University
+    - name: Jonghyeok Park
+      affiliation: Korea University
+    - name: Kishy Kumar
+      affiliation: Oracle
+    - name: Lam-Duy Nguyen
+      affiliation: Technical University of Munich
+    - name: Leonhard Spiegelberg
+      affiliation: Snowflake
+    - name: Letong Wang
+      affiliation: University of California, Riverside
+    - name: Manos Chatzakis
+      affiliation: University of Paris Cite
+    - name: Maximilian K. Egger
+      affiliation: Aarhus University
+    - name: Michael Jungmair
+      affiliation: Technical University of Munich
+    - name: Mijin An
+      affiliation: SAP Labs Korea
+    - name: Navid Eslami
+      affiliation: University of Toronto
+    - name: Niko Tsikoudis
+      affiliation: Datometry
+    - name: Olga Ovcharenko
+      affiliation: BIFOLD & Technische Universität Berlin
+    - name: Peizhi Wu
+      affiliation: University of Pennsylvania
+    - name: Qilong Li
+      affiliation: Southern University of Science and Technology
+    - name: Rodrigo Nunes Laigner
+      affiliation: University of Copenhagen
+    - name: Sean Bin Yang
+      affiliation: Aalborg University
+    - name: Shubham Kaushik
+      affiliation: Brandeis University
+    - name: Shubham Vashisth
+      affiliation: McGill University
+    - name: Siyuan Dong
+      affiliation: University of Michigan, Ann Arbor
+    - name: Stavros Maroulis
+      affiliation: Athena Research Center
+    - name: Sumedh Sakdeo
+      affiliation: LinkedIn
+    - name: Ted Shaowang
+      affiliation: University of Chicago
+    - name: Ties Robroek
+      affiliation: IT University of Copenhagen
+    - name: Vinay Banakar
+      affiliation: University of Wisconsin-Madison
+    - name: Vineet Garg
+      affiliation: Snowflake
+    - name: Wentao Huang
+      affiliation: National University of Singapore
+    - name: Xiangpeng Hao
+      affiliation: University of Wisconsin-Madison
+    - name: Xiangyun Ding
+      affiliation: University of California, Riverside
+    - name: Xiao Li
+      affiliation: IT University of Copenhagen
+    - name: Xiaojun Dong
+      affiliation: University of California, Riverside
+    - name: Xinle Cao
+      affiliation: Zhejiang University
+    - name: Yangshen Deng
+      affiliation: Southern University of Science and Technology
+    - name: Yichao Yuan
+      affiliation: University of Michigan
+    - name: Yihao Hu
+      affiliation: Duke University
+    - name: Ying Zheng
+      affiliation: National University of Singapore
+    - name: Yongye Su
+      affiliation: Purdue University
+    - name: Yue Gong
+      affiliation: University of Chicago
+    - name: Zeyu Wang
+      affiliation: Fudan University & University of Paris Cite
+    - name: Zheng Zheng
+      affiliation: Northeastern University (Toronto Campus)
+    - name: Ziyang Men
+      affiliation: University of California, Riverside
+    - name: Ziyi Yan
+      affiliation: Simon Fraser University
+
+pvldb-review-board:
+  link: https://www.vldb.org/pvldb/volumes/19/review-board
+officers:
+  - title: General Chairs
+    people:
+      - name: Divesh Srivastava
+        affiliation: AT&T
+      - name: Jeffrey Xu Yu
+        affiliation: HKUST(GZ)
+  - title: Program Committee Chairs
+    people:
+      - name: Yanlei Diao
+        affiliation: Ecole Polytechnique and Amazon Web Services, France     
+      - name: Xiaokui Xiao
+        affiliation: National University of Singapore, Singapore
+
+  - title: Associate Editors
+    people:
+      - name: Alkis Polyzotis
+        affiliation: Databricks
+      - name: Alkis Simitsis
+        affiliation: Athena Research Center
+      - name: Andrew Pavlo
+        affiliation: Carnegie Mellon University
+      - name: Angela Bonifati
+        affiliation: Univ. of Lyon
+      - name: Anh Dinh
+        affiliation: Deakin University
+      - name: Antonis Deligiannakis
+        affiliation: Technical University of Crete
+      - name: Ashraf Aboulnaga
+        affiliation: University of Texas at Arlington
+      - name: Badrish Chandramouli
+        affiliation: Microsoft Research
+      - name: Bin Cui
+        affiliation: Peking University
+      - name: Bogdan Cautis
+        affiliation: University of Paris-Saclay
+      - name: Ce Zhang
+        affiliation: University of Chicago
+      - name: Elena Ferrari
+        affiliation: University of Insubria, Varese
+      - name: Evaggelia Pitoura
+        affiliation: Univ. of Ioannina
+      - name: Fatemeh Nargesian
+        affiliation: University of Rochester
+      - name: Guoliang Li
+        affiliation: Tsinghua University
+      - name: Hong Cheng
+        affiliation: Chinese University of Hong Kong
+      - name: Immanuel Trummer
+        affiliation: Cornell University
+      - name: Jana Giceva
+        affiliation: TU Munich
+      - name: Jennie Rogers
+        affiliation: Northwestern University
+      - name: Jian Pei
+        affiliation: Duke University
+      - name: Jianliang Xu
+        affiliation: Hong Kong Baptist University
+      - name: Karima Echihabi
+        affiliation: Mohammed VI Polytechnic University
+      - name: Katja Hose
+        affiliation: TU Wien
+      - name: Khuzaima Daudjee
+        affiliation: University of Waterloo
+      - name: Kunsoo Park
+        affiliation: Seoul National University
+      - name: Kyuseok Shim
+        affiliation: Seoul National University
+      - name: Laks Lakshmanan
+        affiliation: The University of British Columbia
+      - name: Lei Cao
+        affiliation: University of Arizona
+      - name: Lei Chen
+        affiliation: Hong Kong University of Science and Technology
+      - name: Li Xiong
+        affiliation: Emory University
+      - name: Mauro Sozio
+        affiliation: Luiss University of Rome
+      - name: Meihui Zhang
+        affiliation: Beijing Institute of Technology
+      - name: Melanie Herschel
+        affiliation: Nanyang Technological University
+      - name: Michael Böhlen
+        affiliation: University of Zurich
+      - name: Nan Tang
+        affiliation: HKUST (GZ)
+      - name: Niv Dayan
+        affiliation: University of Toronto
+      - name: Norman May
+        affiliation: SAP SE
+      - name: Raul Castro Fernandez
+        affiliation: The University of Chicago
+      - name: Raymond Chi-Wing Wong
+        affiliation: Hong Kong University of Science and Technology
+      - name: Reynold Cheng
+        affiliation: The University of Hong Kong, China
+      - name: Ruben Mayer
+        affiliation: University of Bayreuth
+      - name: Semih Salihoglu
+        affiliation: University of Waterloo
+      - name: Shimin Chen
+        affiliation: Chinese Academy of Sciences
+      - name: Sibo Wang
+        affiliation: The Chinese University of Hong Kong
+      - name: Sourav S Bhowmick
+        affiliation: Nanyang Technological University
+      - name: Spyros Blanas
+        affiliation: The Ohio State University
+      - name: Steven Whang
+        affiliation: KAIST
+      - name: Sudipto Das
+        affiliation: Amazon Web Services
+      - name: Umar Farooq Minhas
+        affiliation: Apple
+      - name: Wei Wang
+        affiliation: ByteDance
+      - name: Wook-Shin Han
+        affiliation: POSTECH
+      - name: Yannis Velegrakis
+        affiliation: Utrecht University
+      - name: Yanyan Shen
+        affiliation: Shanghai Jiao Tong University
+      - name: Yi Chen
+        affiliation: NJIT
+      - name: Yuncheng Wu
+        affiliation: Renmin University of China
+      - name: Zhifeng Bao
+        affiliation: The University of Queensland
+      - name: Zi Huang
+        affiliation: University of Queensland
+  # - title: Program Committee
+  #   people:
+  #     - name: Ahmed Eldawy
+  #       affiliation: University of California, Riverside
+  #     - name: Anastasios Gounaris
+  #       affiliation: Aristotle University of Thessaloniki
+  #     - name: Andra Ionescu
+  #       affiliation: KTH Royal Institute of Technology
+  #     - name: Arash Termehchy
+  #       affiliation: Oregon State University
+  #     - name: Bo Tang
+  #       affiliation: Southern University of Science and Technology
+  #     - name: Bo Zhao
+  #       affiliation: Aalto University
+  #     - name: Carlo Sartiani
+  #       affiliation: Universita della Basilica
+  #     - name: Chao Zhang
+  #       affiliation: University of Waterloo
+  #     - name: Chuan Xiao
+  #       affiliation: Nagoya University
+  #     - name: Chunwei Liu
+  #       affiliation: MIT CSAIL
+  #     - name: Dimitris Tsitsigkos
+  #       affiliation: Archimedes, Athena Research Center
+  #     - name: El Kindi Rezig
+  #       affiliation: University of Utah
+  #     - name: Enzo Veltri
+  #       affiliation: Università della Basilicata
+  #     - name: Fabian Panse
+  #       affiliation: University of Augsburg
+  #     - name: Garima Gaur
+  #       affiliation: Inria Saclay, Ecole Polytechnique
+  #     - name: George Papastefanatos
+  #       affiliation: ATHENA Research Center
+  #     - name: Georgia Troullinou
+  #       affiliation: CNRS
+  #     - name: Georgios Siachamis
+  #       affiliation: Inria
+  #     - name: Guozhong Li
+  #       affiliation: King Abdullah University of Science & Technology
+  #     - name: Hangdong Zhao
+  #       affiliation: Microsoft
+  #     - name: Hiroaki Shiokawa
+  #       affiliation: University of Tsukuba
+  #     - name: Ibrahim Sabek
+  #       affiliation: University of Southern California
+  #     - name: Irena Holubova
+  #       affiliation: Charles University
+  #     - name: Jens d'Hondt
+  #       affiliation: Barcelona supercomputing center
+  #     - name: Jia Zou
+  #       affiliation: Arizona State University
+  #     - name: Jiaxin Jiang
+  #       affiliation: National University of Singapore
+  #     - name: Junghoon Kim
+  #       affiliation: UNIST
+  #     - name: Kostas Stefanidis
+  #       affiliation: Tampere University
+  #     - name: Kyoungmin Kim
+  #       affiliation: EPFL
+  #     - name: Larissa Capobianco Shimomura
+  #       affiliation: Hasselt University
+  #     - name: Lihong He
+  #       affiliation: IBM Research
+  #     - name: Lisi Chen
+  #       affiliation: UESTC
+  #     - name: Loredana Caruccio
+  #       affiliation: University of Salerno
+  #     - name: Martin Boissier
+  #       affiliation: Hasso Plattner Institute, University of Potsdam
+  #     - name: Mayuresh Kunjir
+  #       affiliation: Amazon AWS
+  #     - name: Niccolo Meneghetti
+  #       affiliation: University of Michigan - Dearborn
+  #     - name: Nikolay Yakovets
+  #       affiliation: TU Eindhoven
+  #     - name: Nikos Bikakis
+  #       affiliation: Hellenic Mediterranean University & ATHENA Research Center
+  #     - name: Panagiotis Liakos
+  #       affiliation: Athens University of Economics and Business
+  #     - name: Paul Boniol
+  #       affiliation: Inria, Ecole normale supérieure
+  #     - name: Petra Selmer
+  #       affiliation: Bloomberg
+  #     - name: Philipp Skavantzos
+  #       affiliation: The University of Auckland
+  #     - name: Qitong Wang
+  #       affiliation: Harvard University
+  #     - name: Ramon Lawrence
+  #       affiliation: University of British Columbia
+  #     - name: Rihan Hai
+  #       affiliation: TU Delft
+  #     - name: Sajjadur Rahman
+  #       affiliation: Adobe
+  #     - name: Stefano Cirillo
+  #       affiliation: University of Salerno
+  #     - name: Subhadeep Sarkar
+  #       affiliation: Brandeis University
+  #     - name: Tarikul Islam Papon
+  #       affiliation: UMass Boston
+  #     - name: Toshiyuki Amagasa
+  #       affiliation: University of Tsukuba
+  #     - name: Uta Störl
+  #       affiliation: University of Hagen
+  #     - name: Verena Kantere
+  #       affiliation: University of Ottawa
+  #     - name: Vikram Goyal
+  #       affiliation: IIIT Delhi, India
+  #     - name: Vivek Shah
+  #       affiliation: Samsung
+  #     - name: Wentao Wu
+  #       affiliation: Microsoft Research
+  #     - name: Yannis Foufoulas
+  #       affiliation: Athena Research Center
+  #     - name: Yanwei Yu
+  #       affiliation: Ocean University of China
+  #     - name: Yaron Kanza
+  #       affiliation: AT&T Labs-Research
+  #     - name: Yingxia Shao
+  #       affiliation: BUPT
+  #     - name: Yiru Chen
+  #       affiliation: Columbia University
+  #     - name: Yongjoo Park
+  #       affiliation: University of Illinois at Urbana-Champaign
+  #     - name: Yuval Moskovitch
+  #       affiliation: Ben Gurion University
+  #     - name: Yuxi Wang
+  #       affiliation: Hangzhou Dianzi University
+  #     - name: Zafeiria Moumoulidou
+  #       affiliation: University of Massachusetts Amherst
+  #     - name: Zhengjie Miao
+  #       affiliation: Simon Fraser University
+  #     - name: Zhichao Cao
+  #       affiliation: Arizona State University
+  #     - name: Zhidan Liu
+  #       affiliation: Hong Kong University of Science and Technology (Guangzhou)
+  #     - name: Zhiqiang Zhong
+  #       affiliation: Aarhus UNiversity
+  - title: Proceedings Chairs
+    people:
+      - name: Subhadeep Sarkar
+        affiliation: Brandeis University, USA
+        email: subhadeep@brandeis.edu
+      - name: Giovanni Simonini
+        affiliation: University of Modena and Reggio Emilia, Italy
+        email: simonini@unimore.it
+      - name: Siqiang Luo
+        affiliation: Nanyang Technological University
+        email: siqiang.luo@ntu.edu.sg
+      - name: Andrea Mauri
+        affiliation: Université Claude Bernard Lyon 1, France
+        email: andrea.mauri@univ-lyon1.fr
+      - name: Stefan Thomas Halfpap
+        affiliation: Technische Universität Berlin, Germany
+        email: halfpap@tu-berlin.de
+  - title: Local Arrangements Chairs
+    people:
+      - name: Nan Tang
+        affiliation: HKUST(GZ)
+      - name: Jing Tang
+        affiliation: HKUST(GZ)
+  - title: Web Chair
+    people:
+      - name: Zhuowen Liang
+        affiliation: HKUST(GZ)
+  - title: Panel Chair
+    people:
+      - name: Guoliang Li
+        affiliation: Tsinghua University
+  # - title: Associate Editors
+  #   people:
+  #     - name: Björn Þ Jónsson
+  #       affiliation: Reykjavik University
+  #     - name: Byron Choi
+  #       affiliation: Hong Kong Baptist University
+  #     - name: Curtis Dyreson
+  #       affiliation: Utah State University
+  #     - name: Danica Porobic
+  #       affiliation: Oracle
+  #     - name: H. V. Jagadish
+  #       affiliation: University of Michigan
+  #     - name: Haridimos Kondylakis
+  #       affiliation: FORTH-ICS & Computer Science Department, University of Crete
+  #     - name: Jan Hidders
+  #       affiliation: Birkbeck, University of London
+  #     - name: K. Selçuk Candan
+  #       affiliation: Arizona State University
+  #     - name: Mohamed Mokbel
+  #       affiliation: University of Minnesota - Twin Cities
+  #     - name: Nikos Mamoulis
+  #       affiliation: University of Ioannina
+  #     - name: Pierre Senellart
+  #       affiliation: ENS, PSL University
+  #     - name: Sebastian Link
+  #       affiliation: University of Auckland
+  #     - name: Sebastian Schelter
+  #       affiliation: BIFOLD & TU Berlin
+  #     - name: Steffen Zeuch
+  #       affiliation: TU Berlin
+  #     - name: Tianzheng Wang
+  #       affiliation: Simon Fraser University
+  #     - name: Vagelis Hristidis
+  #       affiliation: UC Riverside
+  #     - name: Vassilis J. Tsotras
+  #       affiliation: UC Riverside
+  #     - name: Walid G Aref
+  #       affiliation: Purdue
+  #     - name: Wolfgang Gatterbauer
+  #       affiliation: Northeastern University
+  # - title: Industrial Track Reviewers
+  #   people:
+  #     - name: A. Jesse Jiryu Davis
+  #       affiliation: MongoDB
+  #     - name: Alekh Jindal
+  #       affiliation: Tursio
+  #     - name: Alexander Böhm
+  #       affiliation: SAP SE
+  #     - name: Alin Deutsch
+  #       affiliation: UC San Diego & TigerGraph
+  #     - name: Allison Holloway
+  #       affiliation: Oracle
+  #     - name: Anderson Chaves Carniel
+  #       affiliation: Huawei Technologies R&D (UK) Ltd.
+  #     - name: Anisoara Nica
+  #       affiliation: SAP SE, Waterloo, Canada
+  #     - name: Bailu Ding
+  #       affiliation: Microsoft Research
+  #     - name: Bolin Ding
+  #       affiliation: Data Analytics and Intelligence Lab, Alibaba Group
+  #     - name: Boris Motik
+  #       affiliation: University of Oxford
+  #     - name: Byungchul Tak
+  #       affiliation: Kyungpook National University
+  #     - name: Calisto Zuzarte
+  #       affiliation: IBM
+  #     - name: Campbell Fraser
+  #       affiliation: Google
+  #     - name: Christos Christodoulopoulos
+  #       affiliation: Information Commissioner's Office
+  #     - name: Clemens Lutz
+  #       affiliation: NVIDIA
+  #     - name: Cong Yan
+  #       affiliation: Snowflake
+  #     - name: Danica Porobic
+  #       affiliation: Oracle
+  #     - name: Dirk Habich
+  #       affiliation: TU Dresden
+  #     - name: Fabian Hueske
+  #       affiliation: Confluent Inc.
+  #     - name: Hanuma Kodavalla
+  #       affiliation: Microsoft
+  #     - name: Hesam Shahrokhi
+  #       affiliation: RelationalAI
+  #     - name: Ismail Oukid
+  #       affiliation: Snowflake Computing
+  #     - name: Jan Hidders
+  #       affiliation: Birkbeck, University of London
+  #     - name: Jia Li
+  #       affiliation: Edinburgh Research Center, Central Software Institute, Huawei
+  #     - name: Jie Song
+  #       affiliation: ByteDance
+  #     - name: Jiexing Li
+  #       affiliation: Databricks
+  #     - name: Jim Webber
+  #       affiliation: Neo4j
+  #     - name: Justin Levandoski
+  #       affiliation: Google
+  #     - name: Kai Wang
+  #       affiliation: Shanghai Jiao Tong University
+  #     - name: Lev Novik
+  #       affiliation: Databricks
+  #     - name: Marcus Paradies
+  #       affiliation: LMU Munich
+  #     - name: Maria Krommyda
+  #       affiliation: Huawei ERC
+  #     - name: Matteo Interlandi
+  #       affiliation: Microsoft
+  #     - name: Matthaios Olma
+  #       affiliation: MongoDB
+  #     - name: Meichun Hsu
+  #       affiliation: Oracle America
+  #     - name: Milos Nikolic
+  #       affiliation: University of Edinburgh
+  #     - name: Nicolas Bruno
+  #       affiliation: Microsoft
+  #     - name: Norman May
+  #       affiliation: SAP SE
+  #     - name: Paris Carbone
+  #       affiliation: KTH Royal Institute of Technology
+  #     - name: Pavel Klinov
+  #       affiliation: Stardog Union
+  #     - name: Petra Selmer
+  #       affiliation: Bloomberg
+  #     - name: Raghav Kaushik
+  #       affiliation: Microsoft
+  #     - name: Rahul Potharaju
+  #       affiliation: Databricks
+  #     - name: Rebecca Taft
+  #       affiliation: Cockroach Labs
+  #     - name: Riccardo Tommasini
+  #       affiliation: INSA Lyon - LIRIS
+  #     - name: Rong-Hua Li
+  #       affiliation: Beijing Institute of Technology
+  #     - name: Sergey Melnik
+  #       affiliation: Amazon
+  #     - name: Silu Huang
+  #       affiliation: Bytedance
+  #     - name: Stefan Plantikow
+  #       affiliation: Microsoft
+  #     - name: Sudipto Das
+  #       affiliation: Amazon Web Services
+  #     - name: Supun Nakandala
+  #       affiliation: Databricks Inc
+  #     - name: Theodoros Rekatsinas
+  #       affiliation: Apple
+  #     - name: Tim Gubner
+  #       affiliation: Huawei
+  #     - name: Uta Störl
+  #       affiliation: University of Hagen
+  #     - name: Vladi Vexler
+  #       affiliation: Huawei
+  #     - name: Wei Ma
+  #       affiliation: University of Glasgow
+  #     - name: Yeounoh Chung
+  #       affiliation: Google
+  #     - name: Yongchao Liu
+  #       affiliation: Ant Group
+  #     - name: Ziyang Li
+  #       affiliation: Johns Hopkins University
+  #     - name: Zoi Kaoudi
+  #       affiliation: IT University of Copenhagen
+  # - title: Regular Reviewers
+  #   people:
+  #     - name: Abhishek Roy
+  #       affiliation: Microsoft
+  #     - name: Ahmed Aly
+  #       affiliation: Google
+  #     - name: Ahmed Eldawy
+  #       affiliation: University of California, Riverside
+  #     - name: Ahmed Mahmood
+  #       affiliation: Google
+  #     - name: Alberto Lerner
+  #       affiliation: Computing Flows GmbH
+  #     - name: Alberto Sonnino
+  #       affiliation: MystenLabs & University College London
+  #     - name: Alexander Artikis
+  #       affiliation: University of Piraeus
+  #     - name: Alexander Böhm
+  #       affiliation: SAP SE
+  #     - name: Alexander Krause
+  #       affiliation: TU Dresden
+  #     - name: Amarnadh Sai Eluri
+  #       affiliation: Google
+  #     - name: Amelie Marian
+  #       affiliation: Rutgers University
+  #     - name: Amine Mhedhbi
+  #       affiliation: Polytechnique Montréal
+  #     - name: Amir Shaikhha
+  #       affiliation: University of Edinburgh
+  #     - name: Amr Magdy
+  #       affiliation: University of California Riverside
+  #     - name: Andrea Mauri
+  #       affiliation: Lyon 1 University
+  #     - name: Andreas Züfle
+  #       affiliation: Emory University
+  #     - name: Antonio Boffa
+  #       affiliation: EPFL
+  #     - name: Arash Termehchy
+  #       affiliation: Oregon State University
+  #     - name: Arijit Khan
+  #       affiliation: Bowling Green State University
+  #     - name: Aristides Gionis
+  #       affiliation: KTH Royal Institute of Technology
+  #     - name: Arkaprava Saha
+  #       affiliation: University of Tsukuba
+  #     - name: Arnab Phani
+  #       affiliation: TU Berlin
+  #     - name: Arnd König
+  #       affiliation: Microsoft
+  #     - name: Avinash Kumar
+  #       affiliation: Google
+  #     - name: Baihua Zheng
+  #       affiliation: Singapore Management University
+  #     - name: Berthold Reinwald
+  #       affiliation: IBM Research - Almaden
+  #     - name: Bin Yang
+  #       affiliation: Aalborg University
+  #     - name: Bo Tang
+  #       affiliation: Southern University of Science and Technology
+  #     - name: Bo Zhao
+  #       affiliation: Aalto University
+  #     - name: Bobbi W Yogatama
+  #       affiliation: NVIDIA
+  #     - name: Bojan Karlaš
+  #       affiliation: Harvard University
+  #     - name: Boris Glavic
+  #       affiliation: University of Illinois Chicago
+  #     - name: Brian Kroth
+  #       affiliation: Microsoft
+  #     - name: Brit Youngmann
+  #       affiliation: Technion
+  #     - name: Calisto Zuzarte
+  #       affiliation: IBM
+  #     - name: Carlo Curino
+  #       affiliation: Microsoft
+  #     - name: Chang Ge
+  #       affiliation: University of Minnesota
+  #     - name: Chao Zhang
+  #       affiliation: University of Waterloo
+  #     - name: Chen Zhang
+  #       affiliation: The Hong Kong Polytechnic University
+  #     - name: Cheng Long
+  #       affiliation: Nanyang Technological University
+  #     - name: Chenghao Lyu
+  #       affiliation: Amazon
+  #     - name: Chengkai Li
+  #       affiliation: The University of Texas at Arlington
+  #     - name: Chengliang Chai
+  #       affiliation: Beijing Institute of Technology
+  #     - name: Chenhao Ma
+  #       affiliation: The Chinese University of Hong Kong, Shenzhen
+  #     - name: Christan Grant
+  #       affiliation: University of Florida
+  #     - name: Christos Doulkeridis
+  #       affiliation: University of Pireaus
+  #     - name: Christos Koutras
+  #       affiliation: New York University
+  #     - name: Chrysanthi Kosyfaki
+  #       affiliation: The University of Hong Kong
+  #     - name: Chuan Lei
+  #       affiliation: Oracle
+  #     - name: Chunwei Liu
+  #       affiliation: MIT CSAIL
+  #     - name: Cindy Chen
+  #       affiliation: University of Massachusetts Lowell
+  #     - name: Cong Yue
+  #       affiliation: National University of Singapore
+  #     - name: Daniel Kang
+  #       affiliation: UIUC
+  #     - name: Daniel Ritter
+  #       affiliation: SAP
+  #     - name: Davood Rafiei
+  #       affiliation: University of Alberta
+  #     - name: Demetris Zeinalipour
+  #       affiliation: University of Cyprus
+  #     - name: Dimitrios Skoutas
+  #       affiliation: Athena Research Center
+  #     - name: Dixin Tang
+  #       affiliation: The University of Texas, Austin
+  #     - name: Domagoj Vrgoč
+  #       affiliation: PUC
+  #     - name: Dominik Durner
+  #       affiliation: CedarDB
+  #     - name: Donatella Firmani
+  #       affiliation: Sapienza University
+  #     - name: Donato Tiano
+  #       affiliation: Università degli Studi di Modena e Reggio Emilia
+  #     - name: Dong Deng
+  #       affiliation: Alibaba Cloud Computing
+  #     - name: Dong Xie
+  #       affiliation: Penn State University
+  #     - name: Dumitrel Loghin
+  #       affiliation: OKX
+  #     - name: Eduard Dragut
+  #       affiliation: Temple Univ.
+  #     - name: Egemen Tanin
+  #       affiliation: University of Melbourne
+  #     - name: El Kindi Rezig
+  #       affiliation: University of Utah
+  #     - name: Eleni Tzirita Zacharatou
+  #       affiliation: Hasso Plattner Institute (HPI)
+  #     - name: Eliana Pastor
+  #       affiliation: Politecnico di Torino
+  #     - name: Elisa Bertino
+  #       affiliation: Purdue University
+  #     - name: Enzo Veltri
+  #       affiliation: Università della Basilicata
+  #     - name: Ergute Bao
+  #       affiliation: Mohamed bin Zayed University of Artificial Intelligence
+  #     - name: Eser Kandogan
+  #       affiliation: Megagon Labs
+  #     - name: Essam Mansour
+  #       affiliation: Concordia University
+  #     - name: Farnoush Banaei-Kashani
+  #       affiliation: University of Colorado Denver
+  #     - name: Felix Schuhknecht
+  #       affiliation: Johannes Gutenberg University Mainz
+  #     - name: Florian Hahn
+  #       affiliation: University of Twente
+  #     - name: Florin Rusu
+  #       affiliation: UC Merced
+  #     - name: Francesco Gullo
+  #       affiliation: University of L'Aquila
+  #     - name: Fuad Jamour
+  #       affiliation: Amazon Web Services
+  #     - name: Gao Cong
+  #       affiliation: Nanyang Technological Univesity
+  #     - name: Garima Gaur
+  #       affiliation: Inria Saclay, Ecole Polytechnique
+  #     - name: Gengrui Zhang
+  #       affiliation: Concordia University
+  #     - name: George Christodoulou
+  #       affiliation: TU Delft
+  #     - name: George Papadakis
+  #       affiliation: University of Athens
+  #     - name: George Papastefanatos
+  #       affiliation: ATHENA Research Center
+  #     - name: Georgios Siachamis
+  #       affiliation: Inria
+  #     - name: Georgios Theodorakis
+  #       affiliation: Nvidia
+  #     - name: Giorgio Vinciguerra
+  #       affiliation: Università di Pisa
+  #     - name: Giuseppina Andresini
+  #       affiliation: University of Bari Aldo Moro
+  #     - name: Goce Trajcevski
+  #       affiliation: Iowa State University
+  #     - name: Grigorios Loukides
+  #       affiliation: King's College London
+  #     - name: Guido Moerkotte
+  #       affiliation: University of Mannheim
+  #     - name: Guillaume Lachaud
+  #       affiliation: Ecole Polytechnique
+  #     - name: Haibo Hu
+  #       affiliation: Hong Kong Polytechnic University
+  #     - name: Haipeng Dai
+  #       affiliation: Nanjing University
+  #     - name: Hannes Voigt
+  #       affiliation: Neo4j
+  #     - name: Hantian Zhang
+  #       affiliation: Google
+  #     - name: Hanzhi Wang
+  #       affiliation: University of Copenhagen
+  #     - name: Haralampos Gavriilidis
+  #       affiliation: BIFOLD & Technische Universität Berlin
+  #     - name: Haridimos Kondylakis
+  #       affiliation: FORTH-ICS & Computer Science Department, University of Crete
+  #     - name: Harry Kai-Ho Chan
+  #       affiliation: The University of Sheffield
+  #     - name: Hazar Harmouch
+  #       affiliation: University of Amsterdam
+  #     - name: Herald Kllapi
+  #       affiliation: Google Inc
+  #     - name: Hongzhi Wang
+  #       affiliation: Harbin Institute of Technology
+  #     - name: Hua Lu
+  #       affiliation: Aalborg University
+  #     - name: Huanchen Zhang
+  #       affiliation: Tsinghua University
+  #     - name: Huiping Chen
+  #       affiliation: University of Birmingham
+  #     - name: Hyungsoo Jung
+  #       affiliation: Seoul National University
+  #     - name: Hyunjoon Kim
+  #       affiliation: Hanyang University
+  #     - name: Ibrahim Sabek
+  #       affiliation: University of Southern California
+  #     - name: Igor Zablotchi
+  #       affiliation: Mysten Labs
+  #     - name: Ilia Petrov
+  #       affiliation: Reutlingen University
+  #     - name: Ilias Azizi
+  #       affiliation: Mohammed VI Polytechnic University
+  #     - name: Ilie Sarpe
+  #       affiliation: KTH Royal Institute of Technology
+  #     - name: Indrakshi Ray
+  #       affiliation: Colorado State University
+  #     - name: Ioannis Demertzis
+  #       affiliation: UCSC
+  #     - name: Jaeyoung Do
+  #       affiliation: Seoul National University
+  #     - name: Jan Hidders
+  #       affiliation: Birkbeck, University of London
+  #     - name: Jeeta Ann Chacko
+  #       affiliation: Technical University of Munich
+  #     - name: Jeffrey Xu Yu
+  #       affiliation: The Hong Kong University of Science and Technology (Guangzhou)
+  #     - name: Jelle Hellings
+  #       affiliation: McMaster University
+  #     - name: Jesús Camacho-Rodríguez
+  #       affiliation: Microsoft
+  #     - name: Jia Li
+  #       affiliation: Hong Kong University of Science and Technology
+  #     - name: Jia Zou
+  #       affiliation: Arizona State University
+  #     - name: Jialin Ding
+  #       affiliation: Princeton University
+  #     - name: Jianguo Wang
+  #       affiliation: Purdue University
+  #     - name: Jiannan Wang
+  #       affiliation: Tsinghua University
+  #     - name: Jianxin Li
+  #       affiliation: Edith Cowan University
+  #     - name: Jiawei Jiang
+  #       affiliation: Wuhan University
+  #     - name: Jieming Shi
+  #       affiliation: The Hong Kong Polytechnic University
+  #     - name: Jignesh Patel
+  #       affiliation: Carnegie Mellon University
+  #     - name: Jin Wang
+  #       affiliation: Arizona State University
+  #     - name: Jiwon Seo
+  #       affiliation: Seoul National University
+  #     - name: Johes Bater
+  #       affiliation: Tufts University
+  #     - name: Johannes Pietrzyk
+  #       affiliation: TU Dresden
+  #     - name: John Paparrizos
+  #       affiliation: The Ohio State University
+  #     - name: Jonathan Fürst
+  #       affiliation: ZHAW Zurich University of Applied Sciences
+  #     - name: Jonghyeok Park
+  #       affiliation: Korea University
+  #     - name: Joseph Near
+  #       affiliation: University of Vermont
+  #     - name: Ju Fan
+  #       affiliation: Renmin University of China
+  #     - name: Junghoon Kim
+  #       affiliation: UNIST
+  #     - name: Junhao Gan
+  #       affiliation: University of Melbourne
+  #     - name: K. Selçuk Candan
+  #       affiliation: Arizona State University
+  #     - name: Kai-Uwe Sattler
+  #       affiliation: TU Ilmenau
+  #     - name: Kaisong Huang
+  #       affiliation: University of Calgary
+  #     - name: Kanchan Chowdhury
+  #       affiliation: Marquette University
+  #     - name: Karim Benouaret
+  #       affiliation: Univ Lyon
+  #     - name: Katsiaryna Mirylenka
+  #       affiliation: Zalando SE
+  #     - name: Kaustubh Beedkar
+  #       affiliation: Indian Institute of Technology Delhi
+  #     - name: Keke Huang
+  #       affiliation: The University of British Columbia
+  #     - name: Kenneth Ross
+  #       affiliation: Columbia University
+  #     - name: KI HYUN TAE
+  #       affiliation: Samsung Research
+  #     - name: Kostas Stefanidis
+  #       affiliation: Tampere University
+  #     - name: Kurt Stockinger
+  #       affiliation: Zurich University of Applied Sciences
+  #     - name: Kwanghyun Park
+  #       affiliation: Yonsei University
+  #     - name: Kyoungmin Kim
+  #       affiliation: EPFL
+  #     - name: Larissa Capobianco Shimomura
+  #       affiliation: Hasselt University
+  #     - name: Le Gruenwald
+  #       affiliation: The University of Oklahoma
+  #     - name: Lefteris Kokoris Kogias
+  #       affiliation: MystenLabs
+  #     - name: Lei Zou
+  #       affiliation: Peking University
+  #     - name: Leong Hou U
+  #       affiliation: University of Macau
+  #     - name: Leopoldo Bertossi
+  #       affiliation: Carleton University
+  #     - name: Liang Liang
+  #       affiliation: EPFL
+  #     - name: Lingyang Chu
+  #       affiliation: McMaster University
+  #     - name: Loredana Caruccio
+  #       affiliation: University of Salerno
+  #     - name: Lu Chen
+  #       affiliation: Zhejiang University
+  #     - name: Luca Gagliardelli
+  #       affiliation: eCampus University
+  #     - name: Lucas Braun
+  #       affiliation: Oracle Labs
+  #     - name: Lukasz Golab
+  #       affiliation: University of Waterloo
+  #     - name: Madhulika Mohanty
+  #       affiliation: Inria & Institut Polytechnique de Paris
+  #     - name: Magnus Mueller
+  #       affiliation: AWS
+  #     - name: Mahdi Esmailoghli
+  #       affiliation: HU Berlin
+  #     - name: Makoto Onizuka
+  #       affiliation: Osaka University
+  #     - name: Man Lung Yiu
+  #       affiliation: Hong Kong Polytechnic University
+  #     - name: Manuel Rigger
+  #       affiliation: National University of Singapore
+  #     - name: Marco Patella
+  #       affiliation: University of Bologna
+  #     - name: Markos Markakis
+  #       affiliation: Massachusetts Institute of Technology
+  #     - name: Martin Prammer
+  #       affiliation: Carnegie Mellon University
+  #     - name: Matteo Ceccarello
+  #       affiliation: University of Padova
+  #     - name: Matteo Interlandi
+  #       affiliation: Microsoft
+  #     - name: Matthaios Olma
+  #       affiliation: MongoDB
+  #     - name: Matthew Perron
+  #       affiliation: Microsoft
+  #     - name: Matthias Boehm
+  #       affiliation: Technische Universität Berlin
+  #     - name: Matthias Weidlich
+  #       affiliation: Humboldt-Universität zu Berlin
+  #     - name: Maximilian Schüle
+  #       affiliation: University of Bamberg
+  #     - name: Meichun Hsu
+  #       affiliation: Oracle America
+  #     - name: Miao Qiao
+  #       affiliation: The University of Auckland
+  #     - name: Miao Yu
+  #       affiliation: Meta
+  #     - name: Michael Cahill
+  #       affiliation: University of Sydney
+  #     - name: Michael Grossniklaus
+  #       affiliation: University of Konstanz
+  #     - name: Michael Gubanov
+  #       affiliation: Florida State University
+  #     - name: Michael Mior
+  #       affiliation: Rochester Institute of Technology
+  #     - name: Mohamed Eltabakh
+  #       affiliation: Qatar Foundation
+  #     - name: Mohamed Mokbel
+  #       affiliation: University of Minnesota - Twin Cities
+  #     - name: Mohammad Sadoghi
+  #       affiliation: University of California, Davis
+  #     - name: Mohammad Javad Amiri
+  #       affiliation: Stony Brook University
+  #     - name: Mohammed J Saeed
+  #       affiliation: Apple
+  #     - name: Mostafa Milani
+  #       affiliation: The University of Western Ontario
+  #     - name: Nick Koudas
+  #       affiliation: University of Toronto
+  #     - name: Nikolay Yakovets
+  #       affiliation: TU Eindhoven
+  #     - name: Oktie Hassanzadeh
+  #       affiliation: IBM Research
+  #     - name: Oliver Kennedy
+  #       affiliation: University at Buffalo, SUNY
+  #     - name: Oscar Romero
+  #       affiliation: Universitat Politècnica de Catalunya
+  #     - name: Panagiotis Bouros
+  #       affiliation: Johannes Gutenberg University Mainz
+  #     - name: Panagiotis Karras
+  #       affiliation: University of Copenhagen
+  #     - name: Paolo Garza
+  #       affiliation: Politecnico di Torino
+  #     - name: Paolo Merialdo
+  #       affiliation: Università degli Studi Roma Tre
+  #     - name: Paolo Missier
+  #       affiliation: University of Birmingham
+  #     - name: Paolo Papotti
+  #       affiliation: EURECOM
+  #     - name: Patrick Damme
+  #       affiliation: Technische Universität Berlin
+  #     - name: Patrick Schäfer
+  #       affiliation: Humboldt-Universität zu Berlin
+  #     - name: Paul Boniol
+  #       affiliation: Inria, Ecole normale supérieure
+  #     - name: Peizhi Wu
+  #       affiliation: University of Pennsylvania
+  #     - name: Peng Peng
+  #       affiliation: Hunan University
+  #     - name: Periklis Chrysogelos
+  #       affiliation: Oracle
+  #     - name: Peter M. Fischer
+  #       affiliation: University of Augsburg
+  #     - name: Pierangela Samarati
+  #       affiliation: Universita degli Studi di Milano
+  #     - name: Prashant Pandey
+  #       affiliation: Northeastern University
+  #     - name: Protiva Rahman
+  #       affiliation: University of Florida
+  #     - name: Qingqing Ye
+  #       affiliation: Hong Kong Polytechnic University
+  #     - name: Qitong Wang
+  #       affiliation: Harvard University
+  #     - name: Qizhen Zhang
+  #       affiliation: University of Toronto
+  #     - name: Rada Chirkova
+  #       affiliation: NC State University
+  #     - name: Rainer Gemulla
+  #       affiliation: Universität Mannheim
+  #     - name: Rana Alotaibi
+  #       affiliation: King Abdulaziz City for Science and Technology (KACST)
+  #     - name: Rana Shahout
+  #       affiliation: Harvard
+  #     - name: Renata Borovica-Gajic
+  #       affiliation: University of Melbourne
+  #     - name: Renchi Yang
+  #       affiliation: Hong Kong Baptist University
+  #     - name: Ria Borromeo
+  #       affiliation: University of Philippines
+  #     - name: Riccardo Torlone
+  #       affiliation: Roma Tre University
+  #     - name: Rihan Hai
+  #       affiliation: TU Delft
+  #     - name: Ritesh Sarkhel
+  #       affiliation: Amazon
+  #     - name: Roee Shraga
+  #       affiliation: WPI
+  #     - name: Romila Pradhan
+  #       affiliation: Purdue University
+  #     - name: Ruiyuan Li
+  #       affiliation: Chongqing University
+  #     - name: Ryan Marcus
+  #       affiliation: University of Pennsylvania
+  #     - name: Ryan McKenna
+  #       affiliation: University of Massachusetts Amherst
+  #     - name: Sai Wu
+  #       affiliation: Zhejiang University
+  #     - name: Sara Foresti
+  #       affiliation: Universita' degli Studi di Milano
+  #     - name: Sarah Kleest-Meißner
+  #       affiliation: Hasselt University
+  #     - name: Sebastian Link
+  #       affiliation: University of Auckland
+  #     - name: Sebastian Michel
+  #       affiliation: RPTU Kaiserslautern-Landau
+  #     - name: Sepanta Zeighami
+  #       affiliation: University of California Berkeley
+  #     - name: Shantanu Sharma
+  #       affiliation: New Jersey Institute of Technology
+  #     - name: Shaoxu Song
+  #       affiliation: Tsinghua University
+  #     - name: Sharad Mehrotra
+  #       affiliation: U.C. Irvine
+  #     - name: Shen Liang
+  #       affiliation: Université Paris Cité
+  #     - name: Shihabur Chowdhury
+  #       affiliation: Apple
+  #     - name: Shimin Di
+  #       affiliation: The Hong Kong University of Science and Technology
+  #     - name: Silviu Maniu
+  #       affiliation: Université Grenoble Alpes
+  #     - name: Siqiang Luo
+  #       affiliation: Nanyang Technological University
+  #     - name: Søren Kejser Jensen
+  #       affiliation: Aalborg University
+  #     - name: Soror Sahri
+  #       affiliation: Université Paris Cité
+  #     - name: Stavros Maroulis
+  #       affiliation: ATHENA Research Center
+  #     - name: Stefania Dumbrava
+  #       affiliation: ENSIIE
+  #     - name: Stefano Marchesin
+  #       affiliation: Università di Padova
+  #     - name: Stefano Paraboschi
+  #       affiliation: Universita' degli Studi di Bergamo
+  #     - name: Steffen Zeuch
+  #       affiliation: TU Berlin
+  #     - name: Surajit Chaudhuri
+  #       affiliation: Microsoft
+  #     - name: Suyash Gupta
+  #       affiliation: University of Oregon
+  #     - name: Sven Groppe
+  #       affiliation: Universität zu Lübeck/Institute of Information Systems (IFIS)
+  #     - name: Tanzima Hashem
+  #       affiliation: Bangladesh University of Engineering and Technology
+  #     - name: Tarique Siddiqui
+  #       affiliation: Microsoft Corporation
+  #     - name: Tenindra Abeywickrama
+  #       affiliation: RIKEN Center for Computational Science
+  #     - name: Theodoros Chondrogiannis
+  #       affiliation: Norwegian University of Science and Technology (NTNU)
+  #     - name: Thomas Neumann
+  #       affiliation: TUM
+  #     - name: Tianyi Li
+  #       affiliation: Aalborg University
+  #     - name: Tianzheng Wang
+  #       affiliation: Simon Fraser University
+  #     - name: Tieying Zhang
+  #       affiliation: Bytedance
+  #     - name: Ting Yu
+  #       affiliation: MBZUAI
+  #     - name: Tingjian Ge
+  #       affiliation: University of Massachusetts, Lowell
+  #     - name: Tong Chen
+  #       affiliation: The University of Queensland
+  #     - name: Torben Bach Pedersen
+  #       affiliation: Aalborg University
+  #     - name: Tristan,Allard
+  #       affiliation: Univ Rennes, CNRS IRISA
+  #     - name: Tsz Nam Chan
+  #       affiliation: Shenzhen University
+  #     - name: Ulf Leser
+  #       affiliation: Humboldt-Universität zu Berlin
+  #     - name: Utku Sirin
+  #       affiliation: Harvard University
+  #     - name: Venkata Vamsikrishna Meduri
+  #       affiliation: IBM Research-Almaden
+  #     - name: Verena Kantere
+  #       affiliation: University of Ottawa
+  #     - name: Vikram Nathan
+  #       affiliation: Amazon, Inc.
+  #     - name: Viktor Leis
+  #       affiliation: Technische Universität München
+  #     - name: Vivek Narasayya
+  #       affiliation: Microsoft
+  #     - name: Vivek Shah
+  #       affiliation: Samsung
+  #     - name: Wang-Chien Lee
+  #       affiliation: Pennsylvania State University, USA
+  #     - name: Wei Dong
+  #       affiliation: Nanyang Technological University
+  #     - name: WEI LU
+  #       affiliation: Renmin University of China
+  #     - name: Weiguo Zheng
+  #       affiliation: Fudan University
+  #     - name: Wenqi FAN
+  #       affiliation: The Hong Kong Polytechnic University
+  #     - name: Wentao Zhang
+  #       affiliation: Peking University
+  #     - name: Wentao Wu
+  #       affiliation: Microsoft Research
+  #     - name: William Schultz
+  #       affiliation: MongoDB
+  #     - name: Xiang Lian
+  #       affiliation: Kent State University
+  #     - name: Xiangyao Yu
+  #       affiliation: University of Wisconsin-Madison
+  #     - name: Xiangyu Ke
+  #       affiliation: Zhejiang University
+  #     - name: Xiao Qin
+  #       affiliation: Snowflake
+  #     - name: Xiao Yan
+  #       affiliation: Wuhan University
+  #     - name: Xiaofei Zhang
+  #       affiliation: University of Memphis
+  #     - name: Xiaohui Yu
+  #       affiliation: York University
+  #     - name: Xiaoou Ding
+  #       affiliation: Harbin Institute of Technology
+  #     - name: Xiaoying Wang
+  #       affiliation: Microsoft
+  #     - name: Xike Xie
+  #       affiliation: University of Science and Technology of China
+  #     - name: Xin Huang
+  #       affiliation: Hong Kong Baptist University
+  #     - name: Xuhao Chen
+  #       affiliation: MSU
+  #     - name: Xun Jian
+  #       affiliation: Northwestern Polytechnical University
+  #     - name: Xupeng Miao
+  #       affiliation: Purdue University
+  #     - name: Yael Amsterdamer
+  #       affiliation: Bar-Ilan University
+  #     - name: Yan Huang
+  #       affiliation: University of North Texas
+  #     - name: Yang Cao
+  #       affiliation: Institute of Science Tokyo
+  #     - name: Yang Wang
+  #       affiliation: The Ohio State University
+  #     - name: YAO LU
+  #       affiliation: NUS
+  #     - name: Yeye He
+  #       affiliation: Microsoft Research
+  #     - name: Yesdaulet Izenov
+  #       affiliation: Nazarbayev University
+  #     - name: Yifan Wang
+  #       affiliation: University of Hawaii
+  #     - name: Yihao Ang
+  #       affiliation: National University of Singapore
+  #     - name: Yin Yang
+  #       affiliation: Hamad bin Khalifa University
+  #     - name: Yinan Li
+  #       affiliation: Microsoft Research
+  #     - name: Yinghui Wu
+  #       affiliation: Case Western Reserve University
+  #     - name: Yingtai Xiao
+  #       affiliation: TikTok
+  #     - name: Yiwen Zhu
+  #       affiliation: Microsoft
+  #     - name: Yixiang,Fang
+  #       affiliation: School of Data Science, The Chinese University of Hong Kong Shenzhen
+  #     - name: Yongjoo Park
+  #       affiliation: UIUC
+  #     - name: Yongluan Zhou
+  #       affiliation: University of Copenhagen
+  #     - name: Yongxin Tong
+  #       affiliation: Beihang University
+  #     - name: Yu Yang
+  #       affiliation: City University of Hong Kong
+  #     - name: Yujie Hui
+  #       affiliation: Google
+  #     - name: Yuan Qiu
+  #       affiliation: Southeast University
+  #     - name: Yuke Wang
+  #       affiliation: Rice University
+  #     - name: Yuyu Luo
+  #       affiliation: HKUST (GZ)
+  #     - name: Zeyu Ding
+  #       affiliation: Binghamton University
+  #     - name: Zhao Cao
+  #       affiliation: Remin University
+  #     - name: ZHAOJING LUO
+  #       affiliation: Beijing Institute of Technology
+  #     - name: Zhewei Wei
+  #       affiliation: Renmin University of China
+  #     - name: Zhengjie Miao
+  #       affiliation: Simon Fraser University
+  #     - name: ZHIWEI FAN
+  #       affiliation: Meta
+  #     - name: Zhongle Xie
+  #       affiliation: Zhejiang University
+  #     - name: Zhuoyue Zhao
+  #       affiliation: University at Buffalo
+  #     - name: Zoi Kaoudi
+  #       affiliation: IT University of Copenhagen
+  # - title: Light Load Reviewers
+  #   people:
+  #     - name: Abdulhakim Qahtan
+  #       affiliation: Utrecht University
+  #     - name: Abolfazl Asudeh
+  #       affiliation: University of Illinois Chicago
+  #     - name: Ahmed El-Roby
+  #       affiliation: Carleton University
+  #     - name: Alberto Abelló
+  #       affiliation: Universitat Politècnica de Catalunya
+  #     - name: Alex Conway
+  #       affiliation: Cornell Tech
+  #     - name: Alexander Erben
+  #       affiliation: Technical University of Munich
+  #     - name: Alexandros Labrinidis
+  #       affiliation: University of Pittsburgh
+  #     - name: Anupam Sanghi
+  #       affiliation: TU Darmstadt
+  #     - name: Ariful Azad
+  #       affiliation: Texas A&M University
+  #     - name: Babak Salimi
+  #       affiliation: University of California at San Diego
+  #     - name: Baotong Lu
+  #       affiliation: Microsoft Research
+  #     - name: Bettina Kemme
+  #       affiliation: McGill University
+  #     - name: C. Seshadhri
+  #       affiliation: UCSC
+  #     - name: Curtis Dyreson
+  #       affiliation: Utah State University
+  #     - name: Danfeng Zhang
+  #       affiliation: Duke University
+  #     - name: Daniel Kocher
+  #       affiliation: University of Salzburg
+  #     - name: Davide Mottin
+  #       affiliation: Aarhus University
+  #     - name: Fabian Panse
+  #       affiliation: University of Augsburg
+  #     - name: Felix Naumann
+  #       affiliation: Hasso Plattner Institute, University of Potsdam
+  #     - name: Haitao Yuan
+  #       affiliation: Nanyang Technological University
+  #     - name: Hangdong Zhao
+  #       affiliation: Microsoft
+  #     - name: Hideyuki Kawashima
+  #       affiliation: Keio University
+  #     - name: Hongyan Chang
+  #       affiliation: NUS
+  #     - name: Hongzhi Yin
+  #       affiliation: The University of Queensland
+  #     - name: Ingo Müller
+  #       affiliation: Google
+  #     - name: Jiaheng Lu
+  #       affiliation: University of Helsinki
+  #     - name: Jinho Lee
+  #       affiliation: Seoul National University
+  #     - name: Juan Sequeda
+  #       affiliation: data.world
+  #     - name: Katia Papakonstantinopoulou
+  #       affiliation: Athens University of Economics and Business
+  #     - name: Kexin Rong
+  #       affiliation: Georgia Institute of Technology
+  #     - name: Konstantinos Mamouras
+  #       affiliation: Rice University
+  #     - name: Kyriakos Mouratidis
+  #       affiliation: Singapore Management University
+  #     - name: Lipeng Wan
+  #       affiliation: Georgia State University
+  #     - name: Manolis Terrovitis
+  #       affiliation: Athena Research Center
+  #     - name: Matteo Brucato
+  #       affiliation: Microsoft Research
+  #     - name: Mayuresh Kunjir
+  #       affiliation: Amazon AWS
+  #     - name: Michele Linardi
+  #       affiliation: CYU
+  #     - name: Mo Sha
+  #       affiliation: Alibaba Group
+  #     - name: Murat Demirbas
+  #       affiliation: MongoDB Research
+  #     - name: Myeongjae Jeon
+  #       affiliation: POSTECH
+  #     - name: Nikos Giatrakos
+  #       affiliation: Technical University of Crete
+  #     - name: Odysseas Papapetrou
+  #       affiliation: TU Eindhoven
+  #     - name: Panagiotis Liakos
+  #       affiliation: Athens University of Economics and Business
+  #     - name: Panagiotis Liakos
+  #       affiliation: University of Athens
+  #     - name: Panos Vassiliadis
+  #       affiliation: University of Ioannina
+  #     - name: Paris Carbone
+  #       affiliation: KTH Royal Institute of Technology
+  #     - name: Paul Groth
+  #       affiliation: University of Amsterdam
+  #     - name: Pierre Bourhis
+  #       affiliation: CNRS
+  #     - name: Quang-Trung Ta
+  #       affiliation: National University of Singapore
+  #     - name: Rathijit Sen
+  #       affiliation: Microsoft
+  #     - name: Remy Wang
+  #       affiliation: University of California, Los Angeles
+  #     - name: Renzo Angles
+  #       affiliation: Universidad de Talca
+  #     - name: Seokki Lee
+  #       affiliation: University of Cincinnati
+  #     - name: Sergi Nadal
+  #       affiliation: Universitat Politècnica de Catalunya
+  #     - name: Sivaprasad Sudhir
+  #       affiliation: MIT
+  #     - name: Song Jiang
+  #       affiliation: University of Texas, Arlington
+  #     - name: Sonia Bergamaschi
+  #       affiliation: Università di Modena e Reggio Emilia
+  #     - name: Subarna Chatterjee
+  #       affiliation: Datastax
+  #     - name: Subhadeep Sarkar
+  #       affiliation: Brandeis University
+  #     - name: Sujaya Maiyya
+  #       affiliation: University of Waterloo
+  #     - name: Supawit Chockchowwat
+  #       affiliation: University of Illinois Urbana-Champaign
+  #     - name: Theodore Johnson
+  #       affiliation: AT&T Labs - Research
+  #     - name: Thomas Fahringer
+  #       affiliation: University of Innsbruck
+  #     - name: Thorsten Papenbrock
+  #       affiliation: Philipps University of Marburg
+  #     - name: Vassilis J. Tsotras
+  #       affiliation: UC Riverside
+  #     - name: Venkatesh Emani
+  #       affiliation: Microsoft
+  #     - name: Wenjia He
+  #       affiliation: University of Michigan
+  #     - name: Wolfgang Gatterbauer
+  #       affiliation: Northeastern University
+  #     - name: Xingguang Chen
+  #       affiliation: National University of Singapore
+  #     - name: Yogesh Simmhan
+  #       affiliation: Indian Institute of Science (IISc), Bangalore
+  #     - name: Yuxin Tang
+  #       affiliation: Rice University
+  #     - name: Zhe Jiang
+  #       affiliation: University of Florida
+  #     - name: Ziawasch Abedjan
+  #       affiliation: BIFOLD/TU Berlin

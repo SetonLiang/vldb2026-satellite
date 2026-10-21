@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115776710-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-115776710-1');
+        </script>
+        <script language="javascript">
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="https://vldb.org/2026/shadow-pc" />
+        <style>
+            body{visibility:hidden}
+        </style>
+        
+        <link rel="icon" type="image/png" href="/vldb2026-satellite/assets/img/favicon.webp">
+        <title>VLDB 2026 Satellite Event | Shadow PC</title>
+        <meta name="description" content="The VLDB 2026 conference, will take place in Boston, MA, United States, from Aug 31st to Sep 4th, 2026, and will feature research talks, tutorials, demonstrations, and workshops. It will cover issues in data management, database and information systems research. VLDB is a premier annual international forum for data management and database researchers, vendors, practitioners, application developers, and users.">
+    </head>
+    
+    <body>
+        <header>
+            <div class="small-menu"><a class="hamburger"></a></div>
+            <div class="small-header">
+                <figure class="logo">
+                    <a href="/vldb2026-satellite">
+                        <img style="max-width: 150px; min-width: 100px;" src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China"></a>
+                </figure>
+            </div>
+            <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+                <figure class="logo">
+                    <img src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China">
+                    <img src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China">
+                </figure>
+                
+                    <div>
+                        
+                            General Information
+                            <div class="menu">
+                                
+                                    
+                                        <a href="." itemprop="url">
+                                            <span itemprop="name">Conference Overview</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="officers.html" itemprop="url">
+                                            <span itemprop="name">Conference Officers</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="pvldb-review-board.html" itemprop="url">
+                                            <span itemprop="name">PVLDB Review Board</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="shadow-pc.html" itemprop="url">
+                                            <span itemprop="name">Shadow PC</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+                    <div class="conference-program-menu">
+                        
+                            Conference Program
+                            <div class="menu">
+                                
+                                    
+                                        <a href="program.html" itemprop="url">
+                                            <span itemprop="name">Full Program</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="keynotes.html" itemprop="url">
+                                            <span itemprop="name">Keynotes</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="panels.html" itemprop="url">
+                                            <span itemprop="name">Panels</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+                    <div class="no-sub">
+                        
+                            <a href="important-dates.html" itemprop="url">
+                                <span itemprop="name">Dates &amp; Guidelines</span>
+                            </a>
+                        
+                    </div>
+                
+                    <div class="no-sub">
+                        
+                            <a href="sponsor-list.html" itemprop="url">
+                                <span itemprop="name">Sponsorship</span>
+                            </a>
+                        
+                    </div>
+                
+                    <div>
+                        
+                            Participant Information
+                            <div class="menu">
+                                
+                                    
+                                        <a href="conference-venue.html" itemprop="url">
+                                            <span itemprop="name">Conference Venue</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="registration.html" itemprop="url">
+                                            <span itemprop="name">Registration</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <hr/>
+                                    
+                                
+                                    
+                                        <a class="menu-label" role="presentation" aria-disabled="true">
+                                            <span>Conference Hotel Booking:</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="https://book.passkey.com/go/VLDBConference" itemprop="url" target="_blank" rel="noopener noreferrer">
+                                            <span itemprop="name">The Westin Boston Seaport</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+            </nav>
+            <section
+                class="carousel small"
+                data-images='[
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-1.webp","t":"Guangzhou"}
+                        ,
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-2.webp","t":"Guangzhou"}
+                        ,
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-3.webp","t":"Guangzhou"}
+                        
+                    
+                ]'
+            >
+                <span>52<sup>nd</sup> International Conference on Very Large Data Bases Satellite Event</span>
+                <span>Guangzhou, China - December 1-2, 2026</span>
+            </section>
+        </header>
+
+        <main class="body">
+            <div style="text-align: justify" class="markdown "> <h1>VLDB 2026 Satellite Event: Shadow PC</h1>
+<p>We are introducing a Shadow PC to VLDB, which will follow the reviewing cycles of VLDB 2026 (Vol 19) submissions. </p>
+<h2>What is Shadow PC?</h2>
+<p>VLDB is organizing a shadow program committee for the VLDB 2026 conference.
+Shadow PC reviews will have no effect on the decisions of the VLDB PC, but Shadow PC members will be able to see and review the submitted VLDB papers if the authors of those papers opt in to be part of the Shadow PC paper pool at submission time.
+Shadow PC is educational.
+The goal is to give reviewing experience on real submissions to a top data management conference to the new members of the data management community.</p>
+<p>The regular VLDB PC reviews / comments will remain invisible to the Shadow PC.
+The reviews written by the Shadow PC will only be visible to the shadow PC members and eventually to the authors.</p>
+<p>The VLDB conflict-of-interest rules will apply to shadow PC as well, and Shadow PC members will be required to comply with ethical code of conduct.</p>
+<h2>Why join a shadow PC?</h2>
+<p>The VLDB Shadow PC is a great opportunity for everyone who are new to the data management community (from junior researchers to senior ones who may have started working across communities) to gain experience with the review and program committee process.</p>
+<p>Besides the recognition of being selected to Shadow PC, serving in VLDB Shadow PC is worthwhile for a number of reasons:</p>
+<ul>
+<li>Getting to know how an academic PC operates in the data management community;</li>
+<li>Seeing how other reviewers judge the same papers that you review;</li>
+<li>Getting to see both strong and weak papers at the submission stage;</li>
+<li>Discovering what it takes to publish a paper in a top data management venue such as VLDB;</li>
+<li>Having a chance to read top-notch papers in your area of expertise before they are published;</li>
+<li>Getting to know other researchers who are also selected to the Shadow PC.</li>
+</ul>
+<h2>How does the shadow PC work?</h2>
+<p>Shadow PC members must commit themselves to writing their own detailed and rigorous reviews for papers assigned to them by the allotted deadlines.
+This timely review commitment is essential to the good functioning of the Shadow PC.
+Candidates who might be unable to fulfil their reviewing duties should refrain from applying. </p>
+<p>To keep the load feasible, the Shadow PC will review one paper submitted to VLDB every other month starting from June.
+The paper pools and review timelines will mimic the VLDB 2026 review cycles and timelines, and we will be using CMT as the reviewing platform like VLDB.</p>
+<p>The Shadow PC will receive feedback on their reviews by the Shadow PC chairs and have a chance to learn from the reviews of other Shadow PC members.</p>
+<p>Here is the more detailed timeline:</p>
+<ul>
+<li>March 1, 2025: Call for Shadow PC deadline</li>
+<li>March 13, 2025: Finalize Shadow PC</li>
+<li>May 2025: Online intro meeting with PC</li>
+<li>June 2025: 1st round review &mdash; paper pool April-May submissions </li>
+<li>July 2025: Online feedback meeting after first round</li>
+<li>August 2025: 2nd round review &mdash; paper pool June-July submissions</li>
+<li>September 2025: An in-person session during VLDB 2025 on Shadow PC - feedback &amp; lessons-learned so far</li>
+<li>October 2025: 3rd round review &mdash; paper pool August-September submissions</li>
+<li>December 2025: 4th round review &mdash; paper pool October-November submissions</li>
+<li>February 2026: 5th round review &mdash; paper pool December-January submissions</li>
+<li>April 2026: 6th / final round review &mdash; paper pool February-March submissions</li>
+<li>May 2026: Final feedback meeting, online</li>
+<li>August/September 2026: In-person session at VLDB 2026 with Shadow PC 2026 and Shadow PC 2027</li>
+</ul>
+<p>(Tentative) Timeline for reviewing months:</p>
+<ul>
+<li>Paper assignments by the 1st of the month</li>
+<li>Reviews due by 28th of the month </li>
+<li>Online discussions to reach the final decision (accept/revision/reject) for the paper till the 13th of the following month</li>
+</ul>
+<h2>How to become a shadow PC member?</h2>
+<p>For this instance of VLDB Shadow PC, our target audience are the people who are involved in the data management community through their research and wish to get some reviewing experience in this community but haven&#39;t had a data management conference reviewing experience yet.
+Therefore, we are looking for candidates that (1) have already published at a data management venue or an affiliated workshop and (2) haven&#39;t yet served in the program committee of any data management venue.</p>
+<p>You will need to submit your application at <a href="https://forms.office.com/e/XYihKj4UKq">forms.office.com/e/XYihKj4UKq</a> by March 1st, 2025 (AoE).
+The required information for the application can be found on the form. </p>
+<h2>Contact</h2>
+<p>For any further information, please contact the shadow PC chairs: vldb2026_shadowpc_chairs@o365team.itu.dk. </p>
+<ul>
+<li>Pınar Tözün (IT University of Copenhagen, Denmark)</li>
+<li>Tianzheng Wang (Simon Fraser University, Canada)</li>
+<li>Zsolt István (TU Darmstadt, Germany)</li>
+</ul> </div>
+    
+    <section class="officers">
+        <h2>Shadow PC Members</h2>
+        
+            <div>
+                <strong>Adeel Aslam</strong>,
+                University of Southampton England
+            </div>
+        
+            <div>
+                <strong>Bharath Vissapragada</strong>,
+                Redpanda Data Inc
+            </div>
+        
+            <div>
+                <strong>Charlotte Felius</strong>,
+                CWI
+            </div>
+        
+            <div>
+                <strong>Christos Tsapelas</strong>,
+                National and Kapodistrian University of Athens
+            </div>
+        
+            <div>
+                <strong>Chuangtao Ma</strong>,
+                Aalborg University
+            </div>
+        
+            <div>
+                <strong>Dalsu Choi</strong>,
+                SAP
+            </div>
+        
+            <div>
+                <strong>Daniel Lindner</strong>,
+                Hasso Plattner Institute
+            </div>
+        
+            <div>
+                <strong>Daniel ten Wolde</strong>,
+                CWI
+            </div>
+        
+            <div>
+                <strong>Danrui Qi</strong>,
+                Simon Fraser University
+            </div>
+        
+            <div>
+                <strong>David Justen</strong>,
+                BIFOLD &amp; TU Berlin
+            </div>
+        
+            <div>
+                <strong>Dippy Aggarwal</strong>,
+                Microsoft
+            </div>
+        
+            <div>
+                <strong>Fangzhu Shen</strong>,
+                Duke University
+            </div>
+        
+            <div>
+                <strong>Francesco Pugnaloni</strong>,
+                Hasso Plattner Institute
+            </div>
+        
+            <div>
+                <strong>Franziska Neuhof</strong>,
+                L3S Research Center &amp; Leibniz University Hannover
+            </div>
+        
+            <div>
+                <strong>Gang Liao</strong>,
+                Meta
+            </div>
+        
+            <div>
+                <strong>Gaurav Saxena</strong>,
+                Amazon
+            </div>
+        
+            <div>
+                <strong>Gourab Mitra</strong>,
+                Datometry
+            </div>
+        
+            <div>
+                <strong>Guanli Liu</strong>,
+                The University of Melbourne
+            </div>
+        
+            <div>
+                <strong>Guopeng Li</strong>,
+                University of Science and Technology of China
+            </div>
+        
+            <div>
+                <strong>Haoxiang Zhang</strong>,
+                Uber
+            </div>
+        
+            <div>
+                <strong>Ilaria Battiston</strong>,
+                CWI
+            </div>
+        
+            <div>
+                <strong>Ilias Azizi</strong>,
+                UM6P
+            </div>
+        
+            <div>
+                <strong>Jees Augustine</strong>,
+                Microsoft
+            </div>
+        
+            <div>
+                <strong>Jiacheng Wu</strong>,
+                University of Washington
+            </div>
+        
+            <div>
+                <strong>Jianwei Wang</strong>,
+                University of New South Wales
+            </div>
+        
+            <div>
+                <strong>Jiayao Zhang</strong>,
+                Zhejiang University
+            </div>
+        
+            <div>
+                <strong>Jonghyeok Park</strong>,
+                Korea University
+            </div>
+        
+            <div>
+                <strong>Kishy Kumar</strong>,
+                Oracle
+            </div>
+        
+            <div>
+                <strong>Lam-Duy Nguyen</strong>,
+                Technical University of Munich
+            </div>
+        
+            <div>
+                <strong>Leonhard Spiegelberg</strong>,
+                Snowflake
+            </div>
+        
+            <div>
+                <strong>Letong Wang</strong>,
+                University of California, Riverside
+            </div>
+        
+            <div>
+                <strong>Manos Chatzakis</strong>,
+                University of Paris Cite
+            </div>
+        
+            <div>
+                <strong>Maximilian K. Egger</strong>,
+                Aarhus University
+            </div>
+        
+            <div>
+                <strong>Michael Jungmair</strong>,
+                Technical University of Munich
+            </div>
+        
+            <div>
+                <strong>Mijin An</strong>,
+                SAP Labs Korea
+            </div>
+        
+            <div>
+                <strong>Navid Eslami</strong>,
+                University of Toronto
+            </div>
+        
+            <div>
+                <strong>Niko Tsikoudis</strong>,
+                Datometry
+            </div>
+        
+            <div>
+                <strong>Olga Ovcharenko</strong>,
+                BIFOLD &amp; Technische Universität Berlin
+            </div>
+        
+            <div>
+                <strong>Peizhi Wu</strong>,
+                University of Pennsylvania
+            </div>
+        
+            <div>
+                <strong>Qilong Li</strong>,
+                Southern University of Science and Technology
+            </div>
+        
+            <div>
+                <strong>Rodrigo Nunes Laigner</strong>,
+                University of Copenhagen
+            </div>
+        
+            <div>
+                <strong>Sean Bin Yang</strong>,
+                Aalborg University
+            </div>
+        
+            <div>
+                <strong>Shubham Kaushik</strong>,
+                Brandeis University
+            </div>
+        
+            <div>
+                <strong>Shubham Vashisth</strong>,
+                McGill University
+            </div>
+        
+            <div>
+                <strong>Siyuan Dong</strong>,
+                University of Michigan, Ann Arbor
+            </div>
+        
+            <div>
+                <strong>Stavros Maroulis</strong>,
+                Athena Research Center
+            </div>
+        
+            <div>
+                <strong>Sumedh Sakdeo</strong>,
+                LinkedIn
+            </div>
+        
+            <div>
+                <strong>Ted Shaowang</strong>,
+                University of Chicago
+            </div>
+        
+            <div>
+                <strong>Ties Robroek</strong>,
+                IT University of Copenhagen
+            </div>
+        
+            <div>
+                <strong>Vinay Banakar</strong>,
+                University of Wisconsin-Madison
+            </div>
+        
+            <div>
+                <strong>Vineet Garg</strong>,
+                Snowflake
+            </div>
+        
+            <div>
+                <strong>Wentao Huang</strong>,
+                National University of Singapore
+            </div>
+        
+            <div>
+                <strong>Xiangpeng Hao</strong>,
+                University of Wisconsin-Madison
+            </div>
+        
+            <div>
+                <strong>Xiangyun Ding</strong>,
+                University of California, Riverside
+            </div>
+        
+            <div>
+                <strong>Xiao Li</strong>,
+                IT University of Copenhagen
+            </div>
+        
+            <div>
+                <strong>Xiaojun Dong</strong>,
+                University of California, Riverside
+            </div>
+        
+            <div>
+                <strong>Xinle Cao</strong>,
+                Zhejiang University
+            </div>
+        
+            <div>
+                <strong>Yangshen Deng</strong>,
+                Southern University of Science and Technology
+            </div>
+        
+            <div>
+                <strong>Yichao Yuan</strong>,
+                University of Michigan
+            </div>
+        
+            <div>
+                <strong>Yihao Hu</strong>,
+                Duke University
+            </div>
+        
+            <div>
+                <strong>Ying Zheng</strong>,
+                National University of Singapore
+            </div>
+        
+            <div>
+                <strong>Yongye Su</strong>,
+                Purdue University
+            </div>
+        
+            <div>
+                <strong>Yue Gong</strong>,
+                University of Chicago
+            </div>
+        
+            <div>
+                <strong>Zeyu Wang</strong>,
+                Fudan University &amp; University of Paris Cite
+            </div>
+        
+            <div>
+                <strong>Zheng Zheng</strong>,
+                Northeastern University (Toronto Campus)
+            </div>
+        
+            <div>
+                <strong>Ziyang Men</strong>,
+                University of California, Riverside
+            </div>
+        
+            <div>
+                <strong>Ziyi Yan</strong>,
+                Simon Fraser University
+            </div>
+        
+    </section>
+    
+
+            <div class="spinner"></div>
+        </main>
+
+        <footer>
+            <div>52<sup>nd</sup> International Conference on Very Large Data Bases Satellite Event<br />Guangzhou, China &mdash; December 1-2, 2026</div>
+            <a class="github no-ext-icon" href="https://github.com/dbogatov/vldb-2026" title="Collaborate on GitHub">
+                <svg height="32" version="1.1" viewBox="0 0 16 16" width="32">
+                    <path fill="#fff" fill-rule="evenodd" d="
+                        M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+                        0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+                        1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+                        0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18
+                        1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16
+                        1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54
+                        1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16
+                        8c0-4.42-3.58-8-8-8z">
+                    </path>
+                </svg>
+            </a>
+        </footer>
+
+        <link rel="stylesheet" href="/vldb2026-satellite/assets/merged.css?v=local-dev">
+        <script async src="/vldb2026-satellite/assets/merged.js"></script>
+
+        <script async src="https://platform.twitter.com/widgets.js"></script>
+        <script>
+            (function() {
+                var last = 0,
+                    docBody = document.body,
+                    header = document.querySelector('body>header'),
+                    nav = header && header.querySelector('nav'),
+                    requestAnimationFrame = window.requestAnimationFrame || function(callback, element) {
+                        var now = Date.now(),
+                            next = Math.max(0, 16 - (now - last)),
+                            id = window.setTimeout(function() {
+                                callback(now + next);
+                            }, next);
+                        last = now + next;
+                        return id;
+                    },
+                    cancelAnimationFrame = window.cancelAnimationFrame || function(id) {
+                        clearTimeout(id);
+                    },
+                    update = function () {
+                        if (!nav) return;
+
+                        var isStatic = docBody.classList.contains('static');
+                        if (header.getBoundingClientRect().bottom > 70) {
+                            if (isStatic) docBody.classList.remove('static');
+                        } else if (!isStatic) docBody.classList.add('static');
+                    },
+                    lid;
+
+                window.addEventListener('scroll', function(e) {
+                    if (lid) cancelAnimationFrame(lid);
+                    lid = requestAnimationFrame(update);
+                });
+
+                update();
+            }());
+        </script>
+    </body>
+</html>

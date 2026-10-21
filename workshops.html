@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115776710-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-115776710-1');
+        </script>
+        <script language="javascript">
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="https://vldb.org/2026/workshops" />
+        <style>
+            body{visibility:hidden}
+        </style>
+        
+        <link rel="icon" type="image/png" href="/vldb2026-satellite/assets/img/favicon.webp">
+        <title>VLDB 2026 Satellite Event | Conference Program - Workshops</title>
+        <meta name="description" content="The VLDB 2026 conference, will take place in Boston, MA, United States, from Aug 31st to Sep 4th, 2026, and will feature research talks, tutorials, demonstrations, and workshops. It will cover issues in data management, database and information systems research. VLDB is a premier annual international forum for data management and database researchers, vendors, practitioners, application developers, and users.">
+    </head>
+    
+    <body>
+        <header>
+            <div class="small-menu"><a class="hamburger"></a></div>
+            <div class="small-header">
+                <figure class="logo">
+                    <a href="/vldb2026-satellite">
+                        <img style="max-width: 150px; min-width: 100px;" src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China"></a>
+                </figure>
+            </div>
+            <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+                <figure class="logo">
+                    <img src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China">
+                    <img src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China">
+                </figure>
+                
+                    <div>
+                        
+                            General Information
+                            <div class="menu">
+                                
+                                    
+                                        <a href="." itemprop="url">
+                                            <span itemprop="name">Conference Overview</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="officers.html" itemprop="url">
+                                            <span itemprop="name">Conference Officers</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="pvldb-review-board.html" itemprop="url">
+                                            <span itemprop="name">PVLDB Review Board</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="shadow-pc.html" itemprop="url">
+                                            <span itemprop="name">Shadow PC</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+                    <div class="conference-program-menu">
+                        
+                            Conference Program
+                            <div class="menu">
+                                
+                                    
+                                        <a href="program.html" itemprop="url">
+                                            <span itemprop="name">Full Program</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="keynotes.html" itemprop="url">
+                                            <span itemprop="name">Keynotes</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="panels.html" itemprop="url">
+                                            <span itemprop="name">Panels</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+                    <div class="no-sub">
+                        
+                            <a href="important-dates.html" itemprop="url">
+                                <span itemprop="name">Dates &amp; Guidelines</span>
+                            </a>
+                        
+                    </div>
+                
+                    <div class="no-sub">
+                        
+                            <a href="sponsor-list.html" itemprop="url">
+                                <span itemprop="name">Sponsorship</span>
+                            </a>
+                        
+                    </div>
+                
+                    <div>
+                        
+                            Participant Information
+                            <div class="menu">
+                                
+                                    
+                                        <a href="conference-venue.html" itemprop="url">
+                                            <span itemprop="name">Conference Venue</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="registration.html" itemprop="url">
+                                            <span itemprop="name">Registration</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <hr/>
+                                    
+                                
+                                    
+                                        <a class="menu-label" role="presentation" aria-disabled="true">
+                                            <span>Conference Hotel Booking:</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="https://book.passkey.com/go/VLDBConference" itemprop="url" target="_blank" rel="noopener noreferrer">
+                                            <span itemprop="name">The Westin Boston Seaport</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+            </nav>
+            <section
+                class="carousel small"
+                data-images='[
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-1.webp","t":"Guangzhou"}
+                        ,
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-2.webp","t":"Guangzhou"}
+                        ,
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-3.webp","t":"Guangzhou"}
+                        
+                    
+                ]'
+            >
+                <span>52<sup>nd</sup> International Conference on Very Large Data Bases Satellite Event</span>
+                <span>Guangzhou, China - December 1-2, 2026</span>
+            </section>
+        </header>
+
+        <main class="body">
+            
+    <section>
+        <h1>VLDB 2026 Satellite Event: Workshops</h1>
+
+        <p>
+            The VLDB 2026 workshops will be held on Monday, August 31, 2026 and Friday, September 4, 2026.
+            This page lists workshop contacts and links for all accepted workshops.
+        </p>
+
+        
+            <h2>Monday Workshops <span class="workshop-title">(August 31, 2026)</span></h2>
+
+            
+                <div class="schedule-head">
+                    <strong class="main-title">PhD Workshop</strong>
+                    <span>full day</span>
+                </div>
+
+                <div class="workshop-summary">
+                    <p class="workshop-name"><strong>Title:</strong> VLDB 2026 PhD Workshop</p>
+                    <p class="workshop-cochairs">
+                        <strong>Co-Chairs:</strong>
+                        
+                            Mohamed Eltabakh (Qatar Computing Research Institute); 
+                        
+                            Nikos Tziavelis (UC Santa Cruz)
+                        
+                    </p>
+                </div>
+
+                
+
+                
+                    <p>
+                        <strong>Program:</strong>
+                        <a href="phd-workshop.html">View workshop program</a>
+                    </p>
+                
+            
+                <div class="schedule-head">
+                    <strong class="main-title">ADMS</strong>
+                    <span>full day</span>
+                </div>
+
+                <div class="workshop-summary">
+                    <p class="workshop-name"><strong>Title:</strong> Seventeenth International Workshop on Accelerating Analytics and Data Management Systems Using Modern Processor and Storage Architectures</p>
+                    <p class="workshop-cochairs">
+                        <strong>Co-Chairs:</strong>
+                        
+                            Rajesh Bordawekar (NVIDIA); 
+                        
+                            Tirthankar Lahiri (Oracle)
+                        
+                    </p>
+                </div>
+
+                
+                    <p>
+                        <strong>Website:</strong>
+                        <a href="https://www.adms-conf.org">https://www.adms-conf.org</a>
+                    </p>
+                
+
+                
+            
+                <div class="schedule-head">
+                    <strong class="main-title">AIDB</strong>
+                    <span>full day</span>
+                </div>
+
+                <div class="workshop-summary">
+                    <p class="workshop-name"><strong>Title:</strong> The 7th Applied AI for Database Systems and Applications</p>
+                    <p class="workshop-cochairs">
+                        <strong>Co-Chairs:</strong>
+                        
+                            Thaleia Dimitra Doudali (IMDEA Software Institute); 
+                        
+                            Subru Krishnan (Microsoft); 
+                        
+                            Konstantinos Kanellis (Amazon Web Services)
+                        
+                    </p>
+                </div>
+
+                
+                    <p>
+                        <strong>Website:</strong>
+                        <a href="https://sites.google.com/view/aidb2026">https://sites.google.com/view/aidb2026</a>
+                    </p>
+                
+
+                
+            
+                <div class="schedule-head">
+                    <strong class="main-title">NOVAS</strong>
+                    <span>full day</span>
+                </div>
+
+                <div class="workshop-summary">
+                    <p class="workshop-name"><strong>Title:</strong> Novel Optimization for Visionary AI Systems</p>
+                    <p class="workshop-cochairs">
+                        <strong>Co-Chairs:</strong>
+                        
+                            Gerardo Vitagliano (MIT CSAIL); 
+                        
+                            Chunwei Liu (Purdue University); 
+                        
+                            Liana Patel (Stanford University); 
+                        
+                            Rana Shahout (Harvard University); 
+                        
+                            Andreas Kipf (University of Technology Nuremberg); 
+                        
+                            Paolo Papotti (EURECOM)
+                        
+                    </p>
+                </div>
+
+                
+                    <p>
+                        <strong>Website:</strong>
+                        <a href="https://www.novasworkshop.org">https://www.novasworkshop.org</a>
+                    </p>
+                
+
+                
+            
+                <div class="schedule-head">
+                    <strong class="main-title">QDB</strong>
+                    <span>full day</span>
+                </div>
+
+                <div class="workshop-summary">
+                    <p class="workshop-name"><strong>Title:</strong> 15th International Workshop on Quality in Databases</p>
+                    <p class="workshop-cochairs">
+                        <strong>Co-Chairs:</strong>
+                        
+                            Lorena Etcheverry (Instituto de Computacion, Facultad de Ingenieria, Universidad de la Republica); 
+                        
+                            Steven Euijong Whang (KAIST); 
+                        
+                            Cinzia Cappiello (Politecnico di Milano)
+                        
+                    </p>
+                </div>
+
+                
+                    <p>
+                        <strong>Website:</strong>
+                        <a href="https://qdb-workshop.github.io/">https://qdb-workshop.github.io/</a>
+                    </p>
+                
+
+                
+            
+                <div class="schedule-head">
+                    <strong class="main-title">TPCTC</strong>
+                    <span>full day</span>
+                </div>
+
+                <div class="workshop-summary">
+                    <p class="workshop-name"><strong>Title:</strong> The 18th TPC Technology Conference on Performance Evaluation and Benchmarking</p>
+                    <p class="workshop-cochairs">
+                        <strong>Co-Chairs:</strong>
+                        
+                            Raghunath Nambiar (TPC); 
+                        
+                            Meikel Poess (Oracle)
+                        
+                    </p>
+                </div>
+
+                
+                    <p>
+                        <strong>Website:</strong>
+                        <a href="https://www.tpc.org/tpctc/tpctc2026/default5.asp">https://www.tpc.org/tpctc/tpctc2026/default5.asp</a>
+                    </p>
+                
+
+                
+            
+        
+            <h2>Friday Workshops <span class="workshop-title">(September 4, 2026)</span></h2>
+
+            
+                <div class="schedule-head">
+                    <strong class="main-title">Agents+Graphs</strong>
+                    <span>half day, afternoon</span>
+                </div>
+
+                <div class="workshop-summary">
+                    <p class="workshop-name"><strong>Title:</strong> 3rd International Workshop on Data Management Opportunities in Bringing Agents with Graph Data</p>
+                    <p class="workshop-cochairs">
+                        <strong>Co-Chairs:</strong>
+                        
+                            Yixiang Fang (The Chinese University of Hong Kong, Shenzhen, China); 
+                        
+                            Arijit Khan (Bowling Green State University); 
+                        
+                            Tianxing Wu (Southeast University); 
+                        
+                            Da Yan (Indiana University Bloomington)
+                        
+                    </p>
+                </div>
+
+                
+                    <p>
+                        <strong>Website:</strong>
+                        <a href="https://seucoin.github.io/workshop/ag2026/">https://seucoin.github.io/workshop/ag2026/</a>
+                    </p>
+                
+
+                
+            
+                <div class="schedule-head">
+                    <strong class="main-title">BioDMS</strong>
+                    <span>half day, afternoon</span>
+                </div>
+
+                <div class="workshop-summary">
+                    <p class="workshop-name"><strong>Title:</strong> Workshop on Biomedical Data Management Systems</p>
+                    <p class="workshop-cochairs">
+                        <strong>Co-Chairs:</strong>
+                        
+                            Bojan Karlas (Harvard University); 
+                        
+                            Gerardo Vitagliano (MIT CSAIL); 
+                        
+                            Benjamin Gyori (Northeastern University); 
+                        
+                            Ulf Leser (Humboldt-Universitat zu Berlin)
+                        
+                    </p>
+                </div>
+
+                
+                    <p>
+                        <strong>Website:</strong>
+                        <a href="https://biodms.org/">https://biodms.org/</a>
+                    </p>
+                
+
+                
+            
+                <div class="schedule-head">
+                    <strong class="main-title">CDMS</strong>
+                    <span>half day, morning</span>
+                </div>
+
+                <div class="workshop-summary">
+                    <p class="workshop-name"><strong>Title:</strong> Fourth International Workshop on Composable Data Management Systems</p>
+                    <p class="workshop-cochairs">
+                        <strong>Co-Chairs:</strong>
+                        
+                            Satya Valluri (Databricks Inc); 
+                        
+                            Mohamed Zait (Databricks Inc.)
+                        
+                    </p>
+                </div>
+
+                
+                    <p>
+                        <strong>Website:</strong>
+                        <a href="https://cdmsworkshop.github.io/2026/">https://cdmsworkshop.github.io/2026/</a>
+                    </p>
+                
+
+                
+            
+                <div class="schedule-head">
+                    <strong class="main-title">DASHSys</strong>
+                    <span>full day</span>
+                </div>
+
+                <div class="workshop-summary">
+                    <p class="workshop-name"><strong>Title:</strong> Workshop on Systems for Data-centric Agents with Human-in-the-loop</p>
+                    <p class="workshop-cochairs">
+                        <strong>Co-Chairs:</strong>
+                        
+                            Yiru Chen (Adobe); 
+                        
+                            Kun Qian (Adobe); 
+                        
+                            Estevam Hruschka (Megagon Labs); 
+                        
+                            Zhengjie Miao (Simon Fraser University); 
+                        
+                            Dan Zhang (Megagon Labs); 
+                        
+                            Sajjadur Rahman (Megagon Labs); 
+                        
+                            Anna Fariha (University of Utah); 
+                        
+                            Sainyam Galhotra (Cornell University); 
+                        
+                            Umar Farooq Minhas (Apple); 
+                        
+                            Sepanta Zeighami (University of California Berkeley)
+                        
+                    </p>
+                </div>
+
+                
+                    <p>
+                        <strong>Website:</strong>
+                        <a href="https://dashsys-workshop-vldb.github.io/">https://dashsys-workshop-vldb.github.io/</a>
+                    </p>
+                
+
+                
+            
+                <div class="schedule-head">
+                    <strong class="main-title">ADS</strong>
+                    <span>full day</span>
+                </div>
+
+                <div class="workshop-summary">
+                    <p class="workshop-name"><strong>Title:</strong> The Joint Workshop on Agentic Data Systems and Data-Centric AI</p>
+                    <p class="workshop-cochairs">
+                        <strong>Co-Chairs:</strong>
+                        
+                            Guoliang Li (Tsinghua University); 
+                        
+                            Yuyu Luo (HKUST (GZ)); 
+                        
+                            Ju Fan (Renmin University of China); 
+                        
+                            Xuanhe Zhou (Shanghai Jiao Tong University)
+                        
+                    </p>
+                </div>
+
+                
+                    <p>
+                        <strong>Website:</strong>
+                        <a href="https://vldb-ads.top/">https://vldb-ads.top/</a>
+                    </p>
+                
+
+                
+            
+                <div class="schedule-head">
+                    <strong class="main-title">QCDKM</strong>
+                    <span>half day, afternoon</span>
+                </div>
+
+                <div class="workshop-summary">
+                    <p class="workshop-name"><strong>Title:</strong> Quantum Computing and Data/Knowledge Management</p>
+                    <p class="workshop-cochairs">
+                        <strong>Co-Chairs:</strong>
+                        
+                            Haridimos Kondylakis (FORTH-ICS and Computer Science Department, University of Crete); 
+                        
+                            Stefanie Scherzinger (University of Passau); 
+                        
+                            Bettina Kemme (McGill University); 
+                        
+                            Vasilis Efthymiou (Harokopio University of Athens); 
+                        
+                            Yannis Tzitzikas (FORTH-ICS); 
+                        
+                            Manuel Wimmer (Johannes Kepler University Linz); 
+                        
+                            Jose Garcia-Alonso (University of Extremadura)
+                        
+                    </p>
+                </div>
+
+                
+                    <p>
+                        <strong>Website:</strong>
+                        <a href="https://qcdkm.github.io/2026/">https://qcdkm.github.io/2026/</a>
+                    </p>
+                
+
+                
+            
+                <div class="schedule-head">
+                    <strong class="main-title">TaDA</strong>
+                    <span>half day, morning</span>
+                </div>
+
+                <div class="workshop-summary">
+                    <p class="workshop-name"><strong>Title:</strong> 4th International Workshop on Tabular Data Analysis</p>
+                    <p class="workshop-cochairs">
+                        <strong>Co-Chairs:</strong>
+                        
+                            Vasilis Efthymiou (Harokopio University of Athens); 
+                        
+                            Oktie Hassanzadeh (IBM Research); 
+                        
+                            Chuan Lei (Oracle); 
+                        
+                            Kavitha Srinivas (IBM Research)
+                        
+                    </p>
+                </div>
+
+                
+                    <p>
+                        <strong>Website:</strong>
+                        <a href="https://tabular-data-analysis.github.io/tada2026/">https://tabular-data-analysis.github.io/tada2026/</a>
+                    </p>
+                
+
+                
+            
+                <div class="schedule-head">
+                    <strong class="main-title">SCCP</strong>
+                    <span>half day, morning</span>
+                </div>
+
+                <div class="workshop-summary">
+                    <p class="workshop-name"><strong>Title:</strong> Symposium on Consistency Checking Principles</p>
+                    <p class="workshop-cochairs">
+                        <strong>Co-Chairs:</strong>
+                        
+                            Cheng Tan (Northeastern); 
+                        
+                            Shuai Mu (Stony Brook University); 
+                        
+                            Hengfeng Wei (Hunan University); 
+                        
+                            Si Liu (Texas A&amp;M University)
+                        
+                    </p>
+                </div>
+
+                
+                    <p>
+                        <strong>Website:</strong>
+                        <a href="https://sccp-workshop.github.io/sccp26/">https://sccp-workshop.github.io/sccp26/</a>
+                    </p>
+                
+
+                
+            
+                <div class="schedule-head">
+                    <strong class="main-title">VecDB</strong>
+                    <span>full day</span>
+                </div>
+
+                <div class="workshop-summary">
+                    <p class="workshop-name"><strong>Title:</strong> The 2nd Workshop on Vector Databases</p>
+                    <p class="workshop-cochairs">
+                        <strong>Co-Chairs:</strong>
+                        
+                            Yusuke Matsui (The University of Tokyo); 
+                        
+                            Martin Aumuller (IT University of Copenhagen); 
+                        
+                            Magdalen Manohar (Microsoft); 
+                        
+                            Harsha Simhadri (Microsoft)
+                        
+                    </p>
+                </div>
+
+                
+                    <p>
+                        <strong>Website:</strong>
+                        <a href="https://vecdb-ws.github.io/vldb2026/index.html">https://vecdb-ws.github.io/vldb2026/index.html</a>
+                    </p>
+                
+
+                
+            
+        
+    </section>
+
+            <div class="spinner"></div>
+        </main>
+
+        <footer>
+            <div>52<sup>nd</sup> International Conference on Very Large Data Bases Satellite Event<br />Guangzhou, China &mdash; December 1-2, 2026</div>
+            <a class="github no-ext-icon" href="https://github.com/dbogatov/vldb-2026" title="Collaborate on GitHub">
+                <svg height="32" version="1.1" viewBox="0 0 16 16" width="32">
+                    <path fill="#fff" fill-rule="evenodd" d="
+                        M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+                        0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+                        1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+                        0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18
+                        1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16
+                        1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54
+                        1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16
+                        8c0-4.42-3.58-8-8-8z">
+                    </path>
+                </svg>
+            </a>
+        </footer>
+
+        <link rel="stylesheet" href="/vldb2026-satellite/assets/merged.css?v=local-dev">
+        <script async src="/vldb2026-satellite/assets/merged.js"></script>
+
+        <script async src="https://platform.twitter.com/widgets.js"></script>
+        <script>
+            (function() {
+                var last = 0,
+                    docBody = document.body,
+                    header = document.querySelector('body>header'),
+                    nav = header && header.querySelector('nav'),
+                    requestAnimationFrame = window.requestAnimationFrame || function(callback, element) {
+                        var now = Date.now(),
+                            next = Math.max(0, 16 - (now - last)),
+                            id = window.setTimeout(function() {
+                                callback(now + next);
+                            }, next);
+                        last = now + next;
+                        return id;
+                    },
+                    cancelAnimationFrame = window.cancelAnimationFrame || function(id) {
+                        clearTimeout(id);
+                    },
+                    update = function () {
+                        if (!nav) return;
+
+                        var isStatic = docBody.classList.contains('static');
+                        if (header.getBoundingClientRect().bottom > 70) {
+                            if (isStatic) docBody.classList.remove('static');
+                        } else if (!isStatic) docBody.classList.add('static');
+                    },
+                    lid;
+
+                window.addEventListener('scroll', function(e) {
+                    if (lid) cancelAnimationFrame(lid);
+                    lid = requestAnimationFrame(update);
+                });
+
+                update();
+            }());
+        </script>
+    </body>
+</html>

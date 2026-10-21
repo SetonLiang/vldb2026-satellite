@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115776710-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-115776710-1');
+        </script>
+        <script language="javascript">
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="https://vldb.org/2026/special-event-return-to-boston" />
+        <style>
+            body{visibility:hidden}
+        </style>
+        
+        <link rel="icon" type="image/png" href="/vldb2026-satellite/assets/img/favicon.webp">
+        <title>VLDB 2026 Satellite Event | Special Event - Return to Boston</title>
+        <meta name="description" content="The VLDB 2026 conference, will take place in Boston, MA, United States, from Aug 31st to Sep 4th, 2026, and will feature research talks, tutorials, demonstrations, and workshops. It will cover issues in data management, database and information systems research. VLDB is a premier annual international forum for data management and database researchers, vendors, practitioners, application developers, and users.">
+    </head>
+    
+    <body>
+        <header>
+            <div class="small-menu"><a class="hamburger"></a></div>
+            <div class="small-header">
+                <figure class="logo">
+                    <a href="/vldb2026-satellite">
+                        <img style="max-width: 150px; min-width: 100px;" src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China"></a>
+                </figure>
+            </div>
+            <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+                <figure class="logo">
+                    <img src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China">
+                    <img src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China">
+                </figure>
+                
+                    <div>
+                        
+                            General Information
+                            <div class="menu">
+                                
+                                    
+                                        <a href="." itemprop="url">
+                                            <span itemprop="name">Conference Overview</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="officers.html" itemprop="url">
+                                            <span itemprop="name">Conference Officers</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="pvldb-review-board.html" itemprop="url">
+                                            <span itemprop="name">PVLDB Review Board</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="shadow-pc.html" itemprop="url">
+                                            <span itemprop="name">Shadow PC</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+                    <div class="conference-program-menu">
+                        
+                            Conference Program
+                            <div class="menu">
+                                
+                                    
+                                        <a href="program.html" itemprop="url">
+                                            <span itemprop="name">Full Program</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="keynotes.html" itemprop="url">
+                                            <span itemprop="name">Keynotes</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="panels.html" itemprop="url">
+                                            <span itemprop="name">Panels</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+                    <div class="no-sub">
+                        
+                            <a href="important-dates.html" itemprop="url">
+                                <span itemprop="name">Dates &amp; Guidelines</span>
+                            </a>
+                        
+                    </div>
+                
+                    <div class="no-sub">
+                        
+                            <a href="sponsor-list.html" itemprop="url">
+                                <span itemprop="name">Sponsorship</span>
+                            </a>
+                        
+                    </div>
+                
+                    <div>
+                        
+                            Participant Information
+                            <div class="menu">
+                                
+                                    
+                                        <a href="conference-venue.html" itemprop="url">
+                                            <span itemprop="name">Conference Venue</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="registration.html" itemprop="url">
+                                            <span itemprop="name">Registration</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <hr/>
+                                    
+                                
+                                    
+                                        <a class="menu-label" role="presentation" aria-disabled="true">
+                                            <span>Conference Hotel Booking:</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="https://book.passkey.com/go/VLDBConference" itemprop="url" target="_blank" rel="noopener noreferrer">
+                                            <span itemprop="name">The Westin Boston Seaport</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+            </nav>
+            <section
+                class="carousel small"
+                data-images='[
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-1.webp","t":"Guangzhou"}
+                        ,
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-2.webp","t":"Guangzhou"}
+                        ,
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-3.webp","t":"Guangzhou"}
+                        
+                    
+                ]'
+            >
+                <span>52<sup>nd</sup> International Conference on Very Large Data Bases Satellite Event</span>
+                <span>Guangzhou, China - December 1-2, 2026</span>
+            </section>
+        </header>
+
+        <main class="body">
+            
+    <article class="special-event-page">
+        <header class="special-event-heading">
+            <p class="special-event-eyebrow">VLDB 2026 Special Event</p>
+            <h1>VLDB 2026 Special Event: Return to the Boston Area After 50+ Years</h1>
+            <p class="special-event-subtitle">What Can We Learn from VLDB 1975?</p>
+
+            <dl class="special-event-facts" aria-label="Event details">
+                <div>
+                    <dt>Date</dt>
+                    <dd>Wednesday, September 2, 2026</dd>
+                </div>
+                <div>
+                    <dt>Time</dt>
+                    <dd>8:45–10:15 AM</dd>
+                </div>
+                <div>
+                    <dt>Location</dt>
+                    <dd>Grand Ballroom A+B</dd>
+                </div>
+            </dl>
+        </header>
+
+        <figure class="special-event-poster">
+            <img src="/vldb2026-satellite/assets/img/return-to-boston-poster.webp"
+                 alt="VLDB 2026 Return to Boston event poster">
+        </figure>
+
+        <section aria-labelledby="special-event-agenda">
+            <h2 id="special-event-agenda">Agenda</h2>
+            <div class="special-event-agenda-wrapper">
+                <table class="special-event-agenda">
+                    <thead>
+                        <tr>
+                            <th scope="col">Time Slot</th>
+                            <th scope="col">Task</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                            <tr>
+                                <td>8:45 - 8:50</td>
+                                <td>Welcome speech by Divesh</td>
+                            </tr>
+                        
+                            <tr class="special-event-agenda__session">
+                                <td>8:50 - 9:15</td>
+                                <td>Session 1: Leading up to VLDB 1975</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>8:50 - 9:00</td>
+                                <td>Presentation by Philip A. Bernstein</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>9:00 - 9:10</td>
+                                <td>Presentation by Michael Stonebraker</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>9:10 - 9:15</td>
+                                <td>Q&amp;A</td>
+                            </tr>
+                        
+                            <tr class="special-event-agenda__session">
+                                <td>9:15 - 9:45</td>
+                                <td>Session 2: Memories of a few VLDB 1975 Papers</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>9:15 - 9:22</td>
+                                <td>Presentation by David DeWitt</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>9:22 - 9:29</td>
+                                <td>Presentation by Sebastian Link</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>9:29 - 9:36</td>
+                                <td>Presentation by C. Mohan</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>9:36 - 9:45</td>
+                                <td>Q&amp;A</td>
+                            </tr>
+                        
+                            <tr class="special-event-agenda__session">
+                                <td>9:45 - 10:15</td>
+                                <td>Session 3: Perspectives on the impact of VLDB</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>9:45 - 9:52</td>
+                                <td>Presentation by Renée J. Miller</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>9:52 - 9:59</td>
+                                <td>Presentation by Volker Markl</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>9:59 - 10:06</td>
+                                <td>Presentation by Lei Chen</td>
+                            </tr>
+                        
+                            <tr>
+                                <td>10:06 - 10:15</td>
+                                <td>Q&amp;A</td>
+                            </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="special-event-speakers" aria-labelledby="special-event-speakers">
+            <h2 id="special-event-speakers">Speakers</h2>
+
+            
+                <section class="special-event-session" aria-labelledby="special-event-session-1">
+                    <div class="special-event-session__heading">
+                        <h3 id="special-event-session-1">Session 1: Leading Up to VLDB 1975</h3>
+                        <span>8:50 - 9:15</span>
+                    </div>
+
+                    <div class="special-event-speaker-list">
+                        
+                            <article class="special-event-speaker">
+                                    <div class="special-event-speaker__portrait">
+                                    
+                                        <img src="/vldb2026-satellite/assets/img/philip-bernstein.webp"
+                                             alt="Philip A. Bernstein">
+                                    
+                                </div>
+                                <div class="special-event-speaker__bio">
+                                    <h4>Philip A. Bernstein</h4>
+                                    <p>Philip A. Bernstein is a Distinguished Scientist at Microsoft Research and Affiliate Professor at University of Washington. He was previously a researcher and product architect at Digital Equipment Corporation, a professor at Harvard University, and VP Software at Sequoia Systems. He has co-authored over 150 papers on database systems and two books on transaction processing. He is a Fellow of the ACM and AAAS, a winner of the E.F. Codd SIGMOD Innovations Award, and a member of the U.S. National Academy of Engineering. He received a B.S. from Cornell and M.Sc. and Ph.D. from University of Toronto. More details are at <a href="https://research.microsoft.com/~philbe" rel="noopener noreferrer" target="_blank">https://research.microsoft.com/~philbe</a>.</p>
+                                    
+                                </div>
+                            </article>
+                        
+                            <article class="special-event-speaker">
+                                    <div class="special-event-speaker__portrait">
+                                    
+                                        <img src="/vldb2026-satellite/assets/img/michael-stonebraker.webp"
+                                             alt="Michael Stonebraker">
+                                    
+                                </div>
+                                <div class="special-event-speaker__bio">
+                                    <h4>Michael Stonebraker</h4>
+                                    <p>Dr. Stonebraker has been a pioneer of database research and technology for more than fifty years. He was the main architect of the INGRES relational DBMS and the object-relational DBMS POSTGRES. These prototypes were developed at the University of California at Berkeley, where Stonebraker was a Professor of Computer Science for twenty-five years. More recently at MIT, he was a co-architect of the C-Store column-oriented DBMS, the H-Store OLTP DBMS, the SciDB array DBMS, the Data Tamer integration engine, the Kyrix visualization system, and the DBOS operating system prototype. He is the founder of eleven venture-capital-backed startups that commercialized these prototypes. Presently he serves as an advisor to Hopara, which is commercializing the Kyrix prototype, and to DBOS, Inc., which is commercializing parts of DBOS.</p>
+                                    <p>Professor Stonebraker is the author of scores of research papers on database technology, operating systems, and the architecture of system software services. He received the ACM System Software Award in 1992 for his work on INGRES, the ACM Software Systems Award in 1988, the IEEE John von Neumann Prize in 2005, and the ACM Turing Award in 2014. He was elected to the National Academy of Engineering in 1997. He is presently an Adjunct Professor of Computer Science at MIT, where he works on a variety of future-generation data-oriented projects.</p>
+                                </div>
+                            </article>
+                        
+                    </div>
+                </section>
+            
+                <section class="special-event-session" aria-labelledby="special-event-session-2">
+                    <div class="special-event-session__heading">
+                        <h3 id="special-event-session-2">Session 2: Memories of a Few VLDB 1975 Papers</h3>
+                        <span>9:15 - 9:45</span>
+                    </div>
+
+                    <div class="special-event-speaker-list">
+                        
+                            <article class="special-event-speaker">
+                                    <div class="special-event-speaker__portrait">
+                                    
+                                        <img src="/vldb2026-satellite/assets/img/david-dewitt.webp"
+                                             alt="David DeWitt">
+                                    
+                                </div>
+                                <div class="special-event-speaker__bio">
+                                    <h4>David DeWitt</h4>
+                                    <p>David J. DeWitt joined the Computer Sciences Department at the University of Wisconsin in September 1976 after receiving his Ph.D. degree from the University of Michigan. He served as department chair from July 1999 to July 2004. He held the title John P. Morgridge Professor of Computer Sciences when he retired from the University of Wisconsin in 2008. In 2008, Dr. DeWitt joined Microsoft as a Technical Fellow to establish and manage the Jim Gray Systems Lab in Madison for the SQL Server product group. He served in that position until 2016, when he moved to Boston to accept an Adjunct Faculty position at MIT. He consulted for Facebook from February 2017 until December 2018, for Amazon from October 2019 to January 2020, and for Snowflake from March 2020 to April 2021. In July 2021, he joined Splunk as a VP and Technical Fellow. He currently consults for Amazon and is a member of the technical advisory board for AkashX.ai.</p>
+                                    <p>Professor DeWitt is a member of the National Academy of Engineering (1998), a fellow of the American Academy of Arts and Sciences (2007), and an ACM Fellow (1995). His seminal contributions to the field of scalable and parallel database systems were recognized by ACM with the Software Systems Award in 2008. He received the IEEE Emanuel R. Piore Award in 2009.</p>
+                                </div>
+                            </article>
+                        
+                            <article class="special-event-speaker">
+                                    <div class="special-event-speaker__portrait">
+                                    
+                                        <img src="/vldb2026-satellite/assets/img/sebastian-link.webp"
+                                             alt="Sebastian Link">
+                                    
+                                </div>
+                                <div class="special-event-speaker__bio">
+                                    <h4>Sebastian Link</h4>
+                                    <p>Sebastian Link is a Professor of Computer Science at the University of Auckland. He received the 2013 Chris Wallace Award for outstanding research contributions and holds a Doctor of Science. His work focuses on database design and data profiling, leading him to co-found the company DataViadotto. He has published over 200 articles and serves on major conferences such as ICDE, SIGMOD, and VLDB, and editorial boards including The VLDB Journal and Information Systems.</p>
+                                    
+                                </div>
+                            </article>
+                        
+                            <article class="special-event-speaker">
+                                    <div class="special-event-speaker__portrait">
+                                    
+                                        <img src="/vldb2026-satellite/assets/img/c-mohan.webp"
+                                             alt="C. Mohan">
+                                    
+                                </div>
+                                <div class="special-event-speaker__bio">
+                                    <h4>C. Mohan</h4>
+                                    <p>Dr. C. Mohan is Distinguished Professor of Science at Hong Kong Baptist University, Distinguished Visiting Professor at Tsinghua University, and a founding board member of Digital University Kerala. A retired IBM Fellow with a 38-year research tenure at IBM Research in Silicon Valley, he invented landmark technologies including the ARIES family of database recovery and locking algorithms and the Presumed Abort distributed commit protocol. He is an ACM Fellow, an IEEE Life Fellow, a member of the U.S. and Indian National Academies of Engineering, recipient of the 1996 ACM SIGMOD Edgar F. Codd Innovations Award and the 1999 VLDB 10 Year Best Paper Award, and holder of 50 patents. He has served as IBM India Chief Scientist, consultant for Google and Microsoft, and has given lectures in 43 countries.</p>
+                                    
+                                </div>
+                            </article>
+                        
+                    </div>
+                </section>
+            
+                <section class="special-event-session" aria-labelledby="special-event-session-3">
+                    <div class="special-event-session__heading">
+                        <h3 id="special-event-session-3">Session 3: Perspectives on the Impact of VLDB</h3>
+                        <span>9:45 - 10:15</span>
+                    </div>
+
+                    <div class="special-event-speaker-list">
+                        
+                            <article class="special-event-speaker">
+                                    <div class="special-event-speaker__portrait special-event-speaker__portrait--placeholder">
+                                    
+                                        <span class="special-event-speaker__initials" aria-hidden="true">RM</span>
+                                        <span class="special-event-speaker__no-photo">Renée J. Miller</span>
+                                    
+                                </div>
+                                <div class="special-event-speaker__bio">
+                                    <h4>Renée J. Miller</h4>
+                                    <p>Renée J. Miller is the Canada Excellence Research Chair in Data Intelligence at the University of Waterloo. She is a Fellow of the Royal Society of Canada, Canada&#39;s National Academy of Science, Engineering and the Humanities. She received the U.S. Presidential Early Career Award for Scientists and Engineers (PECASE), the highest honor bestowed by the United States government on outstanding scientists and engineers beginning their careers. She received an NSF CAREER Award, the Ontario Premier&#39;s Research Excellence Award, and an IBM Faculty Award. She formerly held the Bell Canada Chair of Information Systems at the University of Toronto and a University Distinguished Professorship at Northeastern University. She is a Fellow of the ACM and the AAAS. Her work has focused on the long-standing open problem of data integration and has achieved the goal of building practical data integration systems. She and her colleagues received the ICDT Test-of-Time Award and the 2020 Alonzo Church Award for Outstanding Contributions to Logic and Computation for their influential work establishing the foundations of data exchange. For her body of work, she has received the CS Canada Lifetime Achievement Award in Computer Science. Professor Miller served as president of the Very Large Data Base (VLDB) Endowment and as an Editor-in-Chief of The VLDB Journal. She received her Ph.D. in Computer Science from the University of Wisconsin, Madison and bachelor&#39;s degrees in Mathematics and Cognitive Science from MIT.</p>
+                                    
+                                </div>
+                            </article>
+                        
+                            <article class="special-event-speaker">
+                                    <div class="special-event-speaker__portrait">
+                                    
+                                        <img src="/vldb2026-satellite/assets/img/volker-markl.webp"
+                                             alt="Volker Markl">
+                                    
+                                </div>
+                                <div class="special-event-speaker__bio">
+                                    <h4>Volker Markl</h4>
+                                    <p>Volker Markl is a German Professor of Computer Science. He leads the Chair of Database Systems and Information Management at TU Berlin and the Intelligent Analytics for Massive Data Research Department at DFKI. In addition, he is Director of the Berlin Institute for the Foundations of Learning and Data (BIFOLD). He is a database systems researcher conducting research at the intersection of distributed systems, scalable data processing, and machine learning. Volker led the Stratosphere project, which resulted in the creation of Apache Flink. He has received numerous honors and prestigious awards, including best paper awards at ACM SIGMOD, VLDB, and ICDE, as well as the ACM SIGMOD Systems Award. In 2014, he was elected one of Germany&#39;s leading “Digital Minds” (Digitale Köpfe) by the German Informatics Society. He is a member of the German National Academy of Sciences Leopoldina and the Berlin-Brandenburg Academy of Sciences. He was elected an ACM Fellow for his contributions to query optimization, scalable data processing, and data programmability. He served as President of the VLDB Endowment and serves as advisor to academic institutions, governmental organizations, and technology companies. Volker holds eighteen patents and has been co-founder and mentor to several startups.</p>
+                                    
+                                </div>
+                            </article>
+                        
+                            <article class="special-event-speaker">
+                                    <div class="special-event-speaker__portrait">
+                                    
+                                        <img src="/vldb2026-satellite/assets/img/lei-chen.webp"
+                                             alt="Lei Chen">
+                                    
+                                </div>
+                                <div class="special-event-speaker__bio">
+                                    <h4>Lei Chen</h4>
+                                    <p>Lei Chen is a Chair Professor in Data Science and Analytics at HKUST (Guangzhou) and the Department of Computer Science and Engineering at HKUST, where he also serves as Dean of the Information Hub and Director of the Big Data Institute. An elected Fellow of both the ACM and IEEE, Prof. Chen is a distinguished researcher whose expertise encompasses data-driven AI, spatiotemporal and probabilistic databases, crowdsourcing, and emerging technologies such as blockchain and the Metaverse. He earned his Ph.D. in Computer Science from the University of Waterloo and has received numerous top-tier honors, including the 2015 SIGMOD Test-of-Time Award, the VLDB 2022 Best Research Paper Award, and a VLDB 2014 Excellent Demonstration Award. His leadership in the academic community is extensive; he is the current President of the VLDB Endowment and Editor-in-Chief of IEEE Transactions on Knowledge and Data Engineering (TKDE), having previously served as Co-Editor-in-Chief of The VLDB Journal. His service to major international forums includes roles as General Co-Chair for VLDB 2024 and IJCAI China 2025, as well as Program Committee Co-Chair for VLDB 2019.</p>
+                                    
+                                </div>
+                            </article>
+                        
+                    </div>
+                </section>
+            
+        </section>
+
+        <section class="special-event-organizer" aria-labelledby="special-event-organizer">
+            <div class="special-event-session__heading">
+                <h2 id="special-event-organizer">Plenary Session Organizer</h2>
+            </div>
+            <article class="special-event-speaker">
+                <div class="special-event-speaker__portrait">
+                    <img src="/vldb2026-satellite/assets/img/divesh-srivastava.webp"
+                         alt="Divesh Srivastava">
+                </div>
+                <div class="special-event-speaker__bio">
+                    <h3>Divesh Srivastava</h3>
+                    <p>Divesh Srivastava is the head of Database Research at AT&amp;T. He is an AT&amp;T Fellow, a Fellow of the ACM, on the Board of Directors of the Computing Research Association (CRA), co-chair of the ACM Publications Board, and former President of the VLDB Endowment. He is a recipient of the 2021 IEEE TCDE Impact Award, the 2021 ACM SIGMOD Contributions Award, and the 2023 Distinguished Alumnus Award from the Indian Institute of Technology, Bombay. He has conducted research on a wide variety of topics in data management for three decades and has presented keynotes at several international conferences. He received his Ph.D. from the University of Wisconsin–Madison and his Bachelor of Technology from the Indian Institute of Technology Bombay, India.</p>
+                </div>
+            </article>
+        </section>
+    </article>
+
+            <div class="spinner"></div>
+        </main>
+
+        <footer>
+            <div>52<sup>nd</sup> International Conference on Very Large Data Bases Satellite Event<br />Guangzhou, China &mdash; December 1-2, 2026</div>
+            <a class="github no-ext-icon" href="https://github.com/dbogatov/vldb-2026" title="Collaborate on GitHub">
+                <svg height="32" version="1.1" viewBox="0 0 16 16" width="32">
+                    <path fill="#fff" fill-rule="evenodd" d="
+                        M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+                        0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+                        1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+                        0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18
+                        1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16
+                        1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54
+                        1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16
+                        8c0-4.42-3.58-8-8-8z">
+                    </path>
+                </svg>
+            </a>
+        </footer>
+
+        <link rel="stylesheet" href="/vldb2026-satellite/assets/merged.css?v=local-dev">
+        <script async src="/vldb2026-satellite/assets/merged.js"></script>
+
+        <script async src="https://platform.twitter.com/widgets.js"></script>
+        <script>
+            (function() {
+                var last = 0,
+                    docBody = document.body,
+                    header = document.querySelector('body>header'),
+                    nav = header && header.querySelector('nav'),
+                    requestAnimationFrame = window.requestAnimationFrame || function(callback, element) {
+                        var now = Date.now(),
+                            next = Math.max(0, 16 - (now - last)),
+                            id = window.setTimeout(function() {
+                                callback(now + next);
+                            }, next);
+                        last = now + next;
+                        return id;
+                    },
+                    cancelAnimationFrame = window.cancelAnimationFrame || function(id) {
+                        clearTimeout(id);
+                    },
+                    update = function () {
+                        if (!nav) return;
+
+                        var isStatic = docBody.classList.contains('static');
+                        if (header.getBoundingClientRect().bottom > 70) {
+                            if (isStatic) docBody.classList.remove('static');
+                        } else if (!isStatic) docBody.classList.add('static');
+                    },
+                    lid;
+
+                window.addEventListener('scroll', function(e) {
+                    if (lid) cancelAnimationFrame(lid);
+                    lid = requestAnimationFrame(update);
+                });
+
+                update();
+            }());
+        </script>
+    </body>
+</html>

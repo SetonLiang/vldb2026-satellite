@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115776710-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-115776710-1');
+        </script>
+        <script language="javascript">
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="https://vldb.org/2026/call-for-demonstrations" />
+        <style>
+            body{visibility:hidden}
+        </style>
+        
+        <link rel="icon" type="image/png" href="/vldb2026-satellite/assets/img/favicon.webp">
+        <title>VLDB 2026 Satellite Event | Call for Contributions - Demonstrations</title>
+        <meta name="description" content="The VLDB 2026 conference, will take place in Boston, MA, United States, from Aug 31st to Sep 4th, 2026, and will feature research talks, tutorials, demonstrations, and workshops. It will cover issues in data management, database and information systems research. VLDB is a premier annual international forum for data management and database researchers, vendors, practitioners, application developers, and users.">
+    </head>
+    
+    <body>
+        <header>
+            <div class="small-menu"><a class="hamburger"></a></div>
+            <div class="small-header">
+                <figure class="logo">
+                    <a href="/vldb2026-satellite">
+                        <img style="max-width: 150px; min-width: 100px;" src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China"></a>
+                </figure>
+            </div>
+            <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+                <figure class="logo">
+                    <img src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China">
+                    <img src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China">
+                </figure>
+                
+                    <div>
+                        
+                            General Information
+                            <div class="menu">
+                                
+                                    
+                                        <a href="." itemprop="url">
+                                            <span itemprop="name">Conference Overview</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="officers.html" itemprop="url">
+                                            <span itemprop="name">Conference Officers</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="pvldb-review-board.html" itemprop="url">
+                                            <span itemprop="name">PVLDB Review Board</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="shadow-pc.html" itemprop="url">
+                                            <span itemprop="name">Shadow PC</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+                    <div class="conference-program-menu">
+                        
+                            Conference Program
+                            <div class="menu">
+                                
+                                    
+                                        <a href="program.html" itemprop="url">
+                                            <span itemprop="name">Full Program</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="keynotes.html" itemprop="url">
+                                            <span itemprop="name">Keynotes</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="panels.html" itemprop="url">
+                                            <span itemprop="name">Panels</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+                    <div class="no-sub">
+                        
+                            <a href="important-dates.html" itemprop="url">
+                                <span itemprop="name">Dates &amp; Guidelines</span>
+                            </a>
+                        
+                    </div>
+                
+                    <div class="no-sub">
+                        
+                            <a href="sponsor-list.html" itemprop="url">
+                                <span itemprop="name">Sponsorship</span>
+                            </a>
+                        
+                    </div>
+                
+                    <div>
+                        
+                            Participant Information
+                            <div class="menu">
+                                
+                                    
+                                        <a href="conference-venue.html" itemprop="url">
+                                            <span itemprop="name">Conference Venue</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="registration.html" itemprop="url">
+                                            <span itemprop="name">Registration</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <hr/>
+                                    
+                                
+                                    
+                                        <a class="menu-label" role="presentation" aria-disabled="true">
+                                            <span>Conference Hotel Booking:</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="https://book.passkey.com/go/VLDBConference" itemprop="url" target="_blank" rel="noopener noreferrer">
+                                            <span itemprop="name">The Westin Boston Seaport</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+            </nav>
+            <section
+                class="carousel small"
+                data-images='[
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-1.webp","t":"Guangzhou"}
+                        ,
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-2.webp","t":"Guangzhou"}
+                        ,
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-3.webp","t":"Guangzhou"}
+                        
+                    
+                ]'
+            >
+                <span>52<sup>nd</sup> International Conference on Very Large Data Bases Satellite Event</span>
+                <span>Guangzhou, China - December 1-2, 2026</span>
+            </section>
+        </header>
+
+        <main class="body">
+            <div style="text-align: justify" class="markdown "> <h1>VLDB 2026 Satellite Event: Call for Contributions - Demonstrations</h1>
+<p>VLDB 2026 invites submissions for software demonstration proposals on any topic of interest, broadly defined, to the data management community.
+Software demonstrations are accompanied by short papers, which will appear in the PVLDB proceedings upon acceptance.
+Demonstrations presented at the conference will be eligible to receive the VLDB 2026 Best Demo Award.</p>
+<h2>Important Dates</h2>
+<p>The submission deadline will not be extended.</p>
+<ul>
+<li>Proposal submission deadline: <strong>23:59 AoE - March 29, 2026</strong></li>
+<li>Notification of acceptance: <strong>23:59 AoE - May 31, 2026</strong></li>
+<li>Camera-ready deadline: <strong>17:00 PT - July 10, 2026</strong></li>
+</ul>
+<h2>Demo Proposals</h2>
+<p>The proposal must describe the demonstrated system, and state the novelty and significance of the contribution to data management research, technologies, and/or its applications.
+The proposal should pay special attention to describing the exact demonstration scenarios for the given system.
+This should include how the audience will experience the demo, the architecture of the proposed system, what kind of functionality is supported, user scenarios, interface and interaction options, etc.
+Proposals with a high degree of audience interaction that can engage the audience will be preferred.
+Proposals must be submitted in camera-ready format and limited to 4 pages, inclusive of ALL material.
+Formatting guidelines and document templates are available at <a href="http://vldb.org/pvldb/volumes/19/formatting/">http://vldb.org/pvldb/volumes/19/formatting/</a>.
+Submissions are single-anonymous and must contain author names and affiliations.
+Proposals will be reviewed by at least 3 reviewers, and the review process will be managed by an Associate Editor.</p>
+<h2>Video Submissions</h2>
+<p>We encourage the submission of a demonstration video (of up to 5 minutes, 50MB max. file size) together with your demonstration proposal via CMT.
+Both the demonstration proposal and the video will then be accessible to the reviewers.
+Your video should summarize your demonstration and also audio-visually highlight its most important aspects, such as the user interface, options for user interactions, the system setup, etc.
+The video should be submitted in MPEG/AVI/MP4 format and be playable by the common media players.
+Please note that you will need to first finish your demo proposal submission and then edit it to add the video as a supplementary file.</p>
+<h2>Conflicts and Authorship</h2>
+<p>To minimize biases in the evaluation process, we use CMT&#39;s conflict management system, through which authors should flag conflicts with members of the Editorial Board.</p>
+<p><strong>Conflict Declaration on CMT:</strong> Each author is responsible for entering their own domain and individual PC conflicts on CMT.
+All authors of a paper (listed in the pdf) must register themselves in CMT and declare their individual domain and PC conflicts at the time of submission.
+It is the full responsibility of all authors of a paper to identify and declare all CoIs with members of the Editorial Board (Reviewers, Associate Editors, and Demo Chairs) prior to the submission deadline.
+Conflicts of interest will also be checked using an automated CoI detection tool.
+Submissions with undeclared conflicts or spurious conflicts will be desk-rejected.</p>
+<p>After a paper is accepted, the set of authors cannot be changed.</p>
+<p>You can mark your domain and individual PC conflicts by clicking on your name (upper right-hand side on CMT) and selecting &#34;Personal Conflicts&#34;.
+An author&#39;s declared conflicts will be automatically applied to all of their submissions.</p>
+<p>X and Y have a conflict of interest (CoI) if any of the following applies:</p>
+<ul>
+<li>X and Y have worked in the same university or company in the past 2 years, or will be doing so in the next 6 months on account of an accepted job offer.
+  Different campuses within the same university system do not count as the same university for this purpose (e.g., UC Berkeley does not have a conflict with UC Santa Barbara).</li>
+<li>X has been a co-author of a paper with Y in the last 3 years, or of 4 (or more) papers in the last 10 years.
+  (Note that we consider the publication year and not the submission year or the month of publication (i.e., we do not distinguish at month-level granularity). For example, in 2025, the last 3 years start from January 2022 of the paper&#39;s publication date.)</li>
+<li>X has been a collaborator within the past 2 years, as evidenced in a joint publication (subsumed by the stricter rule on co-authorship above), joint research project, or co-organizing events (e.g., co-chairs of conferences), or are collaborating now (including co-authorship on papers not resulted in final publication yet).</li>
+<li>X is the PhD thesis advisor of Y or vice versa, irrespective of how long ago this was.</li>
+<li>X is a relative or close personal friend of Y.</li>
+</ul>
+<h2>Demo Submission</h2>
+<p>Demonstration proposals must be submitted electronically, in PDF format, using CMT.
+When creating a new paper submission, you will be given the option to choose a track.
+Choose the &#34;Demo&#34; track for your demo proposal.
+Once you have submitted your paper, you can add your video submission file in a second step.
+You will find the VLDB 2026 CMT submission site at:</p>
+<p><a href="https://cmt3.research.microsoft.com/PVLDBv19_2026/">https://cmt3.research.microsoft.com/PVLDBv19_2026/</a></p> </div>
+
+    
+        <section class="officers">
+            <div class="officers-grid officers-grid--single officers-grid--lg officers-grid--compact">
+                
+                    <div class="officer-block">
+                        <h4>Demo Track Chairs</h4>
+                        
+                            <div>
+                                <strong>Stefania Dumbrava</strong>,
+                                ENSIIE &amp; INRIA Paris, France
+                            </div>
+                        
+                            <div>
+                                <strong>John Paparrizos</strong>,
+                                The Ohio State University, USA &amp; Aristotle University of Thessaloniki, Greece
+                            </div>
+                        
+                    </div>
+                
+
+                
+                    <div class="officer-block">
+                        <h4>Associate Editors (Meta Reviewers)</h4>
+                        
+                            <div>
+                                <strong>Björn Þ Jónsson</strong>,
+                                Reykjavik University
+                            </div>
+                        
+                            <div>
+                                <strong>Byron Choi</strong>,
+                                Hong Kong Baptist University, Hong Kong, China
+                            </div>
+                        
+                            <div>
+                                <strong>Curtis Dyreson</strong>,
+                                Utah State University
+                            </div>
+                        
+                            <div>
+                                <strong>Danica Porobic</strong>,
+                                Oracle
+                            </div>
+                        
+                            <div>
+                                <strong>H. V. Jagadish</strong>,
+                                University of Michigan
+                            </div>
+                        
+                            <div>
+                                <strong>Haridimos Kondylakis</strong>,
+                                FORTH-ICS &amp; Computer Science Department, University of Crete
+                            </div>
+                        
+                            <div>
+                                <strong>Jan Hidders</strong>,
+                                Birkbeck, University of London
+                            </div>
+                        
+                            <div>
+                                <strong>K. Selçuk Candan</strong>,
+                                Arizona State University
+                            </div>
+                        
+                            <div>
+                                <strong>Mohamed Mokbel</strong>,
+                                University of Minnesota - Twin Cities
+                            </div>
+                        
+                            <div>
+                                <strong>Nikos Mamoulis</strong>,
+                                University of Ioannina
+                            </div>
+                        
+                            <div>
+                                <strong>Pierre Senellart</strong>,
+                                ENS, PSL University
+                            </div>
+                        
+                            <div>
+                                <strong>Sebastian Link</strong>,
+                                University of Auckland
+                            </div>
+                        
+                            <div>
+                                <strong>Sebastian Schelter</strong>,
+                                BIFOLD &amp; TU Berlin
+                            </div>
+                        
+                            <div>
+                                <strong>Steffen Zeuch</strong>,
+                                TU Berlin
+                            </div>
+                        
+                            <div>
+                                <strong>Tianzheng Wang</strong>,
+                                Simon Fraser University
+                            </div>
+                        
+                            <div>
+                                <strong>Vagelis Hristidis</strong>,
+                                UC Riverside
+                            </div>
+                        
+                            <div>
+                                <strong>Vassilis J. Tsotras</strong>,
+                                UC Riverside
+                            </div>
+                        
+                            <div>
+                                <strong>Walid G Aref</strong>,
+                                Purdue
+                            </div>
+                        
+                            <div>
+                                <strong>Wolfgang Gatterbauer</strong>,
+                                Northeastern University
+                            </div>
+                        
+                    </div>
+                
+
+                
+                    <div class="officer-block">
+                        <h4>Program Committee (Reviewers)</h4>
+                        
+                            <div>
+                                <strong>Ahmed Eldawy</strong>,
+                                University of California, Riverside
+                            </div>
+                        
+                            <div>
+                                <strong>Anastasios Gounaris</strong>,
+                                Aristotle University of Thessaloniki
+                            </div>
+                        
+                            <div>
+                                <strong>Andra Ionescu</strong>,
+                                KTH Royal Institute of Technology
+                            </div>
+                        
+                            <div>
+                                <strong>Andrea Mauri</strong>,
+                                Université Claude Bernard Lyon 1
+                            </div>
+                        
+                            <div>
+                                <strong>Andres Calderon-Romero</strong>,
+                                Pontificia Universidad Javeriana
+                            </div>
+                        
+                            <div>
+                                <strong>Aneesh Raman</strong>,
+                                Salesforce
+                            </div>
+                        
+                            <div>
+                                <strong>Anna Mazhar</strong>,
+                                Cornell University
+                            </div>
+                        
+                            <div>
+                                <strong>Antoine Gauquier</strong>,
+                                DI ENS, ENS, CNRS, PSL University &amp; Inria
+                            </div>
+                        
+                            <div>
+                                <strong>Apostolos Giannoulidis</strong>,
+                                ETIS, UMR 8051, CY Cergy Paris Université, ENSEA, CNRS
+                            </div>
+                        
+                            <div>
+                                <strong>Arash Termehchy</strong>,
+                                Oregon State University
+                            </div>
+                        
+                            <div>
+                                <strong>Avigdor Gal</strong>,
+                                Technion -- Israel Institute of Technology
+                            </div>
+                        
+                            <div>
+                                <strong>Bo Tang</strong>,
+                                Southern University of Science and Technology
+                            </div>
+                        
+                            <div>
+                                <strong>Bo Zhao</strong>,
+                                Aalto University
+                            </div>
+                        
+                            <div>
+                                <strong>Carlo Sartiani</strong>,
+                                Universita della Basilica
+                            </div>
+                        
+                            <div>
+                                <strong>Changbo Qu</strong>,
+                                Simon Fraser University
+                            </div>
+                        
+                            <div>
+                                <strong>Chao Zhang</strong>,
+                                University of Waterloo
+                            </div>
+                        
+                            <div>
+                                <strong>Chuan Xiao</strong>,
+                                Nagoya University
+                            </div>
+                        
+                            <div>
+                                <strong>Chunwei Liu</strong>,
+                                MIT CSAIL
+                            </div>
+                        
+                            <div>
+                                <strong>Dalsu Choi</strong>,
+                                SAP
+                            </div>
+                        
+                            <div>
+                                <strong>Danrui Qi</strong>,
+                                Simon Fraser University
+                            </div>
+                        
+                            <div>
+                                <strong>Daren Chao</strong>,
+                                University of Toronto
+                            </div>
+                        
+                            <div>
+                                <strong>David Justen</strong>,
+                                Technische Universität Berlin
+                            </div>
+                        
+                            <div>
+                                <strong>Diandre Miguel B Sabale</strong>,
+                                Northeastern University
+                            </div>
+                        
+                            <div>
+                                <strong>Dimitris Tsitsigkos</strong>,
+                                Archimedes, Athena Research Center
+                            </div>
+                        
+                            <div>
+                                <strong>El Kindi Rezig</strong>,
+                                University of Utah
+                            </div>
+                        
+                            <div>
+                                <strong>Enhao Zhang</strong>,
+                                University of Washington
+                            </div>
+                        
+                            <div>
+                                <strong>Enzo Veltri</strong>,
+                                Università della Basilicata
+                            </div>
+                        
+                            <div>
+                                <strong>Fabian Panse</strong>,
+                                University of Augsburg
+                            </div>
+                        
+                            <div>
+                                <strong>Fan Yang</strong>,
+                                The Ohio State University
+                            </div>
+                        
+                            <div>
+                                <strong>Fangzhu Shen</strong>,
+                                Duke University
+                            </div>
+                        
+                            <div>
+                                <strong>Francesco Pugnaloni</strong>,
+                                Hasso Plattner Institute
+                            </div>
+                        
+                            <div>
+                                <strong>Franco Solleza</strong>,
+                                Brown University
+                            </div>
+                        
+                            <div>
+                                <strong>Fuheng Zhao</strong>,
+                                Snowflake
+                            </div>
+                        
+                            <div>
+                                <strong>Gang Liao</strong>,
+                                Meta
+                            </div>
+                        
+                            <div>
+                                <strong>Garima Gaur</strong>,
+                                Inria Saclay, Ecole Polytechnique
+                            </div>
+                        
+                            <div>
+                                <strong>Geoffrey X. Yu</strong>,
+                                Massachusetts Institute of Technology
+                            </div>
+                        
+                            <div>
+                                <strong>George Papastefanatos</strong>,
+                                ATHENA Research Center
+                            </div>
+                        
+                            <div>
+                                <strong>Georgia Troullinou</strong>,
+                                CNRS
+                            </div>
+                        
+                            <div>
+                                <strong>Georgios Siachamis</strong>,
+                                Inria
+                            </div>
+                        
+                            <div>
+                                <strong>Guozhong Li</strong>,
+                                King Abdullah University of Science &amp; Technology
+                            </div>
+                        
+                            <div>
+                                <strong>Haitao Yuan</strong>,
+                                Nanyang Technological University
+                            </div>
+                        
+                            <div>
+                                <strong>Hangdong Zhao</strong>,
+                                Microsoft
+                            </div>
+                        
+                            <div>
+                                <strong>Haonan Wang</strong>,
+                                Columbia
+                            </div>
+                        
+                            <div>
+                                <strong>Haralampos Gavriilidis</strong>,
+                                BIFOLD &amp; Technische Universität Berlin
+                            </div>
+                        
+                            <div>
+                                <strong>Hiroaki Shiokawa</strong>,
+                                University of Tsukuba
+                            </div>
+                        
+                            <div>
+                                <strong>Hui Li</strong>,
+                                Xidian University
+                            </div>
+                        
+                            <div>
+                                <strong>Ibrahim Sabek</strong>,
+                                University of Southern California
+                            </div>
+                        
+                            <div>
+                                <strong>Ilaria Battiston</strong>,
+                                CWI
+                            </div>
+                        
+                            <div>
+                                <strong>Irena Holubova</strong>,
+                                Charles University
+                            </div>
+                        
+                            <div>
+                                <strong>Jens d&#39;Hondt</strong>,
+                                Barcelona supercomputing center
+                            </div>
+                        
+                            <div>
+                                <strong>Jia Zou</strong>,
+                                Arizona State University
+                            </div>
+                        
+                            <div>
+                                <strong>Jiangneng Li</strong>,
+                                Nanyang Technological University
+                            </div>
+                        
+                            <div>
+                                <strong>Jiaxiang Liu</strong>,
+                                Columbia University
+                            </div>
+                        
+                            <div>
+                                <strong>Jiaxin Jiang</strong>,
+                                National University of Singapore
+                            </div>
+                        
+                            <div>
+                                <strong>Jin Wang</strong>,
+                                Arizona State University
+                            </div>
+                        
+                            <div>
+                                <strong>Jingyi Yang</strong>,
+                                Nanyang Technological University
+                            </div>
+                        
+                            <div>
+                                <strong>Junghoon Kim</strong>,
+                                UNIST
+                            </div>
+                        
+                            <div>
+                                <strong>Junyoung Kim</strong>,
+                                Columbia University
+                            </div>
+                        
+                            <div>
+                                <strong>Kaiqiang Yu</strong>,
+                                Nanjing University
+                            </div>
+                        
+                            <div>
+                                <strong>Kanchan Chowdhury</strong>,
+                                Marquette University
+                            </div>
+                        
+                            <div>
+                                <strong>Kishy Kumar</strong>,
+                                Oracle
+                            </div>
+                        
+                            <div>
+                                <strong>Kostas Stefanidis</strong>,
+                                Tampere University
+                            </div>
+                        
+                            <div>
+                                <strong>Kyoungmin Kim</strong>,
+                                EPFL
+                            </div>
+                        
+                            <div>
+                                <strong>Larissa Capobianco Shimomura</strong>,
+                                Hasselt University
+                            </div>
+                        
+                            <div>
+                                <strong>Lawrence Lim</strong>,
+                                University of California, Santa Barbara
+                            </div>
+                        
+                            <div>
+                                <strong>Lihong He</strong>,
+                                IBM Research
+                            </div>
+                        
+                            <div>
+                                <strong>Lisa Ehrlinger</strong>,
+                                Hasso Plattner Institute, University of Potsdam
+                            </div>
+                        
+                            <div>
+                                <strong>Lisi Chen</strong>,
+                                UESTC
+                            </div>
+                        
+                            <div>
+                                <strong>Loredana Caruccio</strong>,
+                                University of Salerno
+                            </div>
+                        
+                            <div>
+                                <strong>Manisha Luthra</strong>,
+                                TU Darmstadt
+                            </div>
+                        
+                            <div>
+                                <strong>Manos Chatzakis</strong>,
+                                Université Paris Cité
+                            </div>
+                        
+                            <div>
+                                <strong>Maria Luisa Sapino</strong>,
+                                U. Torino, Italy
+                            </div>
+                        
+                            <div>
+                                <strong>Martin Boissier</strong>,
+                                Hasso Plattner Institute, University of Potsdam
+                            </div>
+                        
+                            <div>
+                                <strong>Mayuresh Kunjir</strong>,
+                                Amazon AWS
+                            </div>
+                        
+                            <div>
+                                <strong>Mehnaz Tabassum Mahin</strong>,
+                                Amazon Web Services
+                            </div>
+                        
+                            <div>
+                                <strong>Michael Jungmair</strong>,
+                                Technical University of Munich
+                            </div>
+                        
+                            <div>
+                                <strong>Mijin An</strong>,
+                                SAP
+                            </div>
+                        
+                            <div>
+                                <strong>Mouhamadou Lamine Ba</strong>,
+                                UCAD / ESP
+                            </div>
+                        
+                            <div>
+                                <strong>Nandish Jayaram</strong>,
+                                Intuit
+                            </div>
+                        
+                            <div>
+                                <strong>Neha Makhija</strong>,
+                                University of Massachusetts, Amherst
+                            </div>
+                        
+                            <div>
+                                <strong>Niccolo Meneghetti</strong>,
+                                University of Michigan - Dearborn
+                            </div>
+                        
+                            <div>
+                                <strong>Nikolaos Koutroumanis</strong>,
+                                Archimedes, Athena RC
+                            </div>
+                        
+                            <div>
+                                <strong>Nikolaos Tziavelis</strong>,
+                                UC Santa Cruz
+                            </div>
+                        
+                            <div>
+                                <strong>Nikolay Yakovets</strong>,
+                                TU Eindhoven
+                            </div>
+                        
+                            <div>
+                                <strong>Nikos Bikakis</strong>,
+                                Hellenic Mediterranean University &amp; ATHENA Research Center
+                            </div>
+                        
+                            <div>
+                                <strong>Nils Strassenburg</strong>,
+                                Hasso Plattner Institute, University of Potsdam
+                            </div>
+                        
+                            <div>
+                                <strong>Oscar Romero</strong>,
+                                Universitat Politècnica de Catalunya
+                            </div>
+                        
+                            <div>
+                                <strong>Panagiotis Liakos</strong>,
+                                Athens University of Economics and Business
+                            </div>
+                        
+                            <div>
+                                <strong>Paul Boniol</strong>,
+                                Inria, Ecole normale supérieure
+                            </div>
+                        
+                            <div>
+                                <strong>Petra Selmer</strong>,
+                                Bloomberg
+                            </div>
+                        
+                            <div>
+                                <strong>Philipp Skavantzos</strong>,
+                                The University of Auckland
+                            </div>
+                        
+                            <div>
+                                <strong>Qiange Wang</strong>,
+                                Northeastern University
+                            </div>
+                        
+                            <div>
+                                <strong>Qinghua Liu</strong>,
+                                The Ohio State University
+                            </div>
+                        
+                            <div>
+                                <strong>Qitong Wang</strong>,
+                                Harvard University
+                            </div>
+                        
+                            <div>
+                                <strong>Ramon Lawrence</strong>,
+                                University of British Columbia
+                            </div>
+                        
+                            <div>
+                                <strong>Renato Marroquín</strong>,
+                                Oracle Labs
+                            </div>
+                        
+                            <div>
+                                <strong>Riccardo Tommasini</strong>,
+                                INSA Lyon - LIRIS
+                            </div>
+                        
+                            <div>
+                                <strong>Rihan Hai</strong>,
+                                TU Delft
+                            </div>
+                        
+                            <div>
+                                <strong>Riki Otaki</strong>,
+                                University of Chicago
+                            </div>
+                        
+                            <div>
+                                <strong>Roberto Stanzione</strong>,
+                                University of Salerno
+                            </div>
+                        
+                            <div>
+                                <strong>Roee Shraga</strong>,
+                                WPI
+                            </div>
+                        
+                            <div>
+                                <strong>Sajjadur Rahman</strong>,
+                                Adobe
+                            </div>
+                        
+                            <div>
+                                <strong>Samira Akili</strong>,
+                                TU Berlin
+                            </div>
+                        
+                            <div>
+                                <strong>Sarah Kleest-Meißner</strong>,
+                                Hasselt University
+                            </div>
+                        
+                            <div>
+                                <strong>Sedir Mohammed</strong>,
+                                Hasso Plattner Institute, University of Potsdam
+                            </div>
+                        
+                            <div>
+                                <strong>Shiva Jahangiri</strong>,
+                                Santa Clara University
+                            </div>
+                        
+                            <div>
+                                <strong>Sophia Sideri</strong>,
+                                Université Paris Cité &amp; University of Crete
+                            </div>
+                        
+                            <div>
+                                <strong>Stefan Grafberger</strong>,
+                                BIFOLD &amp; TU Berlin
+                            </div>
+                        
+                            <div>
+                                <strong>Stefania Dumbrava</strong>,
+                                ENSIIE, INRIA, IRIF, Télécom-SudParis
+                            </div>
+                        
+                            <div>
+                                <strong>Stefano Cirillo</strong>,
+                                University of Salerno
+                            </div>
+                        
+                            <div>
+                                <strong>Steffen Zeuch</strong>,
+                                TU Berlin
+                            </div>
+                        
+                            <div>
+                                <strong>Subhadeep Sarkar</strong>,
+                                Brandeis University
+                            </div>
+                        
+                            <div>
+                                <strong>Tarikul Islam Papon</strong>,
+                                University of Massachusetts Boston
+                            </div>
+                        
+                            <div>
+                                <strong>Ted Shaowang</strong>,
+                                University of Chicago
+                            </div>
+                        
+                            <div>
+                                <strong>Thanasis Georgiadis</strong>,
+                                TU Berlin
+                            </div>
+                        
+                            <div>
+                                <strong>Toshiyuki Amagasa</strong>,
+                                University of Tsukuba
+                            </div>
+                        
+                            <div>
+                                <strong>Uta Störl</strong>,
+                                University of Hagen
+                            </div>
+                        
+                            <div>
+                                <strong>Verena Kantere</strong>,
+                                University of Ottawa
+                            </div>
+                        
+                            <div>
+                                <strong>Vikram Goyal</strong>,
+                                IIIT Delhi, India
+                            </div>
+                        
+                            <div>
+                                <strong>Vivek Shah</strong>,
+                                Samsung
+                            </div>
+                        
+                            <div>
+                                <strong>Wentao Wu</strong>,
+                                Microsoft Research
+                            </div>
+                        
+                            <div>
+                                <strong>Xiangpeng Hao</strong>,
+                                University of Wisconsin Madison
+                            </div>
+                        
+                            <div>
+                                <strong>Xiao Luo</strong>,
+                                Ohio State University
+                            </div>
+                        
+                            <div>
+                                <strong>Xin Zhang</strong>,
+                                Amazon AWS
+                            </div>
+                        
+                            <div>
+                                <strong>Xinjing Zhou</strong>,
+                                MIT
+                            </div>
+                        
+                            <div>
+                                <strong>Xuanhe Zhou</strong>,
+                                Shanghai Jiao Tong University
+                            </div>
+                        
+                            <div>
+                                <strong>Yannis Foufoulas</strong>,
+                                Athena Research Center
+                            </div>
+                        
+                            <div>
+                                <strong>Yanwei Yu</strong>,
+                                Ocean University of China
+                            </div>
+                        
+                            <div>
+                                <strong>Yaron Kanza</strong>,
+                                AT&amp;T Labs-Research
+                            </div>
+                        
+                            <div>
+                                <strong>Yichao Yuan</strong>,
+                                University of Illinois Urbana Champaign
+                            </div>
+                        
+                            <div>
+                                <strong>Yihao Hu</strong>,
+                                Duke University
+                            </div>
+                        
+                            <div>
+                                <strong>Yingxia Shao</strong>,
+                                BUPT
+                            </div>
+                        
+                            <div>
+                                <strong>Yiru Chen</strong>,
+                                Adobe
+                            </div>
+                        
+                            <div>
+                                <strong>Yongjoo Park</strong>,
+                                University of Illinois at Urbana-Champaign
+                            </div>
+                        
+                            <div>
+                                <strong>Yuval Moskovitch</strong>,
+                                Ben Gurion University
+                            </div>
+                        
+                            <div>
+                                <strong>Yuxi Wang</strong>,
+                                Hangzhou Dianzi University
+                            </div>
+                        
+                            <div>
+                                <strong>Zafeiria Moumoulidou</strong>,
+                                University of Massachusetts Amherst
+                            </div>
+                        
+                            <div>
+                                <strong>Zeyu Wang</strong>,
+                                Fudan University
+                            </div>
+                        
+                            <div>
+                                <strong>Zhengjie Miao</strong>,
+                                Simon Fraser University
+                            </div>
+                        
+                            <div>
+                                <strong>Zhichao Cao</strong>,
+                                Arizona State University
+                            </div>
+                        
+                            <div>
+                                <strong>Zhidan Liu</strong>,
+                                Hong Kong University of Science and Technology (Guangzhou)
+                            </div>
+                        
+                            <div>
+                                <strong>Zhiqiang Zhong</strong>,
+                                Aarhus University
+                            </div>
+                        
+                            <div>
+                                <strong>Zhuoyue Zhao</strong>,
+                                University at Buffalo
+                            </div>
+                        
+                            <div>
+                                <strong>Ziyi Yan</strong>,
+                                Simon Fraser University
+                            </div>
+                        
+                    </div>
+                
+            </div>
+        </section>
+    
+
+            <div class="spinner"></div>
+        </main>
+
+        <footer>
+            <div>52<sup>nd</sup> International Conference on Very Large Data Bases Satellite Event<br />Guangzhou, China &mdash; December 1-2, 2026</div>
+            <a class="github no-ext-icon" href="https://github.com/dbogatov/vldb-2026" title="Collaborate on GitHub">
+                <svg height="32" version="1.1" viewBox="0 0 16 16" width="32">
+                    <path fill="#fff" fill-rule="evenodd" d="
+                        M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+                        0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+                        1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+                        0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18
+                        1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16
+                        1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54
+                        1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16
+                        8c0-4.42-3.58-8-8-8z">
+                    </path>
+                </svg>
+            </a>
+        </footer>
+
+        <link rel="stylesheet" href="/vldb2026-satellite/assets/merged.css?v=local-dev">
+        <script async src="/vldb2026-satellite/assets/merged.js"></script>
+
+        <script async src="https://platform.twitter.com/widgets.js"></script>
+        <script>
+            (function() {
+                var last = 0,
+                    docBody = document.body,
+                    header = document.querySelector('body>header'),
+                    nav = header && header.querySelector('nav'),
+                    requestAnimationFrame = window.requestAnimationFrame || function(callback, element) {
+                        var now = Date.now(),
+                            next = Math.max(0, 16 - (now - last)),
+                            id = window.setTimeout(function() {
+                                callback(now + next);
+                            }, next);
+                        last = now + next;
+                        return id;
+                    },
+                    cancelAnimationFrame = window.cancelAnimationFrame || function(id) {
+                        clearTimeout(id);
+                    },
+                    update = function () {
+                        if (!nav) return;
+
+                        var isStatic = docBody.classList.contains('static');
+                        if (header.getBoundingClientRect().bottom > 70) {
+                            if (isStatic) docBody.classList.remove('static');
+                        } else if (!isStatic) docBody.classList.add('static');
+                    },
+                    lid;
+
+                window.addEventListener('scroll', function(e) {
+                    if (lid) cancelAnimationFrame(lid);
+                    lid = requestAnimationFrame(update);
+                });
+
+                update();
+            }());
+        </script>
+    </body>
+</html>

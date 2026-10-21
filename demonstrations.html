@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115776710-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-115776710-1');
+        </script>
+        <script language="javascript">
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="https://vldb.org/2026/demonstrations" />
+        <style>
+            body{visibility:hidden}
+        </style>
+        
+        <link rel="icon" type="image/png" href="/vldb2026-satellite/assets/img/favicon.webp">
+        <title>VLDB 2026 Satellite Event | Conference Program - Demonstrations</title>
+        <meta name="description" content="The VLDB 2026 conference, will take place in Boston, MA, United States, from Aug 31st to Sep 4th, 2026, and will feature research talks, tutorials, demonstrations, and workshops. It will cover issues in data management, database and information systems research. VLDB is a premier annual international forum for data management and database researchers, vendors, practitioners, application developers, and users.">
+    </head>
+    
+    <body>
+        <header>
+            <div class="small-menu"><a class="hamburger"></a></div>
+            <div class="small-header">
+                <figure class="logo">
+                    <a href="/vldb2026-satellite">
+                        <img style="max-width: 150px; min-width: 100px;" src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China"></a>
+                </figure>
+            </div>
+            <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+                <figure class="logo">
+                    <img src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China">
+                    <img src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China">
+                </figure>
+                
+                    <div>
+                        
+                            General Information
+                            <div class="menu">
+                                
+                                    
+                                        <a href="." itemprop="url">
+                                            <span itemprop="name">Conference Overview</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="officers.html" itemprop="url">
+                                            <span itemprop="name">Conference Officers</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="pvldb-review-board.html" itemprop="url">
+                                            <span itemprop="name">PVLDB Review Board</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="shadow-pc.html" itemprop="url">
+                                            <span itemprop="name">Shadow PC</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+                    <div class="conference-program-menu">
+                        
+                            Conference Program
+                            <div class="menu">
+                                
+                                    
+                                        <a href="program.html" itemprop="url">
+                                            <span itemprop="name">Full Program</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="keynotes.html" itemprop="url">
+                                            <span itemprop="name">Keynotes</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="panels.html" itemprop="url">
+                                            <span itemprop="name">Panels</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+                    <div class="no-sub">
+                        
+                            <a href="important-dates.html" itemprop="url">
+                                <span itemprop="name">Dates &amp; Guidelines</span>
+                            </a>
+                        
+                    </div>
+                
+                    <div class="no-sub">
+                        
+                            <a href="sponsor-list.html" itemprop="url">
+                                <span itemprop="name">Sponsorship</span>
+                            </a>
+                        
+                    </div>
+                
+                    <div>
+                        
+                            Participant Information
+                            <div class="menu">
+                                
+                                    
+                                        <a href="conference-venue.html" itemprop="url">
+                                            <span itemprop="name">Conference Venue</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="registration.html" itemprop="url">
+                                            <span itemprop="name">Registration</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <hr/>
+                                    
+                                
+                                    
+                                        <a class="menu-label" role="presentation" aria-disabled="true">
+                                            <span>Conference Hotel Booking:</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="https://book.passkey.com/go/VLDBConference" itemprop="url" target="_blank" rel="noopener noreferrer">
+                                            <span itemprop="name">The Westin Boston Seaport</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+            </nav>
+            <section
+                class="carousel small"
+                data-images='[
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-1.webp","t":"Guangzhou"}
+                        ,
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-2.webp","t":"Guangzhou"}
+                        ,
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-3.webp","t":"Guangzhou"}
+                        
+                    
+                ]'
+            >
+                <span>52<sup>nd</sup> International Conference on Very Large Data Bases Satellite Event</span>
+                <span>Guangzhou, China - December 1-2, 2026</span>
+            </section>
+        </header>
+
+        <main class="body">
+            
+    <section class="program-demonstrations">
+        <h1>VLDB 2026 Satellite Event: Demonstrations</h1>
+
+        <p>
+            This page lists all accepted demonstration papers for VLDB 2026 Satellite Event.
+        </p>
+
+        <div class="demo-papers">
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">QueryBrew: System-Agnostic SQL-to-SQL Query Optimization</h2>
+                    <p class="demo-paper-authors">Tobias Schmidt (TUM)*; Maximilian Reif (TUM); Altan Birler (TUM); Thomas Neumann (TUM)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">FedBridge: A Federated Query Engine over Embedding-Heterogeneous Vector Databases</h2>
+                    <p class="demo-paper-authors">Yuxiang Wang (Beihang University); Ruixi Hu (Beihang University); Ziyuan He (Beihang University); Zhilin Liang (Beihang University); Xinyu Zhao (Beihang University); Yongxin Tong (Beihang University)*</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">HaDA: Empower Database Experts with Data Dependencies</h2>
+                    <p class="demo-paper-authors">Daniel Lindner (Hasso Plattner Institute, University of Potsdam)*; Jonas Baltruschat (Hasso Plattner Institute, University of Potsdam); Kisung Park (SAP Labs Korea); Taehyung Lee (SAP Labs Korea); Heesik Shin (SAP Labs Korea); Daniel Ritter (SAP); Felix Naumann (Hasso Plattner Institute, University of Potsdam)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">OMBench: Taming Data Management Requirements in Cloud-Native Applications</h2>
+                    <p class="demo-paper-authors">Rodrigo Laigner (University of Copenhagen)*; Xikun Jiang (University of Copenhagen); Boris Düdder (University of Copenhagen); Yongluan Zhou (University of Copenhagen)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">How Out-of-Bounds Are Your Cardinality Estimates?</h2>
+                    <p class="demo-paper-authors">Mihail Stoian (University of Technology Nuremberg)*; Tiemo Bang (Microsoft); Hangdong Zhao (Microsoft); Jesús Camacho-Rodríguez (Microsoft); Yuanyuan Tian (Microsoft); Andreas Kipf (University of Technology Nuremberg)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">AtomSQL: Interactive Disambiguation of NL-to-SQL via User-Guided Atom-Level Alignment</h2>
+                    <p class="demo-paper-authors">Aritra Mazumder (University of Utah)*; Parth Desai (University of Utah); Fuheng Zhao (University of Utah); Anna Fariha (University of Utah)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Credo: Declarative Control of LLM Pipelines via Beliefs and Policies</h2>
+                    <p class="demo-paper-authors">Duo Lu (Brown University)*; Andrew Crotty (Northwestern University); Ugur Cetintemel (Brown University)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">SpatialSQL: A Multi-Agent System for Interactive and Observable Spatial Text-to-SQL</h2>
+                    <p class="demo-paper-authors">Yang Song (Beihang University); Yu Sun (Nankai University); Xieyang Wang (Nanjing University of Aeronautics and Astronautics); Tao Qian (Beihang University); Tengfei Xu (Beihang University); Jianqiu Xu (Nanjing University of Aeronautics and Astronautics); Shuyue Wei (Shandong University); Yongxin Tong (Beihang University)*</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">DataMagic: Transforming Tabular Data into Data Insight Video</h2>
+                    <p class="demo-paper-authors">Yupeng Xie (The Hong Kong University of Science and Technology (Guangzhou)); Chen Ma (China Unicom Intelligent Manufacturing Technology &amp; Industry (Guangdong) Co., Ltd. / China Unicom Greater Bay Area Innovation Institute); Zhenyang Wang (The Hong Kong University of Science and Technology (Guangzhou)); Liangwei Wang (The Hong Kong University of Science and Technology (Guangzhou)); Jiayi Zhu (The Hong Kong University of Science and Technology (Guangzhou)); Chuxuan Zeng (China Unicom Intelligent Manufacturing Technology &amp; Industry (Guangdong) Co., Ltd. / China Unicom Greater Bay Area Innovation Institute); Zhouan Shen (The Hong Kong University of Science and Technology (Guangzhou)); Boyan Li (The Hong Kong University of Science and Technology (Guangzhou)); Yuyu Luo (The Hong Kong University of Science and Technology (Guangzhou))*</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">QuWARTS: Query Workload Aware Relational Table Synthesis from Unstructured Text</h2>
+                    <p class="demo-paper-authors">Aritra Mazumder (University of Utah)*; Whanhee Cho (University of Utah); Anna Fariha (University of Utah)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Hamilton – Interactive Ontology Learning</h2>
+                    <p class="demo-paper-authors">Lukas Laskowski (Hasso Plattner Institute, University of Potsdam)*; Felix Draxler (University of California, Irvine); Michael Hladik (SAP SE); Fabian Panse (University of Augsburg); Jan Portisch (SAP SE); Padhraic Smyth (University of California, Irvine); Felix Naumann (Hasso Plattner Institute, University of Potsdam)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">SemPiper: Interactive Code Synthesis for Semantic Operators in Machine Learning Pipelines</h2>
+                    <p class="demo-paper-authors">Olga Ovcharenko (Technische Universität Berlin &amp; BIFOLD)*; Luciano Duarte (Technische Universität Berlin &amp; BIFOLD); Sebastian Schelter (Technische Universität Berlin &amp; BIFOLD)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">GRAIL: AI translation for scientists application workflow on satellite data</h2>
+                    <p class="demo-paper-authors">Zhuocheng Shang (University of California, Riverside)*; Ahmed Eldawy (University of California, Riverside)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">GraphAlg Playground: An Online Platform for Learning and Experimenting with the GraphAlg Language</h2>
+                    <p class="demo-paper-authors">Daan de Graaf (Eindhoven University of Technology)*; Robert Brijder (Eindhoven University of Technology); Soham Chakraborty (Delft University of Technology); George Fletcher (Eindhoven University of Technology); Bram van de Wall (Eindhoven University of Technology); Nikolay Yakovets (Eindhoven University of Technology)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">GraphContainer: A Unified Platform for Comparing and Debugging Graph RAG Methods</h2>
+                    <p class="demo-paper-authors">Seonho An (KAIST)*; Chaejeong Hyun (KAIST); Min-Soo Kim (KAIST)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">A Demo of Interactive Thematic Data Collection on the Live Web</h2>
+                    <p class="demo-paper-authors">Michael West (Temple University)*; Eduard Dragut (Temple University)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">CypherLens: An Interactive Demo for Evaluating and Diagnosing NL-to-Cypher Systems</h2>
+                    <p class="demo-paper-authors">Zahra Mohammadi (Temple University)*; ali ansari (temple university); Longin Latecki (Temple university); eduard dragut (temple university)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Guixu: Valuation-Driven Data Discovery for Autonomous AI Agents with On-Chain Attestation</h2>
+                    <p class="demo-paper-authors">Yifan Wu (Zhejiang University)*; Yuchen Peng (Zhejiang University); Jiaqi Chai (Zhejiang University); Yufei Qian (Zhejiang University); Xilin Li (Zhejiang University); Ke Chen (Zhejiang University); Lidan Shou (Zhejiang University)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Qr-Hint: Formally Verified and AI-Explained SQL Tutoring</h2>
+                    <p class="demo-paper-authors">Zhouyi Jiang (Duke University); Yihao Hu (Duke University)*; Amir Gilad (Hebrew University); Sudeepa Roy (Duke University); Jun Yang (Duke University)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">DataMosaic: An Interactive Demonstration of Constraint-Driven Document-to-Database Construction</h2>
+                    <p class="demo-paper-authors">Zhengxuan Zhang (The Hong Kong University of Science and Technology(Guangzhou))*; Zhuowen Liang (The Hong Kong University of Science and Technology(Guangzhou)); Haixun Wang (EvenUp); Nan Tang (The Hong Kong University of Science and Technology(Guangzhou))</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Data Lake for AI-enhanced Quantum Error Correction</h2>
+                    <p class="demo-paper-authors">Aadi Patwardhan (TU Delft); Max de Groot (TU Delft); Andrei Ilinescu (TU Delft); Aditya Shankar (TU Delft); Yuandou Wang (TU Delft); Wenbo Sun (TU Delft); Floris Geerts (University of Antwerp); Rihan Hai (TU Delft)*</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">LayoutPilot: A Lakehouse Physical Design Advisor</h2>
+                    <p class="demo-paper-authors">Guanli Liu (The University of Melbourne)*; Andreas Kipf (University of Technology Nuremberg); Renata Borovica-Gajic (The University of Melbourne)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Text-to-SQL Evaluation Toolkit</h2>
+                    <p class="demo-paper-authors">Oktie Hassanzadeh (IBM Research)*; Yotam Perlitz (IBM); Nhan Pham (IBM); Tanvi Kaple (IBM); Karolina Źróbek (IBM); Long Vu (IBM); Michael Glass (IBM); Dharmashankar Subramanian (IBM); Mohammadreza Pourreza (Univesity of Alberta); Davood Rafiei (Univesity of Alberta)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Dominance-Based Data Reduction for Package Queries</h2>
+                    <p class="demo-paper-authors">Vasileios Vittis (University of Massachussetts Amherst)*; Azza Abouzied (New York University Abu Dhabi); Peter Haas (University of Massachussetts Amherst); Alexandra Meliou (University of Massachussetts Amherst)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">PGShield: Maintaining Path Constraints in Property Graphs</h2>
+                    <p class="demo-paper-authors">Christopher Spinrath (Lyon 1 University, Liris CNRS)*; Angela Bonifati (Lyon 1 University, Liris CNRS &amp; IUF); Rachid Echahed (CNRS LIG, Univ. Grenoble Alpes)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Verified LLM‑Based Query Rewriting for Microsoft SQL Server</h2>
+                    <p class="demo-paper-authors">Kukjin Lee (Microsoft); Anshuman Dutt (Microsoft); Vivek Narasayya (Microsoft)*; Surajit Chaudhuri (Microsoft)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">A Demonstration of KAFY: An Extensible and Scalable Transformers-Based System for Trajectory Data Analysis</h2>
+                    <p class="demo-paper-authors">Youssef Hussein (University of Minnesota); Mohamed Mokbel (University of Minnesota - Twin Cities)*</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Demonstrating GenDB: Instance-Optimized and Customized Query Processing Code Generation via LLM Agents</h2>
+                    <p class="demo-paper-authors">Jiale Lao (Cornell University)*; Immanuel Trummer (Cornell University)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">MemLens: A Value-Aware Memory Management System with Interactive Analytics for LLM-based Agents</h2>
+                    <p class="demo-paper-authors">Shuyue Wei (Shandong University)*; Chang Liu (Beihang University); Zimu Zhou (City University of Hong Kong); Yongxin Tong (Beihang University); Lizhen Cui (Shandong University)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Demonstrating EarthLake: A Model Lake System for Earth Observation Foundation Model Management</h2>
+                    <p class="demo-paper-authors">Binger Chen (Technische Universität Berlin)*; Haralampos Gavriilidis (Technische Universität Berlin ); Luca Gaedicke (Technische Universität Berlin); Tacettin Emre Bök ( Technische Universität Berlin); Matthias Boehm ( Technische Universität Berlin); Ziawasch Abedjan (Technische Universität Berlin); Begüm Demir (Technische Universität Berlin); Volker Markl (Technische Universität Berlin)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">DeQL Studio: Declarative Decision-Making over Relational Data</h2>
+                    <p class="demo-paper-authors">Matteo Brucato (OSM Data)*; Fjodor Kholodkov (OSM Data); Soren Little (OSM Data); Jakob Mayer (OSM Data); Duc Nguyen (OSM Data)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Minimal Data Cleaning for Model Training by MinPrep</h2>
+                    <p class="demo-paper-authors">Cheng Zhen (Oregon State University)*; Prayoga FNUP (Oregon State University); Nischal Aryal (Oregon State University); Arash Termehchy ( Oregon State University); Alireza Aghasi (Oregon State University)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">A Demonstration of Continuous Lifelong Conflict-Aware AGV Routing with Kinematic Constraints</h2>
+                    <p class="demo-paper-authors">Ruizhong WU (The Hong Kong University of Science and Technology (Guangzhou)); Tianqi Zhang (The Hong Kong University of Science and Technology (Guangzhou)); Yunjie Huang (The Hong Kong University of Science and Technology (Guangzhou)); Lei Li (The Hong Kong University of Science and Technology (Guangzhou))*</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">FilterPilot: An Interactive Assistant for Adapting Filtering Predicate to Table Content</h2>
+                    <p class="demo-paper-authors">Shiwen Wu (The Hong Kong University of Science and Technology)*; Yuqi Wang (The Hong Kong University of Science and Technology); Yue Pang ( The Hong Kong University of Science and Technology); Xiaofang Zhou (The Hong Kong University of Science and Technology)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">GraphAgent: An Effective Knowledge-Guided GNN Model Selection System</h2>
+                    <p class="demo-paper-authors">Mingtao Zhang (PolyU); Haoyang LI ( PolyU)*; Yuming XU (PolyU); Nicole HU ( PolyU); Peng CHENG (Tongji University ); Chen Jason ZHANG ( PolyU); Qing LI (PolyU); Lei CHEN (HKUST(GZ))</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">CADENZA in Action: Breaking the Monolith with Intent-Dependent Plan Spaces for Semantic Queries</h2>
+                    <p class="demo-paper-authors">Jaehyun Ha (POSTECH)*; Yongjoo Park (Univ.~of Illinois Urbana-Champaign); Wook-Shin Han (POSTECH)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">MCAD: Multivariate Correlation Anomaly Data Generator</h2>
+                    <p class="demo-paper-authors">Christos Papadopoulos (Aalborg University)*; Alkis Simitsis (ATHENA Research Center); Torben Bach Pedersen (Aalborg University)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Carnot: Interpretable, Interactive, and Optimized Execution of Deep Research Queries</h2>
+                    <p class="demo-paper-authors">Matthew Russo (MIT)*; Yash Agarwal (MIT); Tianyu Li (MIT); Zhuohan Gu (MIT); Michael Cafarella (MIT); Omar Khattab (MIT); Tim Kraska (MIT); Samuel Madden (MIT)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">NiceT: Named Entity Cleaning and Enhancement with Human-in-the-loop</h2>
+                    <p class="demo-paper-authors">Garima Gaur (Inria Saclay, Ecole Polytechnique)*; Ioana Manolescu (Inria); Maria Mellado Tenorio (Universidad de Chile); Madhulika Mohanty (Inria); Moritz Sommer (RWTH Aachen)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">A Portable Middleware for Plan-Based Adaptive Query Processing</h2>
+                    <p class="demo-paper-authors">Pei Mu (University of Edinburgh)*; Bita Asoodeh (University of Edinburgh); Anderson Chaves Carniel (Huawei Technologies Research &amp; Development (UK) Limited); Amir Shaikhha (University of Edinburgh)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Policy-Aware Federated Query Orchestration Across Energy Data Spaces and Edge AI Services</h2>
+                    <p class="demo-paper-authors">Vasile Ofrim (Technical University of Cluj-Napoca); Mihai Daian (Technical University of Cluj-Napoca); Dragos Lazea (Technical University of Cluj-Napoca); Liana Toderean (Technical University of Cluj-Napoca); Anca Hangan (Technical University of Cluj-Napoca)*; Tudor Cioara (Technical University of Cluj-Napoca)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Into the CUDA Multiverse of Runtime Compilation: Exploring Kernel Fusion Strategies for GPU Database Systems</h2>
+                    <p class="demo-paper-authors">Maha Alwahibi (University of Bamberg); Bachana Jangebashvil (University of Bamberg); Maximilian Schüle (University of Bamberg)*</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">CoBLOC - Continuous Block Level Fairness on Data Streams</h2>
+                    <p class="demo-paper-authors">Subhodeep Ghosh (New Jersey Institute of Technology)*; Zhihui Du (New Jersey Institute of Technology); Angela Bonifati (Lyon 1 University &amp; IUF); Manish Kumar (IIT Ropar); David Bader (New Jersey Institute of Technology); Senjuti Basu Roy (New Jersey Institute of Technology)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Demonstrating Samsara: A Super Optimizer for Multimodal Stream Processing</h2>
+                    <p class="demo-paper-authors">Alessandro Ferri (TU Darmstadt); Uélison Jean Lopes dos Santos (TU Darmstadt)*; Szilard Nistor (TU Darmstadt); Pratyush Agnihotri (TU Darmstadt); Manisha Luthra (TU Darmstadt); Carsten Binnig (TU Darmstadt)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">GDPView: An Interactive Interface that Unifies Variants of Deletion Propagation (DP)</h2>
+                    <p class="demo-paper-authors">Yihan Luo (Northeastern University); Neha Makhija (University of Massachusetts Amherst)*; Wolfgang Gatterbauer (Northeastern University)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Exploring the Benefits of Just-in-time Model Replacement</h2>
+                    <p class="demo-paper-authors">Nils Strassenburg (Hasso Plattner Institute, University of Potsdam)*; Boris Glavic (University of Illinois Chicago); Tilmann Rabl (Hasso Plattner Institute)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">SuperDRI: Graph-Guided Autonomous Troubleshooting for Cloud Databases</h2>
+                    <p class="demo-paper-authors">Yiwen Zhu (Microsoft)*; Joyce Cahoon (Microsoft); Qiushi Bai (Microsoft); Anna Pavlenko (Microsoft); Divya Vermareddy (Microsoft); Meina Wang (Microsoft); Mathieu Demarne (Microsoft); Wenjing Wang (Microsoft); Swati Bararia (Microsoft); Hannah Lerner (Microsoft); Katherine Lin (Microsoft); Subru Krishnan (Microsoft); Miso Cilimdzic (Microsoft)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">MAPPipe: A System for Bridging Efficiency and Quality in Data Preprocessing via Knowledge-Augmented Structural Pruning</h2>
+                    <p class="demo-paper-authors">Xiaoou Ding (Harbin Institute of Technology); Haifeng Cheng (Harbin Institute of Technology); Yanshuo Liu ( Harbin Institute of Technology); Chen Wang (Tsinghua University); Hongzhi Wang (Harbin Institute of Technology)*</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">LabelScope: Context-Aware Discovery of Label Outliers in Radio Astronomy Signals</h2>
+                    <p class="demo-paper-authors">Rabeya Hossain (University of Utah); Brian Mason (National Radio Astronomy Observatory); Ryan Loomis (National Radio Astronomy Observatory); Jeff Phillips (University of Utah); El Kindi Rezig (University of Utah)*</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">SubCure: A System for Stress-Testing Causal Conclusions Using Cardinality Repairs</h2>
+                    <p class="demo-paper-authors">Shira Raviv (Technion); Ben Hechler (Technion); Yarden Gabbay (Technion); Haoquan Guan (University of California San Diego); Shaull Almagor (Technion); El Kindi Rezig (University of Utah)*; Brit Youngmann (Technion); Babak Salimi (University of California San Diego)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Demonstrating Indexing for Near-Sorted Data</h2>
+                    <p class="demo-paper-authors">Aneesh Raman (Boston University)*; Philip Chindris (Boston University); Anwesha Saha (Boston University); Teona Bagashvili (Boston University); Manos Athanassoulis (Boston University)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">cuRPQ+: A System for Interactive Path-Aware Querying Beyond Plain CRPQs</h2>
+                    <p class="demo-paper-authors">Seohyeon Kim (Korea Advanced Institute of Science and Technology)*; Sungwoo Park (Korea Advanced Institute of Science and Technology); Min-Soo Kim (Korea Advanced Institute of Science and Technology)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">ReStore-in-Action: Adaptive Multi-Tier Storage Management via Intelligent Data Migration Policy</h2>
+                    <p class="demo-paper-authors">Shadman Saqib Eusuf (University of Massachusetts Boston); Tianru Zhang (Uppsala University)*; Teona Bagashvili (Boston University); Manos Athanassoulis (Boston University); Tarikul Islam Papon (University of Massachusetts Boston)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">PROXAI: Interactive Provenance-Aware Debugging of Machine Learning Pipelines</h2>
+                    <p class="demo-paper-authors">Pasquale Leonardo Lazzaro (Università degli Studi Roma Tre)*; Elia Guglielmi (Università degli Studi Roma Tre Università degli Studi Roma Tre); Paolo Missier (University of Birmingham); Riccardo Torlone ( Università degli Studi Roma Tre)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Painless and Efficient Scaling of Pandas Programs: Demo</h2>
+                    <p class="demo-paper-authors">Bhushan Pal Singh (IIT Bombay); Priyesh Kumar (IIT Bombay); Chiranmoy Bhattacharya (IIT Bombay); Utkarsh Shetye (IIT Bombay); Manish Kumar (IIT Bombay); S. Sudarshan (IIT Bombay)*</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Persona-Conditioned Query Generation for Selectivity-Controlled Workloads</h2>
+                    <p class="demo-paper-authors">Angjela Davitkova (RPTU Kaiserslautern-Landau)*; Sebastian Michel (RPTU Kaiserslautern-Landau)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Demonstration of BobFlow: Human-Agent Collaboration Using Dataflows on Data Science Tasks</h2>
+                    <p class="demo-paper-authors">Jiadong Bai (UC Irvine)*; Yicong Huang (University of Massachusetts Amherst); Chen Li (UC Irvine)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Demonstrating TACT: Tunable Accuracy-Cost Trade-offs for Semantic Image Filtering</h2>
+                    <p class="demo-paper-authors">Tharushi Jayasekara (Cornell University)*; Immanuel Trummer (Cornell University)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">RSR-core: A High-Performance Engine for Low-Bit Matrix-Vector Multiplication</h2>
+                    <p class="demo-paper-authors">Mohsen Dehghankar (University of Illinois Chicago)*; Abolfazl Asudeh (University of Illinois Chicago)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">TexBench: A Unified Benchmarking Suite for Shifting Workloads</h2>
+                    <p class="demo-paper-authors">Abhishek Chanda (Independent Researcher); Shubham Kaushik (Brandeis University); Artem Lavrov (Brandeis University); Subhadeep Sarkar (Brandeis University)*</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">ARGO: An Interactive Data Governance System for Machine Learning via Hierarchical Reinforcement Learning</h2>
+                    <p class="demo-paper-authors">Shuang Hao (Beijing Jiaotong University)*; Jun Wei (Beijing Jiaotong University); Yingqi Mu (Beijing Jiaotong University); Diwen Cheng (Beijing Jiaotong University)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Demonstrating TOFFEE: A Learned System for Synthesizing Data Agent Trajectories at Scale</h2>
+                    <p class="demo-paper-authors">Ziting Wang (Nanyang Technological University ); Yin Li (Nanyang Technological University); Zuhao Yang (Nanyang Technological University); Xiuchang Li (Huawei); Jiale Bai (Industrial and Commercial Bank of China Limited); Gao Cong (Nanyang Technological University)*</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">ImputePilot: A Graphical Model Selection Toolkit for Time Series Imputation</h2>
+                    <p class="demo-paper-authors">Yuanyuan Yao (National University of Singapore); Zhexin Jin (Zhejiang University); Lu Chen (Zhejiang University)*; Anthony Tung (National University of Singapore); Mourad Khayati (University of Fribourg)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">LLM-CER: An Interactive System for In-context Clustering-based Entity Resolution with Large Language Models</h2>
+                    <p class="demo-paper-authors">Haoyu Wang (Zhejiang University); Haitong Tang (Zhejiang University); Jiajie Fu (Zhejiang University); Arijit Khan (Bowling Green State University); Sharad Mehrotra (UC Irvine); Xiangyu Ke (Zhejiang University)*; Yunjun Gao (Zhejiang University)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">ECO-Hadoop: Energy Consumption Optimization System for Apache Hadoop</h2>
+                    <p class="demo-paper-authors">Zemin Chao (Harbin Institute of Technology); Xiao Chen (Harbin Institute of Technology); Jianhe Cen (Harbin Institute of Technology); Yumeng Fu (Harbin Institute of Technology); Hongzhi Wang (Harbin Institute of Technology)*</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">QueryCraft: : A Natural Language-Driven NoSQL Database Querying System Powered by Large Language Models</h2>
+                    <p class="demo-paper-authors">Jinwei Lu (The Hong Kong Polytechnic University); Zhiqian Qin (The Hong Kong Polytechnic University); Chen Zhang (The Hong Kong Polytechnic University); Haodi Zhang (Shenzhen University); Yuanfeng Song (ByteDance)*; Raymond Chi-Wing Wong (The Hong Kong University of Science and Technology)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">ChatQPT: Towards Conversing with Relational Query Engines</h2>
+                    <p class="demo-paper-authors">Hui Li (Xidian University)*; Sourav S. Bhowmick (Nanyang Technological University); Baochao Xu (Xidian University); Zhenning Shi (Xidian University); Xiyue Gao (Xidian University); Jingjing Li (The Chinese University of Hong Kong)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">LIMA: Denial Constraint Discovery in Large Dynamic Databases</h2>
+                    <p class="demo-paper-authors">Albert Martin (Universitat Politècnica de Catalunya)*; Eduardo C. de Almeida (Federal University of Paraná); Oscar Romero (Universitat Politècnica de Catalunya); Anna Queralt (Universitat Politècnica de Catalunya)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">DA-Studio: An Agentic System for End-to-End Data Analysis</h2>
+                    <p class="demo-paper-authors">Yizhe Liu (Renmin University of China)*; Shaolei Zhang (Renmin University of China); Ju Fan (Renmin University of China)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Provlepsis4j: Querying Future Graphs in Neo4j</h2>
+                    <p class="demo-paper-authors">Evangelos Iliadis (University of Ioannina); Christos Gkartzios (University of Ioannina)*; Evaggelia Pitoura (University of Ioannina)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">GALACTICA: An Interactive System for Local and Global Counterfactual Explanations for Time-series Clustering</h2>
+                    <p class="demo-paper-authors">Christos Fragkathoulas (University of Ioannina;Archimedes, Athena Research Center)*; Eleni Psaroudaki (Archimedes, Athena Research Center); Themis Palpanas (Université Paris Cité, LIPADE, F-75006 Paris;Archimedes, Athena Research Center); Evaggelia Pitoura (University of Ioannina;Archimedes, Athena Research Center)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">The Case for Multi-Version Experimental Evaluation (MVEE)</h2>
+                    <p class="demo-paper-authors">Simon Jörz (Johannes Gutenberg University Mainz); Felix Schuhknecht (Johannes Gutenberg University Mainz)*</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">iPDB: SQL with ML and LLM Predicates (Towards a Database Engine for AI)</h2>
+                    <p class="demo-paper-authors">Udesh Kumarasinghe (Purdue University)*; Tyler Liu (Purdue University); Ahmed Mahmood (Google Inc.); Chunwei Liu (Purdue University); Walid Aref (Purdue University)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Tursio for Credit Unions: Structured Data Search with Automated Context Graphs</h2>
+                    <p class="demo-paper-authors">Shivani Tripathi (Tursio)*; Ravi Shetye (Tursio); Shi Qiao (Tursio); Alekh Jindal (Tursio)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Cedar: A Columnar LSM-Engine for Temporal Property Graphs</h2>
+                    <p class="demo-paper-authors">Yang Wang (Beihang University); Xuelian Lin (Beihang University); Jinghe Song (Beihang University); Jianyong Zhu (North China Electric Power University); Yu Zhao (Institute of Computing Technology, Chinese Academy of Sciences); Shuai Ma (Beihang University)*</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">MoDora: A Multimodal Document AI Assistant Harness</h2>
+                    <p class="demo-paper-authors">Yukai Wu (Shanghai Jiao Tong University); Bangrui Xu (Shanghai Jiao Tong University); Shaoli Yu (Shanghai Jiao Tong University); Zirui Tang (Shanghai Jiao Tong University); Xuanhe Zhou (Shanghai Jiao Tong University)*; Yeye He (Microsoft Research); Bin Wang (Shanghai AI Lab); Conghui He (Shanghai AI Lab); Guoliang Li (Tsinghua University); Fan Wu (Shanghai Jiao Tong University)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">ARCADE: A Real-Time Data System for Hybrid and Continuous Query Processing across Diverse Data Modalities</h2>
+                    <p class="demo-paper-authors">Jingyi Yang (Nanyang Technological University)*; Songsong Mo (Nanyang Technological University); Jiachen Shi (Nanyang Technological University); Zihao Yu (Nanyang Technological University); Kunhao Shi ( Nanyang Technological University); Gao Cong (Nanyang Technological University); Xuchen Ding (Nanyang Technological University)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Q-ACER: Query Aggregate Constraint Efficient Repair System</h2>
+                    <p class="demo-paper-authors">Vaishnavi Deshpande (University of Southampton); Seokki Lee (University of Cincinnati); Shatha Algarni (University of Jeddah); Boris Glavic (University of Illinois Chicago)*; Adriane Chapman (University of Southampton)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">privJedAI: A Unified Open-Source Pipeline for Privacy-Preserving Record Linkage</h2>
+                    <p class="demo-paper-authors">Lefteris Stetsikas (National and Kapodistrian University Of Athens); Dimitrios Karapiperis (International Hellenic Univeristy)*; George Papadakis (National and Kapodistrian University Of Athens); Manolis Koubarakis (National and Kapodistrian University of Athens)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Demonstration of Doc*: Access Control for Information-Theoretically Secure Data</h2>
+                    <p class="demo-paper-authors">Komal Kumari (New Jersey Institute of Technology); Yin Li (Dongguan University of Technology); Sharad Mehrotra (UC Irvine); Shantanu Sharma (New Jersey Institute of Technology)*; Venkata Krishna Sastry Sreeramakavacham (New Jersey Institute of Technology)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Hypothesis Exploration with LLM-driven Intelligent Orchestration System</h2>
+                    <p class="demo-paper-authors">Bruno Tavares dos Santos (UFRGS)*; Vicente Nejar de Almeida (UFRGS); Eduardo Ribeiro (UFT); Sihem Amer-Yahia (Univ. Grenoble Alps Grenoble); João Luiz Dihl Comba (UFRGS)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Enzyme Demo: Incremental View Maintenance for Data Engineering</h2>
+                    <p class="demo-paper-authors">Yuhong Chen (Databricks, Inc.)*; Ritwik Yadav (Databricks, Inc.); Min Yang (Databricks, Inc.); Supun Abeysinghe (Databricks, Inc.); Manuel Ung (Databricks, Inc.); Jeffrey Helt (Databricks, Inc.); Michael Armbrust (Databricks, Inc.); Shrikanth Shankar (Databricks, Inc.)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">LORY-J: Location-aware Join Discovery from Data Lakes</h2>
+                    <p class="demo-paper-authors">Lu Xing (Purdue University); Mir Mahathir Mohammad (University of Utah); Walid Aref (Purdue University); El Kindi Rezig (University of Utah)*</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">QFusion: A Demonstration of Boundary-Aware Fusion Planning and Execution for Large-Scale QUBO Optimization</h2>
+                    <p class="demo-paper-authors">Hanwen Liu (University of Southern California)*; Ibrahim Sabek (University of Southern California)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">TurboLynx in Action: A Schemaless Graph Engine for General-Purpose Analytics</h2>
+                    <p class="demo-paper-authors">Taesung Lee (POSTECH); Jaehyun Ha (POSTECH); Byungchul Tak (Kyungpook National University); Wook-Shin Han (POSTECH)*</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">SAGA: Synthetic Agentic Graph Architecture for Temporal Benchmark Generation</h2>
+                    <p class="demo-paper-authors">Jiacheng Ding (University of Memphis); Xiaofei Zhang (University of Memphis)*</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">ATLAS: Adaptive Text-to-SQL with Lifecycle-Aware Self-Maintaining Context</h2>
+                    <p class="demo-paper-authors">Qing zhang (Fudan University)*; Shijing Hu (Fudan University); Zhihui Lu (Fudan University)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">DBCooker: A Database Kernel-Specialized Coding Agent Harness</h2>
+                    <p class="demo-paper-authors">Wei Zhou (Shanghai Jiao Tong University); Xuanhe Zhou (Shanghai Jiao Tong University)*; Qikang He (Shanghai Jiao Tong University); Guoliang Li (Tsinghua University); Bingsheng He (National University of Singapore); Chao Peng (Independent Researcher); Yun Lin (Shanghai Jiao Tong University); Fan Wu ( Shanghai Jiao Tong University)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">ParSEval: Interactive Counterexample-driven Evaluation for Text-to-SQL</h2>
+                    <p class="demo-paper-authors">Chunyu Chen (Simon Fraser University); Zhengjie Miao (Simon Fraser University)*; Yong Zhang (Huawei Technologies); Jiannan Wang (Tsinghua University)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">DialectEvo: Bridging SQL Dialects with Execution-Guided Knowledge Refinement</h2>
+                    <p class="demo-paper-authors">Jianling Gao (Beihang University); Chongyang Tao (Beihang University); Liu Yang (Beihang University); Xiya Jiang (Beijing University of Posts and Telecommunications); Shuai Ma (Beihang University)*</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">TrustBCI: A Trustworthy Platform for Collaborative Brain-Computer Interface Data Exchange</h2>
+                    <p class="demo-paper-authors">Jianyu Yang (Tsinghua University)*; Jiannan Wang (Tsinghua University); Guoliang Li (Tsinghua University)</p>
+                </article>
+            
+                <article class="demo-paper">
+                    <h2 class="demo-paper-title">Hard to Read, Hard to Maintain? Refactoring Complex SQL into Wvlet Pipelines</h2>
+                    <p class="demo-paper-authors">Kaina Anderson (The University of Osaka)*; Yohanes Yohanie Fridelin Panduman (The University of Osaka); Taro Leo. Saito (Treasure Data); Makoto Onizuka (The University of Osaka)</p>
+                </article>
+            
+        </div>
+    </section>
+
+            <div class="spinner"></div>
+        </main>
+
+        <footer>
+            <div>52<sup>nd</sup> International Conference on Very Large Data Bases Satellite Event<br />Guangzhou, China &mdash; December 1-2, 2026</div>
+            <a class="github no-ext-icon" href="https://github.com/dbogatov/vldb-2026" title="Collaborate on GitHub">
+                <svg height="32" version="1.1" viewBox="0 0 16 16" width="32">
+                    <path fill="#fff" fill-rule="evenodd" d="
+                        M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+                        0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+                        1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+                        0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18
+                        1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16
+                        1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54
+                        1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16
+                        8c0-4.42-3.58-8-8-8z">
+                    </path>
+                </svg>
+            </a>
+        </footer>
+
+        <link rel="stylesheet" href="/vldb2026-satellite/assets/merged.css?v=local-dev">
+        <script async src="/vldb2026-satellite/assets/merged.js"></script>
+
+        <script async src="https://platform.twitter.com/widgets.js"></script>
+        <script>
+            (function() {
+                var last = 0,
+                    docBody = document.body,
+                    header = document.querySelector('body>header'),
+                    nav = header && header.querySelector('nav'),
+                    requestAnimationFrame = window.requestAnimationFrame || function(callback, element) {
+                        var now = Date.now(),
+                            next = Math.max(0, 16 - (now - last)),
+                            id = window.setTimeout(function() {
+                                callback(now + next);
+                            }, next);
+                        last = now + next;
+                        return id;
+                    },
+                    cancelAnimationFrame = window.cancelAnimationFrame || function(id) {
+                        clearTimeout(id);
+                    },
+                    update = function () {
+                        if (!nav) return;
+
+                        var isStatic = docBody.classList.contains('static');
+                        if (header.getBoundingClientRect().bottom > 70) {
+                            if (isStatic) docBody.classList.remove('static');
+                        } else if (!isStatic) docBody.classList.add('static');
+                    },
+                    lid;
+
+                window.addEventListener('scroll', function(e) {
+                    if (lid) cancelAnimationFrame(lid);
+                    lid = requestAnimationFrame(update);
+                });
+
+                update();
+            }());
+        </script>
+    </body>
+</html>

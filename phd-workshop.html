@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115776710-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-115776710-1');
+        </script>
+        <script language="javascript">
+            let slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+                showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+                showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                if (n > slides.length) { slideIndex = 1 }
+                if (n < 1) { slideIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+            }
+        </script>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="https://vldb.org/2026/phd-workshop" />
+        <style>
+            body{visibility:hidden}
+        </style>
+        
+        <link rel="icon" type="image/png" href="/vldb2026-satellite/assets/img/favicon.webp">
+        <title>VLDB 2026 Satellite Event | Conference Program - PhD Workshop</title>
+        <meta name="description" content="The VLDB 2026 conference, will take place in Boston, MA, United States, from Aug 31st to Sep 4th, 2026, and will feature research talks, tutorials, demonstrations, and workshops. It will cover issues in data management, database and information systems research. VLDB is a premier annual international forum for data management and database researchers, vendors, practitioners, application developers, and users.">
+    </head>
+    
+    <body>
+        <header>
+            <div class="small-menu"><a class="hamburger"></a></div>
+            <div class="small-header">
+                <figure class="logo">
+                    <a href="/vldb2026-satellite">
+                        <img style="max-width: 150px; min-width: 100px;" src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China"></a>
+                </figure>
+            </div>
+            <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+                <figure class="logo">
+                    <img src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China">
+                    <img src="/vldb2026-satellite/assets/img/logo-vldb-2026-satellite-event-guangzhou.webp" alt="VLDB 2026 Satellite Event -- Guangzhou, China">
+                </figure>
+                
+                    <div>
+                        
+                            General Information
+                            <div class="menu">
+                                
+                                    
+                                        <a href="." itemprop="url">
+                                            <span itemprop="name">Conference Overview</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="officers.html" itemprop="url">
+                                            <span itemprop="name">Conference Officers</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="pvldb-review-board.html" itemprop="url">
+                                            <span itemprop="name">PVLDB Review Board</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="shadow-pc.html" itemprop="url">
+                                            <span itemprop="name">Shadow PC</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+                    <div class="conference-program-menu">
+                        
+                            Conference Program
+                            <div class="menu">
+                                
+                                    
+                                        <a href="program.html" itemprop="url">
+                                            <span itemprop="name">Full Program</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="keynotes.html" itemprop="url">
+                                            <span itemprop="name">Keynotes</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="panels.html" itemprop="url">
+                                            <span itemprop="name">Panels</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+                    <div class="no-sub">
+                        
+                            <a href="important-dates.html" itemprop="url">
+                                <span itemprop="name">Dates &amp; Guidelines</span>
+                            </a>
+                        
+                    </div>
+                
+                    <div class="no-sub">
+                        
+                            <a href="sponsor-list.html" itemprop="url">
+                                <span itemprop="name">Sponsorship</span>
+                            </a>
+                        
+                    </div>
+                
+                    <div>
+                        
+                            Participant Information
+                            <div class="menu">
+                                
+                                    
+                                        <a href="conference-venue.html" itemprop="url">
+                                            <span itemprop="name">Conference Venue</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="registration.html" itemprop="url">
+                                            <span itemprop="name">Registration</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <hr/>
+                                    
+                                
+                                    
+                                        <a class="menu-label" role="presentation" aria-disabled="true">
+                                            <span>Conference Hotel Booking:</span>
+                                        </a>
+                                    
+                                
+                                    
+                                        <a href="https://book.passkey.com/go/VLDBConference" itemprop="url" target="_blank" rel="noopener noreferrer">
+                                            <span itemprop="name">The Westin Boston Seaport</span>
+                                        </a>
+                                    
+                                
+                            </div>
+                        
+                    </div>
+                
+            </nav>
+            <section
+                class="carousel small"
+                data-images='[
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-1.webp","t":"Guangzhou"}
+                        ,
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-2.webp","t":"Guangzhou"}
+                        ,
+                    
+                        {"i": "/vldb2026-satellite/assets/img/carousel/guangzhou-3.webp","t":"Guangzhou"}
+                        
+                    
+                ]'
+            >
+                <span>52<sup>nd</sup> International Conference on Very Large Data Bases Satellite Event</span>
+                <span>Guangzhou, China - December 1-2, 2026</span>
+            </section>
+        </header>
+
+        <main class="body">
+            
+    <section class="program-phd-workshop">
+        <h1>VLDB 2026 Satellite Event: PhD Workshop Program</h1>
+
+        <section class="workshop-program-section">
+            <h2>Workshop Agenda</h2>
+
+            <div class="tutorial-table-wrapper">
+                <table class="tutorial-table workshop-agenda-table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Time</th>
+                            <th scope="col">Event</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                            <tr>
+                                <td>8:30 AM - 8:45 AM</td>
+                                <td>
+                                    Welcome
+                                    
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>8:45 AM - 9:55 AM</td>
+                                <td>
+                                    Keynote by Ibrahim Sabek (USC) - &#34;The Next Adventure in Data Systems Research: AI, Quantum Computing, and Lessons for the PhD Journey&#34;
+                                    
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>9:55 AM - 10:15 AM</td>
+                                <td>
+                                    Student Presentations
+                                    
+                                        <ul class="workshop-presentations">
+                                            
+                                                <li>
+                                                    <span class="workshop-presentation-title">Towards Expressive, Performant, and Correct Database Systems</span>
+                                                    <span>Anna Herlihy (EPFL)</span>
+                                                </li>
+                                            
+                                        </ul>
+                                    
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>10:15AM - 10:45 AM</td>
+                                <td>
+                                    Coffee Break
+                                    
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>10:45 AM - 12:15PM</td>
+                                <td>
+                                    Student Presentations
+                                    
+                                        <ul class="workshop-presentations">
+                                            
+                                                <li>
+                                                    <span class="workshop-presentation-title">Lessons Learned Building Cross-Architecture Analytical Engines</span>
+                                                    <span>Ivan Donchev Kabadzhov (Eurecom)</span>
+                                                </li>
+                                            
+                                                <li>
+                                                    <span class="workshop-presentation-title">ORM-Lock: Source-Linked Diagnosis and Repair Guidance for ORM-Backed Database Deadlocks</span>
+                                                    <span>Zainab Altamimi (King Saud University)</span>
+                                                </li>
+                                            
+                                                <li>
+                                                    <span class="workshop-presentation-title">Declarative Recall for Approximate Vector Search</span>
+                                                    <span>Manos Chatzakis (Universite Paris Cite)</span>
+                                                </li>
+                                            
+                                                <li>
+                                                    <span class="workshop-presentation-title">XGAP: Ambiguity-aware Cross-Platform Planning for Natural Language Graph Queries</span>
+                                                    <span>Haolai Che (Case Western Reserve University)</span>
+                                                </li>
+                                            
+                                                <li>
+                                                    <span class="workshop-presentation-title">User-Guided Discovery of Patterns in Sequential Data</span>
+                                                    <span>Hannes Ueck (Hasso-Plattner-Institut)</span>
+                                                </li>
+                                            
+                                        </ul>
+                                    
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>12:15 PM - 1:45PM</td>
+                                <td>
+                                    Lunch
+                                    
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>1:45PM - 3:15PM</td>
+                                <td>
+                                    Student Presentations
+                                    
+                                        <ul class="workshop-presentations">
+                                            
+                                                <li>
+                                                    <span class="workshop-presentation-title">Model Lakes for Cross-Model Understanding</span>
+                                                    <span>Koyena Pal (Northeastern University)</span>
+                                                </li>
+                                            
+                                                <li>
+                                                    <span class="workshop-presentation-title">Indexing Long Documents for LLM-Based Analysis</span>
+                                                    <span>Donna Pham (University of Michigan)</span>
+                                                </li>
+                                            
+                                                <li>
+                                                    <span class="workshop-presentation-title">Generative AI for Multi-Modal Data Management</span>
+                                                    <span>Mahdi Erfanian (University of Illinois Chicago)</span>
+                                                </li>
+                                            
+                                                <li>
+                                                    <span class="workshop-presentation-title">Learning from Quality, Not for It: Conditioning Models on Explicit Data Quality</span>
+                                                    <span>Mattia Sabella (Politecnico Milano)</span>
+                                                </li>
+                                            
+                                                <li>
+                                                    <span class="workshop-presentation-title">Principled Bias Detection and Mitigation across the ML Data Lifecycle</span>
+                                                    <span>Bruno Scarone (Northeastern University)</span>
+                                                </li>
+                                            
+                                        </ul>
+                                    
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>3:15PM - 3:45PM</td>
+                                <td>
+                                    Coffee Break
+                                    
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>3:45PM - 5:00PM</td>
+                                <td>
+                                    Panel Discussion: Navigating the GenAI Era: Preparing PhD Students for Research and Future Careers
+                                    
+                                    
+                                        <div class="workshop-panelists">(Nesime Tatbul, Surajit Chaudhuri, Arun Kumar)</div>
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>5:00PM - 5:15PM</td>
+                                <td>
+                                    Closing Remarks &amp; Best Paper Award
+                                    
+                                    
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>5:15PM - 6:15PM</td>
+                                <td>
+                                    Poster Session
+                                    
+                                    
+                                </td>
+                            </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <article class="workshop-program-section workshop-keynote">
+            <h2>Keynote</h2>
+            <h3>The Next Adventure in Data Systems Research: AI, Quantum Computing, and Lessons for the PhD Journey</h3>
+            <p class="workshop-speaker">
+                <strong>Ibrahim Sabek</strong>, University of Southern California
+            </p>
+
+            <img class="workshop-keynote-photo"
+                 src="/vldb2026-satellite/assets/img/ibrahim-sabek.webp"
+                 alt="Portrait of Ibrahim Sabek">
+
+            <h3>Abstract</h3><div style="text-align: justify" class="markdown "> <p>The landscape of data systems research is rapidly evolving. Advances in artificial intelligence are reshaping how we design, build, and interact with data systems, while emerging paradigms such as quantum computing are opening new possibilities for tackling computationally challenging data management problems. For PhD students, these shifts create exciting research opportunities, but they also raise fundamental questions: How do we identify meaningful problems amid rapidly changing technologies? How do we distinguish lasting research opportunities from temporary hype? And how do we navigate uncertainty while developing our own research identity?</p>
+<p>In this talk, I will share stories and reflections from my research journey in data systems, including my experiences exploring the intersection of data systems with machine learning and quantum computing. Rather than focusing solely on technical results, I will discuss the lessons behind these experiences: choosing research problems, venturing into unfamiliar areas, learning from ideas that do not work as expected, and balancing curiosity, impact, and risk. Through these stories, I hope to offer practical perspectives for PhD students as they navigate their own research journeys and, more importantly, encourage them to embrace the uncertainty and adventure that come with exploring what might be next for data systems.</p> </div>
+
+            <h3>Bio</h3><div style="text-align: justify" class="markdown "> <p>Ibrahim Sabek is an Assistant Professor of Computer Science at the University of Southern California. He leads the Next-generation Data-Intensive Systems Group (NexDIG), where his research focuses on building the next generation of data management, processing, and analysis systems using quantum computing and machine learning. Before joining USC, Ibrahim was a Postdoctoral Associate with the MIT Data Systems Group. He earned his PhD in Computer Science from the University of Minnesota, Twin Cities, in January 2020, where his dissertation received a University-wide Best Doctoral Dissertation Honorable Mention. His research has been recognized with several awards and honors, including the 2026 NSF CAREER Award, the 2025 Google ML and Systems Junior Faculty Award, the 2024 and 2025 Google Data Analytics and Insights (DANI) Awards, and the NSF Computing Innovation Fellowship (2020-2023), among others. For more information, please visit his website: <a href="https://viterbi-web.usc.edu/~sabek/">https://viterbi-web.usc.edu/~sabek/</a>.</p> </div>
+        </article>
+
+        <article class="workshop-program-section workshop-panel">
+            <h2>Panel</h2>
+            <h3>Navigating the GenAI Era: Preparing PhD Students for Research and Future Careers</h3>
+
+            <h3>Scope</h3><div style="text-align: justify" class="markdown "> <p>Generative AI is rapidly transforming the way research is conducted, making it one of the most important and timely topics for today&#39;s PhD students. This panel will explore how GenAI is reshaping the research process, influencing career opportunities in both academia and industry, and raising new ethical and professional considerations. Rather than focusing solely on the technology itself, the discussion will provide practical guidance on how PhD students can effectively leverage GenAI while continuing to develop the fundamental skills needed for long-term success.</p> </div>
+
+            <p><strong>Panelists:</strong> Nesime Tatbul (Intel &amp; MIT), Surajit Chaudhuri (Microsoft Research), Arun Kumar (UCSD)</p>
+            <p><strong>Moderator:</strong> Mohamed Eltabakh (Qatar Computing Research Institute)</p>
+
+            <section class="workshop-panelist-bios">
+                <h3>Panelist Bios</h3>
+                
+                    <div class="workshop-panelist-bio"><div style="text-align: justify" class="markdown "> <p><strong>Nesime Tatbul</strong> is a Senior Staff Research Scientist at Intel. For over a decade now, she has been based at MIT, overseeing Intel&#39;s university research programs on data systems and artificial intelligence. Previously, she received a Ph.D. from Brown University and held a faculty position at ETH Zurich. Her research contributions in data stream systems, time series analytics, and learned data management have been widely cited and recognized by awards. Nesime is an ACM Distinguished Member, an IEEE Senior Member, and a Trustee Emeritus of the VLDB Endowment.</p> </div>
+                    </div>
+                
+                    <div class="workshop-panelist-bio"><div style="text-align: justify" class="markdown "> <p><strong>Surajit Chaudhuri</strong> is a Technical Fellow at Microsoft and manages the data systems research group at Microsoft Research at Redmond, USA. He is a member of the National Academy of Engineering (USA) and an ACM Fellow. He was awarded 2011 Edger F. Codd ACM SIGMOD Innovations Award and 2004 ACM SIGMOD Contributions Award.</p> </div>
+                    </div>
+                
+                    <div class="workshop-panelist-bio"><div style="text-align: justify" class="markdown "> <p><strong>Arun Kumar</strong> is a Professor of Computer Science and Engineering and the Halicioglu Data Science Institute at the University of California, San Diego. His primary research interests are in data management and systems for AI engineering and data analytics. His first PhD graduate received the ACM SIGMOD Jim Gray Doctoral Dissertation Award. His former advisees have been accorded fellowships by Meta and Google, research paper awards by SIGMOD and ICDE, and SIGMOD SRC awards at both grad and undergrad levels. He is a Cofounder and CTO of RapidFire AI, a software startup that enables AI developers to rapidly customize LLM/agent pipelines on their own data to maximize AI application impact.</p> </div>
+                    </div>
+                
+            </section>
+        </article>
+
+        <section class="workshop-program-section workshop-best-paper-award">
+            <h2>Best Paper Award</h2>
+            <h3>Indexing Long Documents for LLM-Based Analysis</h3>
+            <p>Donna Pham (University of Michigan)</p>
+            <img class="workshop-award-photo"
+                 src="/vldb2026-satellite/assets/img/phd-workshop-best-paper-award.webp"
+                 alt="Best Paper Award presentation for Donna Pham at the VLDB 2026 PhD Workshop"
+                 width="854" height="749">
+        </section>
+    </section>
+
+            <div class="spinner"></div>
+        </main>
+
+        <footer>
+            <div>52<sup>nd</sup> International Conference on Very Large Data Bases Satellite Event<br />Guangzhou, China &mdash; December 1-2, 2026</div>
+            <a class="github no-ext-icon" href="https://github.com/dbogatov/vldb-2026" title="Collaborate on GitHub">
+                <svg height="32" version="1.1" viewBox="0 0 16 16" width="32">
+                    <path fill="#fff" fill-rule="evenodd" d="
+                        M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+                        0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01
+                        1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95
+                        0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18
+                        1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16
+                        1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54
+                        1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16
+                        8c0-4.42-3.58-8-8-8z">
+                    </path>
+                </svg>
+            </a>
+        </footer>
+
+        <link rel="stylesheet" href="/vldb2026-satellite/assets/merged.css?v=local-dev">
+        <script async src="/vldb2026-satellite/assets/merged.js"></script>
+
+        <script async src="https://platform.twitter.com/widgets.js"></script>
+        <script>
+            (function() {
+                var last = 0,
+                    docBody = document.body,
+                    header = document.querySelector('body>header'),
+                    nav = header && header.querySelector('nav'),
+                    requestAnimationFrame = window.requestAnimationFrame || function(callback, element) {
+                        var now = Date.now(),
+                            next = Math.max(0, 16 - (now - last)),
+                            id = window.setTimeout(function() {
+                                callback(now + next);
+                            }, next);
+                        last = now + next;
+                        return id;
+                    },
+                    cancelAnimationFrame = window.cancelAnimationFrame || function(id) {
+                        clearTimeout(id);
+                    },
+                    update = function () {
+                        if (!nav) return;
+
+                        var isStatic = docBody.classList.contains('static');
+                        if (header.getBoundingClientRect().bottom > 70) {
+                            if (isStatic) docBody.classList.remove('static');
+                        } else if (!isStatic) docBody.classList.add('static');
+                    },
+                    lid;
+
+                window.addEventListener('scroll', function(e) {
+                    if (lid) cancelAnimationFrame(lid);
+                    lid = requestAnimationFrame(update);
+                });
+
+                update();
+            }());
+        </script>
+    </body>
+</html>
