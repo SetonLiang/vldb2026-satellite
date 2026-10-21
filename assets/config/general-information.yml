@@ -11,8 +11,6 @@ index:
 
     The VLDB 2026 conference will take place from Aug 31st to 4th September, 2026 in Boston, MA, USA.
 
-  twitter: VLDBconf
-
 registration:
   title: "VLDB 2026 Satellite Event: Registration"
   intro:
@@ -428,122 +426,6 @@ officers:
       - name: Xiaokui Xiao
         affiliation: National University of Singapore, Singapore
 
-  - title: Associate Editors
-    people:
-      - name: Alkis Polyzotis
-        affiliation: Databricks
-      - name: Alkis Simitsis
-        affiliation: Athena Research Center
-      - name: Andrew Pavlo
-        affiliation: Carnegie Mellon University
-      - name: Angela Bonifati
-        affiliation: Univ. of Lyon
-      - name: Anh Dinh
-        affiliation: Deakin University
-      - name: Antonis Deligiannakis
-        affiliation: Technical University of Crete
-      - name: Ashraf Aboulnaga
-        affiliation: University of Texas at Arlington
-      - name: Badrish Chandramouli
-        affiliation: Microsoft Research
-      - name: Bin Cui
-        affiliation: Peking University
-      - name: Bogdan Cautis
-        affiliation: University of Paris-Saclay
-      - name: Ce Zhang
-        affiliation: University of Chicago
-      - name: Elena Ferrari
-        affiliation: University of Insubria, Varese
-      - name: Evaggelia Pitoura
-        affiliation: Univ. of Ioannina
-      - name: Fatemeh Nargesian
-        affiliation: University of Rochester
-      - name: Guoliang Li
-        affiliation: Tsinghua University
-      - name: Hong Cheng
-        affiliation: Chinese University of Hong Kong
-      - name: Immanuel Trummer
-        affiliation: Cornell University
-      - name: Jana Giceva
-        affiliation: TU Munich
-      - name: Jennie Rogers
-        affiliation: Northwestern University
-      - name: Jian Pei
-        affiliation: Duke University
-      - name: Jianliang Xu
-        affiliation: Hong Kong Baptist University
-      - name: Karima Echihabi
-        affiliation: Mohammed VI Polytechnic University
-      - name: Katja Hose
-        affiliation: TU Wien
-      - name: Khuzaima Daudjee
-        affiliation: University of Waterloo
-      - name: Kunsoo Park
-        affiliation: Seoul National University
-      - name: Kyuseok Shim
-        affiliation: Seoul National University
-      - name: Laks Lakshmanan
-        affiliation: The University of British Columbia
-      - name: Lei Cao
-        affiliation: University of Arizona
-      - name: Lei Chen
-        affiliation: Hong Kong University of Science and Technology
-      - name: Li Xiong
-        affiliation: Emory University
-      - name: Mauro Sozio
-        affiliation: Luiss University of Rome
-      - name: Meihui Zhang
-        affiliation: Beijing Institute of Technology
-      - name: Melanie Herschel
-        affiliation: Nanyang Technological University
-      - name: Michael Böhlen
-        affiliation: University of Zurich
-      - name: Nan Tang
-        affiliation: HKUST (GZ)
-      - name: Niv Dayan
-        affiliation: University of Toronto
-      - name: Norman May
-        affiliation: SAP SE
-      - name: Raul Castro Fernandez
-        affiliation: The University of Chicago
-      - name: Raymond Chi-Wing Wong
-        affiliation: Hong Kong University of Science and Technology
-      - name: Reynold Cheng
-        affiliation: The University of Hong Kong, China
-      - name: Ruben Mayer
-        affiliation: University of Bayreuth
-      - name: Semih Salihoglu
-        affiliation: University of Waterloo
-      - name: Shimin Chen
-        affiliation: Chinese Academy of Sciences
-      - name: Sibo Wang
-        affiliation: The Chinese University of Hong Kong
-      - name: Sourav S Bhowmick
-        affiliation: Nanyang Technological University
-      - name: Spyros Blanas
-        affiliation: The Ohio State University
-      - name: Steven Whang
-        affiliation: KAIST
-      - name: Sudipto Das
-        affiliation: Amazon Web Services
-      - name: Umar Farooq Minhas
-        affiliation: Apple
-      - name: Wei Wang
-        affiliation: ByteDance
-      - name: Wook-Shin Han
-        affiliation: POSTECH
-      - name: Yannis Velegrakis
-        affiliation: Utrecht University
-      - name: Yanyan Shen
-        affiliation: Shanghai Jiao Tong University
-      - name: Yi Chen
-        affiliation: NJIT
-      - name: Yuncheng Wu
-        affiliation: Renmin University of China
-      - name: Zhifeng Bao
-        affiliation: The University of Queensland
-      - name: Zi Huang
-        affiliation: University of Queensland
   # - title: Program Committee
   #   people:
   #     - name: Ahmed Eldawy
@@ -682,23 +564,6 @@ officers:
   #       affiliation: Hong Kong University of Science and Technology (Guangzhou)
   #     - name: Zhiqiang Zhong
   #       affiliation: Aarhus UNiversity
-  - title: Proceedings Chairs
-    people:
-      - name: Subhadeep Sarkar
-        affiliation: Brandeis University, USA
-        email: subhadeep@brandeis.edu
-      - name: Giovanni Simonini
-        affiliation: University of Modena and Reggio Emilia, Italy
-        email: simonini@unimore.it
-      - name: Siqiang Luo
-        affiliation: Nanyang Technological University
-        email: siqiang.luo@ntu.edu.sg
-      - name: Andrea Mauri
-        affiliation: Université Claude Bernard Lyon 1, France
-        email: andrea.mauri@univ-lyon1.fr
-      - name: Stefan Thomas Halfpap
-        affiliation: Technische Universität Berlin, Germany
-        email: halfpap@tu-berlin.de
   - title: Local Arrangements Chairs
     people:
       - name: Nan Tang

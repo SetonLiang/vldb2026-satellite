@@ -15,6 +15,11 @@
     background-position: center 10%;
 }
 
+main.body > section.intro {
+    width: 100%;
+    padding: 0;
+}
+
 /* Sponsorship Cards */
 .sponsorship-cards {
     display: flex;
