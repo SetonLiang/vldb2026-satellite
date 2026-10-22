@@ -20,6 +20,72 @@ main.body > section.intro {
     padding: 0;
 }
 
+.conference-venue .venue-overview {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 24px;
+    align-items: start;
+    margin: 24px 0;
+}
+
+.conference-venue img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.conference-venue .venue-overview p:first-child {
+    margin-top: 0;
+}
+
+.conference-venue .venue-photo {
+    margin: 24px 0;
+}
+
+.conference-venue figcaption {
+    margin-top: 8px;
+    color: #666;
+}
+
+.conference-venue .venue-rooms {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.conference-venue .venue-rooms .venue-photo {
+    margin-top: 0;
+}
+
+@media (max-width: 700px) {
+    .conference-venue .venue-overview,
+    .conference-venue .venue-rooms {
+        grid-template-columns: 1fr;
+    }
+}
+
+.transportation-guide .transport-map {
+    margin: 24px 0;
+}
+
+.transportation-guide .transport-map img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.transportation-guide figcaption {
+    margin-top: 8px;
+    color: #666;
+}
+
+.transportation-guide .venue-location-map {
+    display: block;
+    width: 100%;
+    height: 420px;
+    border: 0;
+}
+
 /* Sponsorship Cards */
 .sponsorship-cards {
     display: flex;

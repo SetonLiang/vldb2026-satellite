@@ -19,8 +19,6 @@ sections:
         page: officers
       - title: PVLDB Review Board
         page: pvldb-review-board
-      - title: Shadow PC
-        page: shadow-pc
   - title: Conference Program
     menu_class: conference-program-menu
     sub_sections:
@@ -40,6 +38,8 @@ sections:
     sub_sections:
       - title: Conference Venue
         page: conference-venue
+      - title: Transportation Guide
+        page: transportation
       - title: Registration
         page: registration
       - break
