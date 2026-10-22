@@ -569,18 +569,18 @@ officers:
         affiliation: HKUST(GZ)
       - name: Jing Tang
         affiliation: HKUST(GZ)
-  - title: Web Chairs
+  - title: Web Chair
     people:
       - name: Zhuowen Liang
         affiliation: HKUST(GZ)
-  - title: Panel Chairs
+  - title: Panel Chair
     people:
       - name: Guoliang Li
         affiliation: Tsinghua University
-  - title: Publicity Chairs
+  - title: Publicity Chair
     people:
       - name: C. Mohan
-        affiliation: The Hong Kong Baptist University
+        affiliation: The Hong Kong Baptist University and Tsinghua University
   # - title: Associate Editors
   #   people:
   #     - name: Björn Þ Jónsson

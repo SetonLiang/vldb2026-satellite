@@ -43,7 +43,6 @@ sections:
       - title: Registration
         page: registration
       - break
-      - label: "Conference Hotel Booking:"
       - title: On-campus guest-room
         page: on-campus-guest-room
       - title: Recommended Hotels in Nansha
