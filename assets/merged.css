@@ -86,6 +86,158 @@ main.body > section.intro {
     border: 0;
 }
 
+.recommended-hotels .hotel-page {
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid #ddd;
+}
+
+.recommended-hotels .hotel-banner {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.recommended-hotels .hotel-banner h2 {
+    margin: 0;
+    font-size: 1.3em;
+}
+
+.recommended-hotels .hotel-no {
+    color: #3a84df;
+    font-weight: 600;
+}
+
+.recommended-hotels .hotel-ben {
+    display: block;
+    margin-top: 4px;
+    font-size: 0.85em;
+    font-weight: 400;
+    color: #666;
+}
+
+.recommended-hotels .hotel-body {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+    gap: 24px;
+    align-items: start;
+}
+
+.recommended-hotels .hotel-info {
+    padding: 16px;
+    background: #f5f7fa;
+    border-radius: 4px;
+}
+
+.recommended-hotels .hotel-field {
+    margin-bottom: 14px;
+}
+
+.recommended-hotels .hotel-lab {
+    margin-bottom: 4px;
+    font-size: 0.85em;
+    font-weight: 600;
+    color: #444;
+}
+
+.recommended-hotels .hotel-en {
+    font-size: 0.95em;
+    color: #666;
+}
+
+.recommended-hotels .hotel-plain {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.recommended-hotels .hotel-photos {
+    display: grid;
+    gap: 8px;
+}
+
+.recommended-hotels .hotel-photos img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+
+.recommended-hotels .hotel-smrow {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
+}
+
+.recommended-hotels .hotel-smrow img {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.recommended-hotels .hotel-pill {
+    margin: 20px 0 10px;
+    font-weight: 600;
+}
+
+.recommended-hotels .hotel-table-scroll {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.recommended-hotels .hotel-rooms {
+    width: 100%;
+    min-width: 640px;
+    border-collapse: collapse;
+    font-size: 0.95em;
+}
+
+.recommended-hotels .hotel-rooms th,
+.recommended-hotels .hotel-rooms td {
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    vertical-align: top;
+}
+
+.recommended-hotels .hotel-rooms th {
+    background: #f3f5f7;
+}
+
+.recommended-hotels .hotel-rooms tr:nth-child(even) td {
+    background: #f7f9fc;
+}
+
+.recommended-hotels .hotel-p {
+    color: #a33;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.recommended-hotels .hotel-note {
+    padding: 8px 12px;
+    border-left: 3px solid #ddd;
+    background: #f7f9fb;
+    font-size: 0.9em;
+}
+
+.recommended-hotels .hotel-guide-attachment {
+    margin-top: 32px;
+    padding-top: 16px;
+    border-top: 1px solid #ddd;
+}
+
+.recommended-hotels .hotel-photo-credit {
+    color: #666;
+    font-size: 0.85em;
+}
+
+@media (max-width: 700px) {
+    .recommended-hotels .hotel-body {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+}
+
 /* Sponsorship Cards */
 .sponsorship-cards {
     display: flex;
