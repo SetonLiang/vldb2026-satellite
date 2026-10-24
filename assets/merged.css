@@ -20,6 +20,40 @@ main.body > section.intro {
     padding: 0;
 }
 
+.registration .registration-deadline {
+    color: #a32029;
+}
+
+.registration .registration-fees-scroll {
+    overflow-x: auto;
+    margin: 24px 0 32px;
+}
+
+.registration .registration-fees {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.registration .registration-fees th,
+.registration .registration-fees td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.registration .registration-fees thead,
+.registration .registration-fees tbody tr:nth-child(even) {
+    background: #f0f0f0;
+}
+
+.registration .registration-fees td:nth-child(2) {
+    white-space: nowrap;
+}
+
+.registration a[href^="mailto:"] {
+    overflow-wrap: anywhere;
+}
+
 .conference-venue .venue-overview {
     display: grid;
     grid-template-columns: 1fr 1.2fr;
@@ -235,6 +269,40 @@ main.body > section.intro {
     .recommended-hotels .hotel-body {
         grid-template-columns: 1fr;
         gap: 16px;
+    }
+}
+
+.sponsor-list .sponsor-logos {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 24px;
+    margin: 32px 0 50px;
+}
+
+.sponsor-list .sponsor-logos > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+    margin: 0;
+    padding: 28px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.sponsor-list .sponsor-logos img {
+    position: static;
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    object-fit: contain;
+    transform: none;
+}
+
+@media (max-width: 600px) {
+    .sponsor-list .sponsor-logos {
+        grid-template-columns: 1fr;
     }
 }
 
