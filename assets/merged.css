@@ -20,6 +20,28 @@ main.body > section.intro {
     padding: 0;
 }
 
+.registration .registration-button {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 15px;
+    background: #a32029;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.registration .registration-button:hover {
+    background: #851a22;
+    color: #fff;
+    text-decoration: none;
+}
+
+.registration .registration-button:focus-visible {
+    outline: 2px solid #17384b;
+    outline-offset: 3px;
+}
+
 .registration .registration-deadline {
     color: #a32029;
 }

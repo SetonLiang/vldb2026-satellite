@@ -44,7 +44,7 @@ sections:
         page: registration
       - break
       - title: On-campus guest-room
-        url: https://vldb2026-satellite.scimeeting.cn
+        url: https://vldb2026-satellite.scimeeting.cn/en/web/index/40122_3487643
       - title: Recommended Hotels in Nansha
         page: recommended-hotels
 
