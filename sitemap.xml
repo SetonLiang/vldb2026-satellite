@@ -2,17 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 	
 			<url>
-				<loc>https://vldb.org/2026/conference-venue</loc>
+				<loc>https://vldb.org/2026/panels</loc>
 				<changefreq>weekly</changefreq>
 			</url>
 	
 			<url>
-				<loc>https://vldb.org/2026/program</loc>
-				<changefreq>weekly</changefreq>
-			</url>
-	
-			<url>
-				<loc>https://vldb.org/2026/sponsor-list</loc>
+				<loc>https://vldb.org/2026/pvldb-review-board</loc>
 				<changefreq>weekly</changefreq>
 			</url>
 	
@@ -22,7 +17,32 @@
 			</url>
 	
 			<url>
-				<loc>https://vldb.org/2026/keynotes</loc>
+				<loc>https://vldb.org/2026/conference-venue</loc>
+				<changefreq>weekly</changefreq>
+			</url>
+	
+			<url>
+				<loc>https://vldb.org/2026/transportation</loc>
+				<changefreq>weekly</changefreq>
+			</url>
+	
+			<url>
+				<loc>https://vldb.org/2026/sponsor-list</loc>
+				<changefreq>weekly</changefreq>
+			</url>
+	
+			<url>
+				<loc>https://vldb.org/2026/important-dates</loc>
+				<changefreq>weekly</changefreq>
+			</url>
+	
+			<url>
+				<loc>https://vldb.org/2026/program</loc>
+				<changefreq>weekly</changefreq>
+			</url>
+	
+			<url>
+				<loc>https://vldb.org/2026/.</loc>
 				<changefreq>weekly</changefreq>
 			</url>
 	
@@ -37,27 +57,7 @@
 			</url>
 	
 			<url>
-				<loc>https://vldb.org/2026/transportation</loc>
-				<changefreq>weekly</changefreq>
-			</url>
-	
-			<url>
-				<loc>https://vldb.org/2026/pvldb-review-board</loc>
-				<changefreq>weekly</changefreq>
-			</url>
-	
-			<url>
-				<loc>https://vldb.org/2026/.</loc>
-				<changefreq>weekly</changefreq>
-			</url>
-	
-			<url>
-				<loc>https://vldb.org/2026/important-dates</loc>
-				<changefreq>weekly</changefreq>
-			</url>
-	
-			<url>
-				<loc>https://vldb.org/2026/panels</loc>
+				<loc>https://vldb.org/2026/keynotes</loc>
 				<changefreq>weekly</changefreq>
 			</url>
 	

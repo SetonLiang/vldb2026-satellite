@@ -659,6 +659,7 @@ main.body > section.intro {
     margin-top: 1.5rem;
 }
 
+.keynote-photo,
 .workshop-keynote-photo {
     float: right;
     width: 220px;
@@ -667,6 +668,7 @@ main.body > section.intro {
     margin: 0 0 1.25rem 1.5rem;
 }
 
+.keynote::after,
 .workshop-keynote::after {
     display: block;
     clear: both;
@@ -674,6 +676,7 @@ main.body > section.intro {
 }
 
 @media screen and (max-width: 500px) {
+    .keynote-photo,
     .workshop-keynote-photo {
         float: none;
         width: 180px;
